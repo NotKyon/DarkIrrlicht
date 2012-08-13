@@ -223,8 +223,30 @@ STRINGTABLE
 
 	580	"IFONT DRAW%LLLLS%irrfont_draw"
 
-	600 "IGUI GET DEFAULT FONT[%L%irrgui_getfontdefault"
-	601 "IGUI GET FONT[%LS%irrgui_getfont"
+	600 "IMBUFF GET MATERIAL[%LL%irrmbuff_getmaterial"
+	601 "IMBUFF GET VERTEX TYPE[%LL%irrmbuff_getvertexttype"
+	602 "IMBUFF GET VERTICES[%LL%irrmbuff_getvertices"
+	603 "IMBUFF GET VERTEX COUNT[%LL%irrmbuff_getvertexcount"
+	604 "IMBUFF GET INDEX TYPE[%LL%irrmbuff_getindextype"
+	605 "IMBUFF GET INDICES[%LL%irrmbuff_getindices"
+	606 "IMBUFF GET INDEX COUNT[%LL%irrmbuff_getindexcount"
+	607 "IMBUFF GET VERT POS X[%LLL%irrmbuff_getvertposx"
+	608 "IMBUFF GET VERT POS Y[%LLL%irrmbuff_getvertposy"
+	609 "IMBUFF GET VERT POS Z[%LLL%irrmbuff_getvertposz"
+	610 "IMBUFF GET VERT NORM X[%LLL%irrmbuff_getvertnormx"
+	611 "IMBUFF GET VERT NORM Y[%LLL%irrmbuff_getvertnormy"
+	612 "IMBUFF GET VERT NORM Z[%LLL%irrmbuff_getvertnormz"
+	613 "IMBUFF GET VERT U[%LLL%irrmbuff_getverttcoorU"
+	614 "IMBUFF GET VERT v[%LLL%irrmbuff_getverttcoorV"
+	615 "IMBUFF APPEND RAW BUFFER%LLLLL%irrmbuff_appendraw"
+	616 "IMBUFF APPEND MESH BUFFER%LL%irrmbuff_appendmeshbuffer"
+	617 "IMBUFF GET HW HINT VERTEX[%LL%irrmbuff_gethwhint_vertex"
+	618 "IMBUFF GET HW HINT INDEX[%LL%irrmbuff_gethwhint_index"
+	619 "IMBUFF SET HW HINT%LLL%irrmbuff_sethwhint"
+	620 "IMBUFF SET DIRTY%LL%irrmbuff_setdirty"
+
+	900 "IGUI GET DEFAULT FONT[%L%irrgui_getfontdefault"
+	901 "IGUI GET FONT[%LS%irrgui_getfont"
 
 
 }
