@@ -1,12 +1,39 @@
-# Compiled Object files
-*.slo
-*.lo
+# Files that should be cleaned
+*.exe
+*.dll
+*.exp
+*.lib
+*.pdb
+*.idb
+*.ilk
+*.obj
+*.res
+
+# GNU version of the above
+*.out
 *.o
-
-# Compiled Dynamic libraries
-*.so
-
-# Compiled Static libraries
-*.lai
-*.la
+*.d
 *.a
+
+# Precompiled header files
+*.pch
+*.ipch
+
+# Code analysis files
+*.*codeanalysis*
+
+# Don't track non-essential project files/databases
+*.opensdf
+*.sdf
+*.suo
+
+# User settings shouldn't be tracked
+*.vcxproj.user
+
+# Mac OS X creates these files (be nice to cross-compilers)
+.DS_Store
+
+# Gedit/Kate create files like these for backup purposes (be nice to cross-
+# compilers)
+*~
+*.swp
