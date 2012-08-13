@@ -1,0 +1,1960 @@
+- a -
+
+aabbox3d() : irr::core::aabbox3d< T >
+activateJoysticks() : irr::IrrlichtDevice
+addAffector() : irr::scene::IParticleSystemSceneNode
+addAnimatedMeshSceneNode() : irr::scene::ISceneManager
+addAnimator() : irr::scene::ISceneNode
+addArchiveLoader() : irr::io::IFileSystem
+addArray() : irr::io::IAttributes
+addArrowMesh() : irr::scene::ISceneManager
+addBillboardSceneNode() : irr::scene::ISceneManager
+addBillboardTextSceneNode() : irr::scene::ISceneManager
+addBinary() : irr::io::IAttributes
+addBool() : irr::io::IAttributes
+addBox3d() : irr::io::IAttributes
+addButton() : irr::gui::IGUIEnvironment , irr::gui::IGUIToolBar
+addCameraSceneNode() : irr::scene::ISceneManager
+addCameraSceneNodeFPS() : irr::scene::ISceneManager
+addCameraSceneNodeMaya() : irr::scene::ISceneManager
+addCheckBox() : irr::gui::IGUIEnvironment
+addChild() : irr::gui::IGUIElement , irr::scene::ISceneNode
+addChildBack() : irr::gui::IGUITreeViewNode
+addChildFront() : irr::gui::IGUITreeViewNode
+addChildToEnd() : irr::gui::IGUIElement
+addColor() : irr::io::IAttributes
+addColorf() : irr::io::IAttributes
+addColorSelectDialog() : irr::gui::IGUIEnvironment
+addColumn() : irr::gui::IGUITable
+addComboBox() : irr::gui::IGUIEnvironment
+addContextMenu() : irr::gui::IGUIEnvironment
+addCubeSceneNode() : irr::scene::ISceneManager
+addDummyTransformationSceneNode() : irr::scene::ISceneManager
+addDynamicLight() : irr::video::IVideoDriver
+addEditBox() : irr::gui::IGUIEnvironment
+addEmptySceneNode() : irr::scene::ISceneManager
+addEmptySpriteBank() : irr::gui::IGUIEnvironment
+addEnum() : irr::io::IAttributes
+addExternalImageLoader() : irr::video::IVideoDriver
+addExternalImageWriter() : irr::video::IVideoDriver
+addExternalMeshLoader() : irr::scene::ISceneManager
+addFileArchive() : irr::io::IFileSystem
+addFileOpenDialog() : irr::gui::IGUIEnvironment
+addFloat() : irr::io::IAttributes
+addFolderFileArchive() : irr::io::IFileSystem
+addFont() : irr::gui::IGUIEnvironment
+addGUIElement() : irr::gui::IGUIElementFactory , irr::gui::IGUIEnvironment
+addHighLevelShaderMaterial() : irr::video::IGPUProgrammingServices
+addHighLevelShaderMaterialFromFiles() : irr::video::IGPUProgrammingServices
+addHillPlaneMesh() : irr::scene::ISceneManager
+addImage() : irr::gui::IGUIEnvironment
+addInOutFader() : irr::gui::IGUIEnvironment
+addInt() : irr::io::IAttributes
+addInternalBox() : irr::core::aabbox3d< T >
+addInternalPoint() : irr::core::aabbox3d< T > , irr::core::rect< T >
+addItem() : irr::io::IFileList , irr::gui::IGUIComboBox , irr::gui::IGUIContextMenu , irr::gui::IGUIListBox
+addJoint() : irr::scene::ISkinnedMesh
+addLightSceneNode() : irr::scene::ISceneManager
+addLine2d() : irr::io::IAttributes
+addLine3d() : irr::io::IAttributes
+addListBox() : irr::gui::IGUIEnvironment
+addMaterialRenderer() : irr::video::IVideoDriver
+addMatrix() : irr::io::IAttributes
+addMenu() : irr::gui::IGUIEnvironment
+addMesh() : irr::scene::IMeshCache , irr::scene::SAnimatedMesh
+addMeshBuffer() : irr::scene::ISkinnedMesh , irr::scene::SMesh
+addMeshSceneNode() : irr::scene::ISceneManager
+addMeshViewer() : irr::gui::IGUIEnvironment
+addMessageBox() : irr::gui::IGUIEnvironment
+addModalScreen() : irr::gui::IGUIEnvironment
+addOctreeSceneNode() : irr::scene::ISceneManager
+addOctTreeSceneNode() : irr::scene::ISceneManager
+addPakFileArchive() : irr::io::IFileSystem
+addParticleSystemSceneNode() : irr::scene::ISceneManager
+addPlane3d() : irr::io::IAttributes
+addPosition2d() : irr::io::IAttributes
+addPositionKey() : irr::scene::ISkinnedMesh
+addQuake3SceneNode() : irr::scene::ISceneManager
+addQuaternion() : irr::io::IAttributes
+addRect() : irr::io::IAttributes
+addRenderTargetTexture() : irr::video::IVideoDriver
+addRotationKey() : irr::scene::ISkinnedMesh
+addRow() : irr::gui::IGUITable
+addScaleKey() : irr::scene::ISkinnedMesh
+addSceneNode() : irr::scene::ISceneNodeFactory , irr::scene::ISceneManager , irr::scene::ISceneNodeFactory
+addScrollBar() : irr::gui::IGUIEnvironment
+addSeparator() : irr::gui::IGUIContextMenu
+addShaderMaterial() : irr::video::IGPUProgrammingServices
+addShaderMaterialFromFiles() : irr::video::IGPUProgrammingServices
+addShadowVolumeSceneNode() : irr::scene::IAnimatedMeshSceneNode
+addSkyBoxSceneNode() : irr::scene::ISceneManager
+addSkyDomeSceneNode() : irr::scene::ISceneManager
+addSphereMesh() : irr::scene::ISceneManager
+addSphereSceneNode() : irr::scene::ISceneManager
+addSpinBox() : irr::gui::IGUIEnvironment
+addStaticText() : irr::gui::IGUIEnvironment
+addString() : irr::io::IAttributes
+addTab() : irr::gui::IGUIEnvironment , irr::gui::IGUITabControl
+addTabControl() : irr::gui::IGUIEnvironment
+addTable() : irr::gui::IGUIEnvironment
+addTerrainMesh() : irr::scene::ISceneManager
+addTerrainSceneNode() : irr::scene::ISceneManager
+addTextSceneNode() : irr::scene::ISceneManager
+addTexture() : irr::video::IVideoDriver , irr::gui::IGUISpriteBank , irr::io::IAttributes , irr::video::IVideoDriver
+addTextureAsSprite() : irr::gui::IGUISpriteBank
+addToDeletionQueue() : irr::scene::ISceneManager
+addToolBar() : irr::gui::IGUIEnvironment
+addTreeView() : irr::gui::IGUIEnvironment
+addTriangle3d() : irr::io::IAttributes
+addTriangleSelector() : irr::scene::IMetaTriangleSelector
+addUserPointer() : irr::io::IAttributes
+addVector3d() : irr::io::IAttributes
+addVolumeLightMesh() : irr::scene::ISceneManager
+addVolumeLightSceneNode() : irr::scene::ISceneManager
+addWaterSurfaceSceneNode() : irr::scene::ISceneManager
+addWeight() : irr::scene::ISkinnedMesh
+addWindow() : irr::gui::IGUIEnvironment
+addZipFileArchive() : irr::io::IFileSystem
+affect() : irr::scene::IParticleAffector
+allocate() : irr::core::irrAllocator< T > , irr::core::irrAllocatorFast< T >
+allocated_size() : irr::scene::IIndexBuffer , irr::scene::IVertexBuffer , irr::scene::CIndexBuffer , irr::core::array< T, TAlloc > , irr::scene::CVertexBuffer
+animateJoints() : irr::scene::IAnimatedMeshSceneNode
+animateMesh() : irr::scene::ISkinnedMesh
+animateNode() : irr::scene::ISceneNodeAnimator
+append() : irr::scene::SSharedMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::IMeshBuffer , irr::core::string< T, TAlloc > , irr::scene::IMeshBuffer , irr::core::string< T, TAlloc > , irr::scene::IDynamicMeshBuffer , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer , irr::core::string< T, TAlloc > , irr::scene::SSkinMeshBuffer , irr::scene::CMeshBuffer< T > , irr::core::string< T, TAlloc >
+apply() : irr::video::SOverrideMaterial , irr::scene::IMeshManipulator
+apply_() : irr::scene::IMeshManipulator
+array() : irr::core::array< T, TAlloc >
+atEnd() : irr::core::map< KeyType, ValueType >::Iterator , irr::core::map< KeyType, ValueType >::ParentFirstIterator , irr::core::map< KeyType, ValueType >::ParentLastIterator
+
+
+
+- b -
+
+begin() : irr::core::list< T >
+beginScene() : irr::video::IVideoDriver
+binary_search() : irr::core::array< T, TAlloc >
+binary_search_multi() : irr::core::array< T, TAlloc >
+bindTargetAndRotation() : irr::scene::ICameraSceneNode
+boundingBoxNeedsRecalculated() : irr::scene::SSkinMeshBuffer
+bringToFront() : irr::gui::IGUIElement
+buildAxisAlignedBillboard() : irr::core::CMatrix4< T >
+buildCameraLookAtMatrixLH() : irr::core::CMatrix4< T >
+buildCameraLookAtMatrixRH() : irr::core::CMatrix4< T >
+buildNDCToDCMatrix() : irr::core::CMatrix4< T >
+buildProjectionMatrixOrthoLH() : irr::core::CMatrix4< T >
+buildProjectionMatrixOrthoRH() : irr::core::CMatrix4< T >
+buildProjectionMatrixPerspectiveFovLH() : irr::core::CMatrix4< T >
+buildProjectionMatrixPerspectiveFovRH() : irr::core::CMatrix4< T >
+buildProjectionMatrixPerspectiveLH() : irr::core::CMatrix4< T >
+buildProjectionMatrixPerspectiveRH() : irr::core::CMatrix4< T >
+buildRotateFromTo() : irr::core::CMatrix4< T >
+buildShadowMatrix() : irr::core::CMatrix4< T >
+buildTextureTransform() : irr::core::CMatrix4< T >
+
+
+
+- c -
+
+c_str() : irr::core::string< T, TAlloc >
+CDynamicMeshBuffer() : irr::scene::CDynamicMeshBuffer
+changeWorkingDirectoryTo() : irr::io::IFileSystem
+checkDriverReset() : irr::video::IVideoDriver
+CIndexBuffer() : irr::scene::CIndexBuffer
+classifyPlaneRelation() : irr::core::aabbox3d< T >
+classifyPointRelation() : irr::core::plane3d< T >
+clear() : irr::scene::quake3::SVariable , irr::core::array< T, TAlloc > , irr::io::IAttributes , irr::core::list< T > , irr::core::map< KeyType, ValueType > , irr::gui::IGUIComboBox , irr::scene::ISceneManager , irr::gui::IGUIEnvironment , irr::gui::IGUIListBox , irr::gui::IGUISpriteBank , irr::gui::IGUITable , irr::scene::IMeshCache
+clearChilds() : irr::gui::IGUITreeViewNode
+clearItemOverrideColor() : irr::gui::IGUIListBox
+clearRows() : irr::gui::IGUITable
+clearSystemMessages() : irr::IrrlichtDevice
+clearUnusedMeshes() : irr::scene::IMeshCache
+clearZBuffer() : irr::video::IVideoDriver
+clipAgainst() : irr::core::rect< T >
+clipLine() : irr::scene::SViewFrustum
+clone() : irr::scene::IAnimatedMeshSceneNode , irr::scene::ISceneNode
+cloneMembers() : irr::scene::ISceneNode
+closeDevice() : irr::IrrlichtDevice
+closestPointOnTriangle() : irr::core::triangle3d< T >
+CMatrix4() : irr::core::CMatrix4< T >
+CMeshBuffer() : irr::scene::CMeshBuffer< T >
+collisionOccurred() : irr::scene::ISceneNodeAnimatorCollisionResponse
+const_pointer() : irr::core::array< T, TAlloc >
+ConstIterator() : irr::core::list< T >::ConstIterator
+constrainTo() : irr::core::rect< T >
+construct() : irr::core::irrAllocator< T > , irr::core::irrAllocatorFast< T >
+convertMeshToTangents() : irr::scene::ISkinnedMesh
+convertTo2TCoords() : irr::scene::SSkinMeshBuffer
+convertToTangents() : irr::scene::SSkinMeshBuffer
+copyTo() : irr::video::IImage
+copyToClipboard() : irr::IOSOperator
+copyToScaling() : irr::video::IImage
+copyToScalingBoxFilter() : irr::video::IImage
+copyToWithAlpha() : irr::video::IImage
+createAndOpenFile() : irr::io::IFileArchive , irr::io::IFileSystem
+createAndWriteFile() : irr::io::IFileSystem
+createAnimatedMesh() : irr::scene::IMeshManipulator
+createAnimatedMeshSceneNodeEmitter() : irr::scene::IParticleSystemSceneNode
+createArchive() : irr::io::IArchiveLoader
+createArrowMesh() : irr::scene::IGeometryCreator
+createAttractionAffector() : irr::scene::IParticleSystemSceneNode
+createAttributesFromMaterial() : irr::video::IVideoDriver
+createBoxEmitter() : irr::scene::IParticleSystemSceneNode
+createClone() : irr::scene::ISceneNodeAnimator
+createCollisionResponseAnimator() : irr::scene::ISceneManager
+createConeMesh() : irr::scene::IGeometryCreator
+createCubeMesh() : irr::scene::IGeometryCreator
+createCylinderEmitter() : irr::scene::IParticleSystemSceneNode
+createCylinderMesh() : irr::scene::IGeometryCreator
+createDeleteAnimator() : irr::scene::ISceneManager
+createEmptyAttributes() : irr::io::IFileSystem
+createEmptyFileList() : irr::io::IFileSystem
+createFadeOutParticleAffector() : irr::scene::IParticleSystemSceneNode
+createFileList() : irr::io::IFileSystem
+createFlyCircleAnimator() : irr::scene::ISceneManager
+createFlyStraightAnimator() : irr::scene::ISceneManager
+createFollowSplineAnimator() : irr::scene::ISceneManager
+createGravityAffector() : irr::scene::IParticleSystemSceneNode
+createHillPlaneMesh() : irr::scene::IGeometryCreator
+createImage() : irr::video::IVideoDriver
+createImageFromData() : irr::video::IVideoDriver
+createImageFromFile() : irr::video::IVideoDriver
+createImageList() : irr::gui::IGUIEnvironment
+createLimitReadFile() : irr::io::IFileSystem
+createMemoryReadFile() : irr::io::IFileSystem
+createMemoryWriteFile() : irr::io::IFileSystem
+createMesh() : irr::scene::IMeshLoader
+createMeshCopy() : irr::scene::IMeshManipulator
+createMeshEmitter() : irr::scene::IParticleSystemSceneNode
+createMeshUniquePrimitives() : irr::scene::IMeshManipulator
+createMeshWelded() : irr::scene::IMeshManipulator
+createMeshWith1TCoords() : irr::scene::IMeshManipulator
+createMeshWith2TCoords() : irr::scene::IMeshManipulator
+createMeshWithTangents() : irr::scene::IMeshManipulator
+createMeshWriter() : irr::scene::ISceneManager
+createMetaTriangleSelector() : irr::scene::ISceneManager
+createNewSceneManager() : irr::scene::ISceneManager
+createOctreeTriangleSelector() : irr::scene::ISceneManager
+createOctTreeTriangleSelector() : irr::scene::ISceneManager
+createPlaneMesh() : irr::scene::IGeometryCreator
+createPointEmitter() : irr::scene::IParticleSystemSceneNode
+createRingEmitter() : irr::scene::IParticleSystemSceneNode
+createRotationAffector() : irr::scene::IParticleSystemSceneNode
+createRotationAnimator() : irr::scene::ISceneManager
+createScaleParticleAffector() : irr::scene::IParticleSystemSceneNode
+createSceneNodeAnimator() : irr::scene::ISceneNodeAnimatorFactory
+createScreenShot() : irr::video::IVideoDriver
+createSkin() : irr::gui::IGUIEnvironment
+createSkinnedMesh() : irr::scene::ISceneManager
+createSphereEmitter() : irr::scene::IParticleSystemSceneNode
+createSphereMesh() : irr::scene::IGeometryCreator
+createTerrainMesh() : irr::scene::IGeometryCreator
+createTerrainTriangleSelector() : irr::scene::ISceneManager
+createTextureAnimator() : irr::scene::ISceneManager
+createTriangleSelector() : irr::scene::ISceneManager
+createTriangleSelectorFromBoundingBox() : irr::scene::ISceneManager
+createUserData() : irr::scene::ISceneUserDataSerializer
+createVolumeLightMesh() : irr::scene::IGeometryCreator
+createXMLReader() : irr::io::IFileSystem
+createXMLReaderUTF8() : irr::io::IFileSystem
+createXMLWriter() : irr::io::IFileSystem
+crossProduct() : irr::core::vector3d< T >
+CVertexBuffer() : irr::scene::CVertexBuffer
+
+
+
+- d -
+
+deallocate() : irr::core::irrAllocator< T > , irr::core::irrAllocatorFast< T >
+deleteAllDynamicLights() : irr::video::IVideoDriver
+deleteChild() : irr::gui::IGUITreeViewNode
+delink() : irr::core::map< KeyType, ValueType >
+deserializeAttributes() : irr::gui::IGUIEnvironment , irr::scene::ISceneNode , irr::io::IAttributeExchangingObject , irr::gui::IGUIElement
+destruct() : irr::core::irrAllocator< T > , irr::core::irrAllocatorFast< T >
+dimension2d() : irr::core::dimension2d< T >
+disableFeature() : irr::video::IVideoDriver
+dotProduct() : irr::core::quaternion , irr::core::vector2d< T > , irr::core::vector3d< T >
+draw() : irr::gui::IGUIElement , irr::gui::IGUIFont , irr::gui::IGUIImageList
+draw2DImage() : irr::video::IVideoDriver
+draw2DImageBatch() : irr::video::IVideoDriver
+draw2DLine() : irr::video::IVideoDriver
+draw2DPolygon() : irr::video::IVideoDriver
+draw2DRectangle() : irr::video::IVideoDriver , irr::gui::IGUISkin , irr::video::IVideoDriver
+draw2DRectangleOutline() : irr::video::IVideoDriver
+draw2DSprite() : irr::gui::IGUISpriteBank
+draw2DSpriteBatch() : irr::gui::IGUISpriteBank
+draw2DVertexPrimitiveList() : irr::video::IVideoDriver
+draw3DBox() : irr::video::IVideoDriver
+draw3DButtonPanePressed() : irr::gui::IGUISkin
+draw3DButtonPaneStandard() : irr::gui::IGUISkin
+draw3DLine() : irr::video::IVideoDriver
+draw3DMenuPane() : irr::gui::IGUISkin
+draw3DSunkenPane() : irr::gui::IGUISkin
+draw3DTabBody() : irr::gui::IGUISkin
+draw3DTabButton() : irr::gui::IGUISkin
+draw3DToolBar() : irr::gui::IGUISkin
+draw3DTriangle() : irr::video::IVideoDriver
+draw3DWindowBackground() : irr::gui::IGUISkin
+drawAll() : irr::scene::ISceneManager , irr::gui::IGUIEnvironment
+drawIcon() : irr::gui::IGUISkin
+drawIndexedTriangleFan() : irr::video::IVideoDriver
+drawIndexedTriangleList() : irr::video::IVideoDriver
+drawMeshBuffer() : irr::video::IVideoDriver
+drawPixel() : irr::video::IVideoDriver
+drawStencilShadow() : irr::video::IVideoDriver
+drawStencilShadowVolume() : irr::video::IVideoDriver
+drawVertexPrimitiveList() : irr::video::IVideoDriver
+drop() : irr::IReferenceCounted
+
+
+
+- e -
+
+emitt() : irr::scene::IParticleEmitter
+empty() : irr::core::array< T, TAlloc > , irr::core::map< KeyType, ValueType > , irr::core::list< T >
+enableCastShadow() : irr::scene::ILightSceneNode
+enableClipPlane() : irr::video::IVideoDriver
+enableMaterial2D() : irr::video::IVideoDriver
+enableOverrideColor() : irr::gui::IGUIEditBox , irr::gui::IGUIStaticText
+end() : irr::core::list< T >
+endScene() : irr::video::IVideoDriver
+equals() : irr::core::vector3d< T > , irr::core::CMatrix4< T > , irr::core::quaternion , irr::core::vector2d< T >
+equals_ignore_case() : irr::core::string< T, TAlloc >
+equals_substring_ignore_case() : irr::core::string< T, TAlloc >
+equalsn() : irr::core::string< T, TAlloc >
+erase() : irr::core::array< T, TAlloc > , irr::core::string< T, TAlloc > , irr::core::list< T >
+evaluate() : irr::scene::quake3::SModifierFunction
+existFile() : irr::io::IFileSystem
+existsAttribute() : irr::io::IAttributes
+existsIntersection() : irr::core::plane3d< T >
+
+
+
+- f -
+
+fadeIn() : irr::gui::IGUIInOutFader
+fadeOut() : irr::gui::IGUIInOutFader
+fill() : irr::video::IImage
+fillMaterialStructureFromAttributes() : irr::video::IVideoDriver
+finalize() : irr::scene::ISkinnedMesh
+find() : irr::core::map< KeyType, ValueType > , irr::core::string< T, TAlloc >
+findAttribute() : irr::io::IAttributes
+findFile() : irr::io::IFileList
+findFirst() : irr::core::string< T, TAlloc >
+findFirstChar() : irr::core::string< T, TAlloc >
+findFirstCharNotInList() : irr::core::string< T, TAlloc >
+findItemWithCommandId() : irr::gui::IGUIContextMenu
+findLast() : irr::core::string< T, TAlloc >
+findLastChar() : irr::core::string< T, TAlloc >
+findLastCharNotInList() : irr::core::string< T, TAlloc >
+findNext() : irr::core::string< T, TAlloc >
+findTexture() : irr::video::IVideoDriver
+flattenFilename() : irr::io::IFileSystem
+flipSurfaces() : irr::scene::IMeshManipulator
+fromAngleAxis() : irr::core::quaternion
+fromRGB() : irr::video::SColorHSL
+
+
+
+- g -
+
+get() : irr::scene::SMD3QuaternionTagList , irr::scene::quake3::Noiser , irr::scene::quake3::SVarGroup
+getAbsoluteClippingRect() : irr::gui::IGUIElement
+getAbsolutePath() : irr::io::IFileSystem
+getAbsolutePosition() : irr::gui::IGUIElement , irr::scene::ISceneNode
+getAbsoluteTransformation() : irr::scene::ISceneNode
+getActiveCamera() : irr::scene::ISceneManager
+getActiveColumn() : irr::gui::IGUITable
+getActiveColumnOrdering() : irr::gui::IGUITable
+getActiveTab() : irr::gui::IGUITabControl
+getAffectX() : irr::scene::IParticleAttractionAffector
+getAffectY() : irr::scene::IParticleAttractionAffector
+getAffectZ() : irr::scene::IParticleAttractionAffector
+getAllJoints() : irr::scene::ISkinnedMesh
+getAlpha() : irr::video::SColor , irr::video::SColorf
+getAlphaMask() : irr::video::IImage
+getAmbientLight() : irr::scene::ISceneManager
+getAngle() : irr::core::vector2d< T >
+getAngleTrig() : irr::core::vector2d< T >
+getAngleWith() : irr::core::line2d< T > , irr::core::vector2d< T >
+getAnimatedMeshSceneNode() : irr::scene::IParticleAnimatedMeshSceneNodeEmitter
+getAnimateTarget() : irr::scene::ISceneNodeAnimatorCollisionResponse
+getAnimationCount() : irr::scene::IAnimatedMeshMD2
+getAnimationMode() : irr::scene::IBoneSceneNode
+getAnimationName() : irr::scene::IAnimatedMeshMD2
+getAnimationSpeed() : irr::scene::IAnimatedMeshSceneNode
+getAnimators() : irr::scene::ISceneNode
+getAnimatorTypeName() : irr::scene::ISceneManager
+getArea() : irr::core::aabbox3d< T > , irr::core::dimension2d< T > , irr::core::rect< T > , irr::core::triangle3d< T >
+getAs4Values() : irr::core::vector3d< T >
+getAspectRatio() : irr::scene::ICameraSceneNode
+getAttract() : irr::scene::IParticleAttractionAffector
+getAttributeAsArray() : irr::io::IAttributes
+getAttributeAsBinaryData() : irr::io::IAttributes
+getAttributeAsBool() : irr::io::IAttributes
+getAttributeAsBox3d() : irr::io::IAttributes
+getAttributeAsColor() : irr::io::IAttributes
+getAttributeAsColorf() : irr::io::IAttributes
+getAttributeAsEnumeration() : irr::io::IAttributes
+getAttributeAsFloat() : irr::io::IAttributes
+getAttributeAsInt() : irr::io::IAttributes
+getAttributeAsLine2d() : irr::io::IAttributes
+getAttributeAsLine3d() : irr::io::IAttributes
+getAttributeAsMatrix() : irr::io::IAttributes
+getAttributeAsPlane3d() : irr::io::IAttributes
+getAttributeAsPosition2d() : irr::io::IAttributes
+getAttributeAsQuaternion() : irr::io::IAttributes
+getAttributeAsRect() : irr::io::IAttributes
+getAttributeAsString() : irr::io::IAttributes
+getAttributeAsStringW() : irr::io::IAttributes
+getAttributeAsTexture() : irr::io::IAttributes
+getAttributeAsTriangle3d() : irr::io::IAttributes
+getAttributeAsUserPointer() : irr::io::IAttributes
+getAttributeAsVector3d() : irr::io::IAttributes
+getAttributeCount() : irr::io::IAttributes , irr::io::IIrrXMLReader< char_type, super_class >
+getAttributeEnumerationLiteralsOfEnumeration() : irr::io::IAttributes
+getAttributeName() : irr::io::IAttributes , irr::io::IIrrXMLReader< char_type, super_class >
+getAttributeType() : irr::io::IAttributes
+getAttributeTypeString() : irr::io::IAttributes
+getAttributeValue() : irr::io::IIrrXMLReader< char_type, super_class >
+getAttributeValueAsFloat() : irr::io::IIrrXMLReader< char_type, super_class >
+getAttributeValueAsInt() : irr::io::IIrrXMLReader< char_type, super_class >
+getAttributeValueSafe() : irr::io::IIrrXMLReader< char_type, super_class >
+getAutomaticCulling() : irr::scene::ISceneNode
+getAverage() : irr::video::SColor
+getBackgroundColor() : irr::gui::IGUITab
+getBitsPerPixel() : irr::video::IImage
+getBitsPerPixelFromFormat() : irr::video::IImage
+getBlue() : irr::video::SColor , irr::video::SColorf
+getBlueMask() : irr::video::IImage
+getBoneIndex() : irr::scene::IBoneSceneNode
+getBoneName() : irr::scene::IBoneSceneNode
+getBoundingBox() : irr::scene::SSkinMeshBuffer , irr::scene::SViewFrustum , irr::scene::CDynamicMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::IBoneSceneNode , irr::scene::IDynamicMeshBuffer , irr::scene::IMesh , irr::scene::IMeshBuffer , irr::scene::ISceneNode , irr::scene::ITerrainSceneNode , irr::scene::SAnimatedMesh , irr::scene::SMesh , irr::scene::SSharedMeshBuffer
+getBox() : irr::scene::IParticleBoxEmitter
+getBuiltInFont() : irr::gui::IGUIEnvironment
+getBytesPerPixel() : irr::video::IImage
+getCastShadow() : irr::scene::ILightSceneNode
+getCellData() : irr::gui::IGUITable
+getCellText() : irr::gui::IGUITable
+getCenter() : irr::core::aabbox3d< T > , irr::scene::IParticleCylinderEmitter , irr::scene::IParticleRingEmitter , irr::scene::IParticleSphereEmitter , irr::core::rect< T >
+getChangedID() : irr::scene::CIndexBuffer , irr::scene::CVertexBuffer , irr::scene::IIndexBuffer , irr::scene::IVertexBuffer
+getChangedID_Index() : irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+getChangedID_Vertex() : irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+getCharacterFromPos() : irr::gui::IGUIFont
+getChildCount() : irr::gui::IGUITreeViewNode
+getChildren() : irr::gui::IGUIElement , irr::scene::ISceneNode
+getClientRect() : irr::gui::IGUIWindow
+getCloseButton() : irr::gui::IGUIWindow
+getCloseHandling() : irr::gui::IGUIContextMenu
+getClosestPoint() : irr::core::line2d< T > , irr::core::line3d< T >
+getCollisionNode() : irr::scene::ISceneNodeAnimatorCollisionResponse
+getCollisionPoint() : irr::scene::ISceneCollisionManager , irr::scene::ISceneNodeAnimatorCollisionResponse
+getCollisionResultPosition() : irr::scene::ISceneCollisionManager , irr::scene::ISceneNodeAnimatorCollisionResponse
+getCollisionTriangle() : irr::scene::ISceneNodeAnimatorCollisionResponse
+getColor() : irr::scene::IBillboardSceneNode , irr::scene::IBillboardTextSceneNode , irr::gui::IGUIInOutFader , irr::gui::IGUISkin
+getColorFormat() : irr::video::IImage , irr::IrrlichtDevice , irr::video::ITexture , irr::video::IVideoDriver
+getColumnCount() : irr::gui::IGUITable
+getCreatableGUIElementTypeCount() : irr::gui::IGUIElementFactory
+getCreatableSceneNodeAnimatorTypeCount() : irr::scene::ISceneNodeAnimatorFactory
+getCreatableSceneNodeTypeCount() : irr::scene::ISceneNodeFactory
+getCreateableGUIElementType() : irr::gui::IGUIElementFactory
+getCreateableGUIElementTypeName() : irr::gui::IGUIElementFactory
+getCreateableSceneNodeAnimatorType() : irr::scene::ISceneNodeAnimatorFactory
+getCreateableSceneNodeAnimatorTypeName() : irr::scene::ISceneNodeAnimatorFactory
+getCreateableSceneNodeType() : irr::scene::ISceneNodeFactory
+getCreateableSceneNodeTypeName() : irr::scene::ISceneNodeFactory
+getCurrentLODOfPatches() : irr::scene::ITerrainSceneNode
+getCurrentRenderTargetSize() : irr::video::IVideoDriver
+getCursorControl() : irr::IrrlichtDevice
+getData() : irr::scene::CIndexBuffer , irr::scene::CVertexBuffer , irr::gui::IGUITreeViewNode , irr::scene::IIndexBuffer , irr::scene::IVertexBuffer
+getData2() : irr::gui::IGUITreeViewNode
+getDebugName() : irr::IReferenceCounted
+getDefaultGUIElementFactory() : irr::gui::IGUIEnvironment
+getDefaultSceneNodeAnimatorFactory() : irr::scene::ISceneManager
+getDefaultSceneNodeFactory() : irr::scene::ISceneManager
+getDefaultText() : irr::gui::IGUISkin
+getDefinitelyIdentityMatrix() : irr::core::CMatrix4< T >
+getDesktopDepth() : irr::video::IVideoModeList
+getDesktopResolution() : irr::video::IVideoModeList
+getDimension() : irr::gui::IGUIFont , irr::video::IImage
+getDirection() : irr::scene::IParticleEmitter
+getDirectoryName() : irr::gui::IGUIFileOpenDialog
+getDistanceFrom() : irr::core::vector2d< T > , irr::core::vector3d< T >
+getDistanceFromSQ() : irr::core::vector2d< T > , irr::core::vector3d< T >
+getDistanceTo() : irr::core::plane3d< T >
+getDrawBackground() : irr::gui::IGUIWindow
+getDrawFlags() : irr::gui::IGUITable
+getDrawTitlebar() : irr::gui::IGUIWindow
+getDriverType() : irr::video::ITexture , irr::video::IVideoDriver
+getDynamicLight() : irr::video::IVideoDriver
+getDynamicLightCount() : irr::video::IVideoDriver
+getEdges() : irr::core::aabbox3d< T >
+getEditBox() : irr::gui::IGUISpinBox
+getElementFromId() : irr::gui::IGUIElement
+getElementFromPoint() : irr::gui::IGUIElement
+getEllipsoidRadius() : irr::scene::ISceneNodeAnimatorCollisionResponse
+getEllipsoidTranslation() : irr::scene::ISceneNodeAnimatorCollisionResponse
+getEmitter() : irr::scene::IParticleSystemSceneNode
+getEnabled() : irr::scene::IParticleAffector
+getEndFrame() : irr::scene::IAnimatedMeshSceneNode
+getEntityList() : irr::scene::IQ3LevelMesh
+getEventReceiver() : irr::IrrlichtDevice
+getEveryMeshVertex() : irr::scene::IParticleAnimatedMeshSceneNodeEmitter , irr::scene::IParticleMeshEmitter
+getExpanded() : irr::gui::IGUITreeViewNode
+getExposedVideoData() : irr::video::IVideoDriver
+getExtent() : irr::core::aabbox3d< T >
+getFadeOutTime() : irr::scene::IParticleFadeOutAffector
+getFarLeftDown() : irr::scene::SViewFrustum
+getFarLeftUp() : irr::scene::SViewFrustum
+getFarRightDown() : irr::scene::SViewFrustum
+getFarRightUp() : irr::scene::SViewFrustum
+getFarValue() : irr::scene::ICameraSceneNode
+getFileArchive() : irr::io::IFileSystem
+getFileArchiveCount() : irr::io::IFileSystem
+getFileBasename() : irr::io::IFileSystem
+getFileCount() : irr::io::IFileList
+getFileDir() : irr::io::IFileSystem
+getFileList() : irr::io::IFileArchive
+getFileName() : irr::io::IFileList , irr::gui::IGUIFileOpenDialog , irr::io::IReadFile , irr::io::IWriteFile
+getFileSize() : irr::io::IFileList
+getFileSystem() : irr::gui::IGUIEnvironment , irr::IrrlichtDevice , irr::scene::ISceneManager
+getFirstChild() : irr::gui::IGUITreeViewNode
+getFlag() : irr::video::SMaterial
+getFocus() : irr::gui::IGUIEnvironment
+getFog() : irr::video::IVideoDriver
+getFont() : irr::gui::IGUIEnvironment , irr::gui::IGUISkin
+getFootColor() : irr::scene::IVolumeLightSceneNode
+getFOV() : irr::scene::ICameraSceneNode
+getFPS() : irr::video::IVideoDriver
+getFrameCount() : irr::scene::IAnimatedMesh , irr::scene::SAnimatedMesh
+getFrameLoop() : irr::scene::IAnimatedMeshMD2
+getFrameNr() : irr::scene::IAnimatedMeshSceneNode
+getFullFileName() : irr::io::IFileList
+getGammaRamp() : irr::IrrlichtDevice
+getGeometryCreator() : irr::scene::ISceneManager
+getGPUProgrammingServices() : irr::video::IVideoDriver
+getGravity() : irr::scene::IParticleGravityAffector , irr::scene::ISceneNodeAnimatorCollisionResponse
+getGreen() : irr::video::SColor , irr::video::SColorf
+getGreenMask() : irr::video::IImage
+getGroup() : irr::scene::quake3::IShader
+getGroupSize() : irr::scene::quake3::IShader
+getGUIElementFactory() : irr::gui::IGUIEnvironment
+getGUIEnvironment() : irr::IrrlichtDevice , irr::scene::ISceneManager
+getHardwareMappingHint() : irr::scene::CIndexBuffer , irr::scene::CVertexBuffer , irr::scene::IIndexBuffer , irr::scene::IVertexBuffer
+getHardwareMappingHint_Index() : irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+getHardwareMappingHint_Vertex() : irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+getHeight() : irr::scene::ITerrainSceneNode , irr::core::rect< T >
+getHorizontalAngle() : irr::core::vector3d< T >
+getIcon() : irr::gui::IGUIListBox , irr::gui::IGUISkin , irr::gui::IGUITreeViewNode
+getID() : irr::io::IFileList , irr::gui::IGUIElement , irr::scene::ISceneNode
+getImageCount() : irr::gui::IGUIImageList
+getImageDataSizeInBytes() : irr::video::IImage
+getImageDataSizeInPixels() : irr::video::IImage
+getImageIndex() : irr::gui::IGUITreeViewNode
+getImageLeftOfIcon() : irr::gui::IGUITreeView
+getImageList() : irr::gui::IGUITreeView
+getImageLoader() : irr::video::IVideoDriver
+getImageLoaderCount() : irr::video::IVideoDriver
+getImageSize() : irr::gui::IGUIImageList
+getImageWriter() : irr::video::IVideoDriver
+getImageWriterCount() : irr::video::IVideoDriver
+getIndexBuffer() : irr::scene::CDynamicMeshBuffer , irr::scene::IDynamicMeshBuffer
+getIndexCount() : irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::ITerrainSceneNode , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+getIndexForItemData() : irr::gui::IGUIComboBox
+getIndexType() : irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::SSkinMeshBuffer
+getIndices() : irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+getIndicesForPatch() : irr::scene::ITerrainSceneNode
+getInternalName() : irr::io::SNamedPath
+getInterpolated() : irr::core::aabbox3d< T > , irr::core::dimension2d< T > , irr::video::SColor , irr::video::SColorf , irr::core::vector2d< T > , irr::core::vector3d< T >
+getInterpolated_quadratic() : irr::video::SColor , irr::video::SColorf , irr::core::vector2d< T > , irr::core::vector3d< T >
+getIntersectionOfPlaneWithLine() : irr::core::triangle3d< T >
+getIntersectionWithLimitedLine() : irr::core::plane3d< T > , irr::core::triangle3d< T >
+getIntersectionWithLine() : irr::core::plane3d< T > , irr::core::triangle3d< T >
+getIntersectionWithPlane() : irr::core::plane3d< T >
+getIntersectionWithPlanes() : irr::core::plane3d< T >
+getIntersectionWithSphere() : irr::core::line3d< T >
+getInverse() : irr::core::CMatrix4< T >
+getInversePrimitive() : irr::core::CMatrix4< T >
+getItem() : irr::gui::IGUIComboBox
+getItemAutoChecking() : irr::gui::IGUIContextMenu
+getItemCommandId() : irr::gui::IGUIContextMenu
+getItemCount() : irr::gui::IGUIComboBox , irr::gui::IGUIContextMenu , irr::gui::IGUIListBox
+getItemData() : irr::gui::IGUIComboBox
+getItemDefaultColor() : irr::gui::IGUIListBox
+getItemOverrideColor() : irr::gui::IGUIListBox
+getItemText() : irr::gui::IGUIContextMenu
+getIterator() : irr::core::map< KeyType, ValueType >
+getJointCount() : irr::scene::IAnimatedMeshSceneNode , irr::scene::ISkinnedMesh
+getJointName() : irr::scene::ISkinnedMesh
+getJointNode() : irr::scene::IAnimatedMeshSceneNode
+getJointNumber() : irr::scene::ISkinnedMesh
+getKerningHeight() : irr::gui::IGUIFont
+getKerningWidth() : irr::gui::IGUIFont , irr::gui::IGUIFontBitmap
+getKnownIntersectionWithLine() : irr::core::plane3d< T >
+getLargeStep() : irr::gui::IGUIScrollBar
+getLast() : irr::scene::CIndexBuffer , irr::scene::CVertexBuffer , irr::scene::IIndexBuffer , irr::core::array< T, TAlloc > , irr::core::list< T > , irr::scene::IVertexBuffer
+getLastChild() : irr::gui::IGUITreeViewNode
+getLastEventNode() : irr::gui::IGUITreeView
+getLength() : irr::scene::IParticleCylinderEmitter , irr::core::line2d< T > , irr::core::line3d< T > , irr::core::vector2d< T > , irr::core::vector3d< T >
+getLengthSQ() : irr::core::vector3d< T > , irr::core::line2d< T > , irr::core::line3d< T > , irr::core::vector2d< T >
+getLevel() : irr::gui::IGUITreeViewNode
+getLightData() : irr::scene::ILightSceneNode
+getLightness() : irr::video::SColor
+getLightType() : irr::scene::ILightSceneNode
+getLinesVisible() : irr::gui::IGUITreeView
+getListItem() : irr::gui::IGUIListBox
+getLogger() : irr::IrrlichtDevice
+getLogLevel() : irr::ILogger
+getLuminance() : irr::video::SColor
+getMaterial() : irr::scene::SSkinMeshBuffer , irr::scene::ISceneNode , irr::scene::IDynamicMeshBuffer , irr::scene::CDynamicMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::gui::IGUIMeshViewer , irr::scene::IMeshBuffer , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+getMaterial2D() : irr::video::IVideoDriver
+getMaterialCount() : irr::scene::ISceneNode
+getMaterialRenderer() : irr::video::IVideoDriver
+getMaterialRendererCount() : irr::video::IVideoDriver
+getMaterialRendererName() : irr::video::IVideoDriver
+getMatrix() : irr::core::quaternion
+getMatrix_transposed() : irr::core::quaternion
+getMatrixCenter() : irr::core::quaternion
+getMax() : irr::gui::IGUISpinBox , irr::gui::IGUIEditBox , irr::gui::IGUIScrollBar
+getMaximalDynamicLightAmount() : irr::video::IVideoDriver
+getMaximalPrimitiveCount() : irr::video::IVideoDriver
+getMaximizeButton() : irr::gui::IGUIWindow
+getMaxParticlesPerSecond() : irr::scene::IParticleEmitter
+getMaxStartColor() : irr::scene::IParticleEmitter
+getMaxStartSize() : irr::scene::IParticleEmitter
+getMaxTextureSize() : irr::video::IVideoDriver
+getMD3TagTransformation() : irr::scene::IAnimatedMeshSceneNode
+getMemberPoint() : irr::core::plane3d< T >
+getMesh() : irr::scene::ISceneManager , irr::gui::IGUIMeshViewer , irr::scene::IAnimatedMesh , irr::scene::IAnimatedMeshSceneNode , irr::scene::IMeshSceneNode , irr::scene::IParticleMeshEmitter , irr::scene::ISceneManager , irr::scene::ITerrainSceneNode , irr::scene::SAnimatedMesh
+getMeshBuffer() : irr::scene::IMesh , irr::scene::SAnimatedMesh , irr::scene::SMesh
+getMeshBufferCount() : irr::scene::IMesh , irr::scene::SAnimatedMesh , irr::scene::SMesh
+getMeshBufferForLOD() : irr::scene::ITerrainSceneNode
+getMeshBuffers() : irr::scene::ISkinnedMesh
+getMeshByFilename() : irr::scene::IMeshCache
+getMeshByIndex() : irr::scene::IMeshCache
+getMeshByName() : irr::scene::IMeshCache
+getMeshCache() : irr::scene::ISceneManager
+getMeshCount() : irr::scene::IMeshCache
+getMeshFilename() : irr::scene::IMeshCache
+getMeshIndex() : irr::scene::IMeshCache
+getMeshManipulator() : irr::scene::ISceneManager , irr::video::IVideoDriver
+getMeshName() : irr::scene::IMeshCache
+getMeshType() : irr::scene::IAnimatedMesh , irr::scene::SAnimatedMesh
+getMiddle() : irr::core::line3d< T > , irr::core::line2d< T >
+getMin() : irr::gui::IGUIScrollBar , irr::gui::IGUISpinBox
+getMinimizeButton() : irr::gui::IGUIWindow
+getMinParticlesPerSecond() : irr::scene::IParticleEmitter
+getMinStartColor() : irr::scene::IParticleEmitter
+getMinStartSize() : irr::scene::IParticleEmitter
+getMoveSpeed() : irr::scene::ISceneNodeAnimatorCameraFPS , irr::scene::ISceneNodeAnimatorCameraMaya
+getMS3DJointNode() : irr::scene::IAnimatedMeshSceneNode
+getName() : irr::video::IVideoDriver , irr::scene::ISceneNode , irr::video::ITexture
+getNearValue() : irr::scene::ICameraSceneNode
+getNextElement() : irr::gui::IGUIElement
+getNextSibling() : irr::gui::IGUITreeViewNode
+getNextVisible() : irr::gui::IGUITreeViewNode
+getNode() : irr::core::map< KeyType, ValueType >::Iterator , irr::core::map< KeyType, ValueType >::ParentFirstIterator , irr::core::map< KeyType, ValueType >::ParentLastIterator
+getNodeData() : irr::io::IIrrXMLReader< char_type, super_class >
+getNodeName() : irr::io::IIrrXMLReader< char_type, super_class >
+getNodeType() : irr::io::IIrrXMLReader< char_type, super_class >
+getNormal() : irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::IParticleCylinderEmitter , irr::scene::SSkinMeshBuffer , irr::core::triangle3d< T > , irr::scene::IMeshBuffer
+getNormalDirectionModifier() : irr::scene::IParticleAnimatedMeshSceneNodeEmitter , irr::scene::IParticleMeshEmitter
+getNumber() : irr::gui::IGUITab
+getOperationSystemVersion() : irr::IOSOperator
+getOptimalSize() : irr::core::dimension2d< T >
+getOriginalMesh() : irr::scene::IAnimatedMeshMD3
+getOriginalSize() : irr::video::ITexture
+getOSOperator() : irr::gui::IGUIEnvironment , irr::IrrlichtDevice
+getOutlineOnly() : irr::scene::IParticleCylinderEmitter
+getOverrideColor() : irr::gui::IGUIStaticText
+getOverrideFont() : irr::gui::IGUIStaticText
+getOverrideMaterial() : irr::video::IVideoDriver
+getOwner() : irr::gui::IGUITreeViewNode
+getParameters() : irr::scene::ISceneManager
+getParent() : irr::scene::ISceneNode , irr::gui::IGUIElement , irr::gui::IGUITreeViewNode
+getParentFirstIterator() : irr::core::map< KeyType, ValueType >
+getParentLastIterator() : irr::core::map< KeyType, ValueType >
+getParserFormat() : irr::io::IIrrXMLReader< char_type, super_class >
+getPath() : irr::io::SNamedPath , irr::io::IFileList
+getPitch() : irr::video::ITexture , irr::video::IImage
+getPivotPoint() : irr::scene::IParticleRotationAffector
+getPixel() : irr::video::IImage
+getPlane() : irr::core::triangle3d< T >
+getPoint() : irr::scene::IParticleAttractionAffector
+getPointOrientation() : irr::core::line2d< T >
+getPolyCount() : irr::scene::IMeshManipulator
+getPos() : irr::gui::IGUIScrollBar , irr::io::IReadFile , irr::io::IWriteFile
+getPosition() : irr::scene::IDynamicMeshBuffer , irr::scene::CMeshBuffer< T > , irr::gui::ICursorControl , irr::scene::IMeshBuffer , irr::scene::SSkinMeshBuffer , irr::scene::IMeshBuffer , irr::scene::ISceneNode , irr::scene::IDynamicMeshBuffer , irr::scene::SSkinMeshBuffer , irr::scene::CMeshBuffer< T >
+getPositions() : irr::gui::IGUISpriteBank
+getPrevSibling() : irr::gui::IGUITreeViewNode
+getPrimitiveCountDrawn() : irr::video::IVideoDriver
+getProcessorSpeedMHz() : irr::IOSOperator
+getProjectionMatrix() : irr::scene::ICameraSceneNode
+getRadius() : irr::scene::IParticleRingEmitter , irr::scene::IParticleSphereEmitter , irr::scene::ILightSceneNode , irr::scene::IParticleCylinderEmitter
+getRayFromScreenCoordinates() : irr::scene::ISceneCollisionManager
+getRealTime() : irr::ITimer
+getRed() : irr::video::SColor , irr::video::SColorf
+getRedMask() : irr::video::IImage
+getReferenceCount() : irr::IReferenceCounted
+getRegisteredGUIElementFactoryCount() : irr::gui::IGUIEnvironment
+getRegisteredSceneNodeAnimatorFactoryCount() : irr::scene::ISceneManager
+getRegisteredSceneNodeFactoryCount() : irr::scene::ISceneManager
+getRelativePosition() : irr::gui::IGUIElement , irr::gui::ICursorControl
+getRelativeTransformation() : irr::scene::ISceneNode
+getRelativeTransformationMatrix() : irr::scene::IDummyTransformationSceneNode
+getRenderBuffer() : irr::scene::ITerrainSceneNode
+getRenderCapability() : irr::video::IMaterialRenderer
+getRingThickness() : irr::scene::IParticleRingEmitter
+getRoot() : irr::core::map< KeyType, ValueType > , irr::gui::IGUITreeView
+getRootGUIElement() : irr::gui::IGUIEnvironment
+getRootSceneNode() : irr::scene::ISceneManager
+getRotateSpeed() : irr::scene::ISceneNodeAnimatorCameraFPS , irr::scene::ISceneNodeAnimatorCameraMaya
+getRotation() : irr::scene::ISceneNode
+getRotationDegrees() : irr::core::CMatrix4< T >
+getRowCount() : irr::gui::IGUITable
+getScale() : irr::core::CMatrix4< T > , irr::scene::ISceneNode
+getSceneCollisionManager() : irr::scene::ISceneManager
+getSceneManager() : irr::scene::ISceneNode , irr::IrrlichtDevice
+getSceneNodeAndCollisionPointFromRay() : irr::scene::ISceneCollisionManager
+getSceneNodeAnimatorFactory() : irr::scene::ISceneManager
+getSceneNodeFactory() : irr::scene::ISceneManager
+getSceneNodeForTriangle() : irr::scene::ITriangleSelector
+getSceneNodeFromCameraBB() : irr::scene::ISceneCollisionManager
+getSceneNodeFromId() : irr::scene::ISceneManager
+getSceneNodeFromName() : irr::scene::ISceneManager
+getSceneNodeFromRayBB() : irr::scene::ISceneCollisionManager
+getSceneNodeFromScreenCoordinatesBB() : irr::scene::ISceneCollisionManager
+getSceneNodeFromType() : irr::scene::ISceneManager
+getSceneNodeRenderPass() : irr::scene::ISceneManager
+getSceneNodesFromType() : irr::scene::ISceneManager
+getSceneNodeTypeName() : irr::scene::ISceneManager
+getScreenCoordinatesFrom3DPosition() : irr::scene::ISceneCollisionManager
+getScreenSize() : irr::video::IVideoDriver
+getSelected() : irr::gui::IGUIListBox , irr::gui::IGUITable , irr::gui::IGUITreeViewNode , irr::gui::IGUITreeView , irr::gui::IGUIComboBox
+getSelectedImageIndex() : irr::gui::IGUITreeViewNode
+getSelectedItem() : irr::gui::IGUIContextMenu
+getShader() : irr::scene::IQ3LevelMesh
+getShadowColor() : irr::scene::ISceneManager
+getSize() : irr::scene::IBillboardTextSceneNode , irr::io::IReadFile , irr::core::rect< T > , irr::gui::IGUISkin , irr::video::ITexture , irr::core::list< T > , irr::io::IFileReadCallBack , irr::scene::IBillboardSceneNode
+getSkin() : irr::gui::IGUIEnvironment
+getSkinningSpace() : irr::scene::IBoneSceneNode
+getSmallStep() : irr::gui::IGUIScrollBar
+getSourceFormat() : irr::io::IIrrXMLReader< char_type, super_class >
+getSpeed() : irr::ITimer , irr::scene::IParticleRotationAffector
+getSphericalCoordinateAngles() : irr::core::vector3d< T >
+getSpriteBank() : irr::gui::IGUIEnvironment , irr::gui::IGUISkin , irr::gui::IGUIFontBitmap
+getSpriteNoFromChar() : irr::gui::IGUIFontBitmap
+getSprites() : irr::gui::IGUISpriteBank
+getStartFrame() : irr::scene::IAnimatedMeshSceneNode
+getStepSize() : irr::gui::IGUISpinBox
+getSubDivideU() : irr::scene::IVolumeLightSceneNode
+getSubDivideV() : irr::scene::IVolumeLightSceneNode
+getSubMenu() : irr::gui::IGUIContextMenu
+getSystemMemory() : irr::IOSOperator
+getTab() : irr::gui::IGUITabControl
+getTabCount() : irr::gui::IGUITabControl
+getTabExtraWidth() : irr::gui::IGUITabControl
+getTabGroup() : irr::gui::IGUIElement
+getTabHeight() : irr::gui::IGUITabControl
+getTabMaxWidth() : irr::gui::IGUITabControl
+getTabOrder() : irr::gui::IGUIElement
+getTabVerticalAlignment() : irr::gui::IGUITabControl
+getTagList() : irr::scene::IAnimatedMeshMD3
+getTailColor() : irr::scene::IVolumeLightSceneNode
+getTarget() : irr::scene::ICameraSceneNode
+getTargetAndRotationBinding() : irr::scene::ICameraSceneNode
+getTargetColor() : irr::scene::IParticleFadeOutAffector
+getTargetNode() : irr::scene::ISceneNodeAnimatorCollisionResponse
+getTCoords() : irr::scene::IDynamicMeshBuffer , irr::scene::SSkinMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::IMeshBuffer , irr::scene::SSkinMeshBuffer , irr::scene::IDynamicMeshBuffer
+getTerrainCenter() : irr::scene::ITerrainSceneNode
+getText() : irr::gui::IGUIElement , irr::gui::IGUITreeViewNode
+getTextColor() : irr::gui::IGUITab
+getTextDimension() : irr::gui::IGUIEditBox
+getTextFromClipboard() : irr::IOSOperator
+getTextHeight() : irr::gui::IGUIStaticText
+getTexture() : irr::gui::IGUISpriteBank , irr::video::IVideoDriver , irr::video::SMaterial
+getTextureByIndex() : irr::video::IVideoDriver
+getTextureCount() : irr::gui::IGUISpriteBank , irr::video::IVideoDriver
+getTextureCreationFlag() : irr::video::IVideoDriver
+getTextureFormatFromFlags() : irr::video::ITexture
+getTextureMatrix() : irr::video::SMaterial , irr::video::SMaterialLayer , irr::video::SMaterial
+getTextWidth() : irr::gui::IGUIStaticText
+getTime() : irr::ITimer
+getTimeForceLost() : irr::scene::IParticleGravityAffector
+getTimer() : irr::IrrlichtDevice
+getToolTipText() : irr::gui::IGUIElement
+getTransform() : irr::scene::SViewFrustum , irr::video::IVideoDriver
+getTransformedBoundingBox() : irr::scene::ISceneNode
+getTranslation() : irr::core::CMatrix4< T >
+getTransposed() : irr::core::CMatrix4< T >
+getTriangleCount() : irr::scene::ITriangleSelector
+getTriangles() : irr::scene::ITriangleSelector
+getTriangleSelector() : irr::scene::ISceneNode
+getType() : irr::IrrlichtDevice , irr::scene::IParticleSphereEmitter , irr::scene::IParticleBoxEmitter , irr::gui::IGUIElement , irr::gui::IGUISkin , irr::scene::IParticleCylinderEmitter , irr::scene::IParticleEmitter , irr::video::S3DVertexTangents , irr::scene::ISceneNode , irr::scene::IMeshWriter , irr::scene::CIndexBuffer , irr::io::IFileArchive , irr::video::S3DVertex , irr::scene::IVolumeLightSceneNode , irr::scene::CVertexBuffer , irr::scene::IParticleAttractionAffector , irr::scene::IParticleMeshEmitter , irr::gui::IGUIFontBitmap , irr::video::S3DVertex2TCoords , irr::scene::IParticleAffector , irr::scene::IParticleRingEmitter , irr::gui::IGUIFont , irr::scene::IParticleFadeOutAffector , irr::scene::IVertexBuffer , irr::scene::IParticleRotationAffector , irr::scene::IIndexBuffer , irr::scene::ISceneNodeAnimator , irr::scene::IParticleGravityAffector , irr::scene::IParticleAnimatedMeshSceneNodeEmitter
+getTypeName() : irr::gui::IGUIElement
+getUnitVector() : irr::core::line2d< T >
+getUpVector() : irr::scene::ICameraSceneNode
+getValue() : irr::gui::IGUISpinBox
+getVector() : irr::core::line2d< T > , irr::core::line3d< T >
+getVendorInfo() : irr::video::IVideoDriver
+getVersion() : irr::IrrlichtDevice
+getVertex() : irr::scene::SSkinMeshBuffer
+getVertexBuffer() : irr::scene::CDynamicMeshBuffer , irr::scene::IDynamicMeshBuffer
+getVertexCount() : irr::scene::IMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::SSkinMeshBuffer , irr::scene::IDynamicMeshBuffer , irr::scene::SSharedMeshBuffer
+getVertexType() : irr::scene::SSkinMeshBuffer , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::SSharedMeshBuffer
+getVertices() : irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer , irr::scene::SSharedMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::SSkinMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::IMeshBuffer , irr::scene::IDynamicMeshBuffer
+getVideoDriver() : irr::IrrlichtDevice , irr::video::IMaterialRendererServices , irr::scene::ISceneManager , irr::gui::IGUIEnvironment
+getVideoModeCount() : irr::video::IVideoModeList
+getVideoModeDepth() : irr::video::IVideoModeList
+getVideoModeList() : irr::IrrlichtDevice
+getVideoModeResolution() : irr::video::IVideoModeList
+getViewFrustum() : irr::scene::ICameraSceneNode
+getViewMatrix() : irr::scene::ICameraSceneNode
+getViewMatrixAffector() : irr::scene::ICameraSceneNode
+getViewPort() : irr::video::IVideoDriver
+getVolume() : irr::core::aabbox3d< T >
+getWidth() : irr::core::rect< T >
+getWorkingDirectory() : irr::io::IFileSystem
+getWorld() : irr::scene::ISceneNodeAnimatorCollisionResponse
+getXJointNode() : irr::scene::IAnimatedMeshSceneNode
+getZoomSpeed() : irr::scene::ISceneNodeAnimatorCameraMaya
+grab() : irr::IReferenceCounted
+
+
+
+- h -
+
+hasAlpha() : irr::video::ITexture
+hasChilds() : irr::gui::IGUITreeViewNode
+hasFinished() : irr::scene::ISceneNodeAnimator
+hasFocus() : irr::gui::IGUIEnvironment
+hasItemOverrideColor() : irr::gui::IGUIListBox
+hasMipMaps() : irr::video::ITexture
+hasResizableColumns() : irr::gui::IGUITable
+hasType() : irr::gui::IGUIElement
+
+
+
+- i -
+
+IAnimatedMeshSceneNode() : irr::scene::IAnimatedMeshSceneNode
+IBillboardSceneNode() : irr::scene::IBillboardSceneNode
+IBillboardTextSceneNode() : irr::scene::IBillboardTextSceneNode
+IBoneSceneNode() : irr::scene::IBoneSceneNode
+ICameraSceneNode() : irr::scene::ICameraSceneNode
+IDummyTransformationSceneNode() : irr::scene::IDummyTransformationSceneNode
+IGUIButton() : irr::gui::IGUIButton
+IGUICheckBox() : irr::gui::IGUICheckBox
+IGUIColorSelectDialog() : irr::gui::IGUIColorSelectDialog
+IGUIComboBox() : irr::gui::IGUIComboBox
+IGUIContextMenu() : irr::gui::IGUIContextMenu
+IGUIEditBox() : irr::gui::IGUIEditBox
+IGUIElement() : irr::gui::IGUIElement
+IGUIFileOpenDialog() : irr::gui::IGUIFileOpenDialog
+IGUIImage() : irr::gui::IGUIImage
+IGUIInOutFader() : irr::gui::IGUIInOutFader
+IGUIListBox() : irr::gui::IGUIListBox
+IGUIMeshViewer() : irr::gui::IGUIMeshViewer
+IGUIScrollBar() : irr::gui::IGUIScrollBar
+IGUISpinBox() : irr::gui::IGUISpinBox
+IGUIStaticText() : irr::gui::IGUIStaticText
+IGUITab() : irr::gui::IGUITab
+IGUITabControl() : irr::gui::IGUITabControl
+IGUITable() : irr::gui::IGUITable
+IGUIToolBar() : irr::gui::IGUIToolBar
+IGUITreeView() : irr::gui::IGUITreeView
+IGUIWindow() : irr::gui::IGUIWindow
+ILightSceneNode() : irr::scene::ILightSceneNode
+IMeshSceneNode() : irr::scene::IMeshSceneNode
+insert() : irr::core::array< T, TAlloc > , irr::core::map< KeyType, ValueType >
+insert_after() : irr::core::list< T >
+insert_before() : irr::core::list< T >
+insertChildAfter() : irr::gui::IGUITreeViewNode
+insertChildBefore() : irr::gui::IGUITreeViewNode
+insertItem() : irr::gui::IGUIContextMenu , irr::gui::IGUIListBox
+internal_delete() : irr::core::irrAllocator< T >
+internal_new() : irr::core::irrAllocator< T >
+interpolate() : irr::core::CMatrix4< T > , irr::core::vector2d< T > , irr::core::vector3d< T >
+intersectsWithBox() : irr::core::aabbox3d< T >
+intersectsWithLine() : irr::core::aabbox3d< T >
+intersectWith() : irr::core::line2d< T >
+inverseRotateVect() : irr::core::CMatrix4< T >
+inverseTranslateVect() : irr::core::CMatrix4< T >
+invert() : irr::core::vector3d< T >
+IParticleAffector() : irr::scene::IParticleAffector
+IParticleSystemSceneNode() : irr::scene::IParticleSystemSceneNode
+IReferenceCounted() : irr::IReferenceCounted
+IRenderTarget() : irr::video::IRenderTarget
+isALoadableFileExtension() : irr::video::IImageLoader , irr::scene::IMeshLoader
+isALoadableFileFormat() : irr::io::IArchiveLoader , irr::video::IImageLoader
+isAlphaChannelUsed() : irr::gui::IGUIButton , irr::gui::IGUIImage
+isAutoScrollEnabled() : irr::gui::IGUIListBox , irr::gui::IGUIEditBox
+isAWriteableFileExtension() : irr::video::IImageWriter
+isBetweenPoints() : irr::core::vector2d< T > , irr::core::vector3d< T >
+IsButtonPressed() : irr::SEvent::SJoystickEvent
+ISceneNode() : irr::scene::ISceneNode
+isChecked() : irr::gui::IGUICheckBox
+isCulled() : irr::scene::ISceneManager
+isDebugDataVisible() : irr::scene::ISceneNode
+isDebugObject() : irr::scene::ISceneNode
+isDefined() : irr::scene::quake3::SVarGroup
+isDirectory() : irr::io::IFileList
+isDraggable() : irr::gui::IGUIWindow
+isDrawingBackground() : irr::gui::IGUITab
+isDrawingBorder() : irr::gui::IGUIButton
+isDriverSupported() : irr::IrrlichtDevice
+isEmpty() : irr::core::aabbox3d< T > , irr::core::map< KeyType, ValueType >
+isEmptyElement() : irr::io::IIrrXMLReader< char_type, super_class >
+isEnabled() : irr::gui::IGUIElement
+isEventReceiverEnabled() : irr::scene::ISceneNodeAnimator
+isFalling() : irr::scene::ISceneNodeAnimatorCollisionResponse
+isFrontFacing() : irr::core::triangle3d< T > , irr::core::plane3d< T >
+isFullInside() : irr::core::aabbox3d< T >
+isFullscreen() : irr::IrrlichtDevice
+IShader() : irr::scene::quake3::IShader
+IShadowVolumeSceneNode() : irr::scene::IShadowVolumeSceneNode
+isIdentity() : irr::core::CMatrix4< T >
+isIdentity_integer_base() : irr::core::CMatrix4< T >
+isImageScaled() : irr::gui::IGUIImage
+isInputReceiverEnabled() : irr::scene::ICameraSceneNode
+isItemChecked() : irr::gui::IGUIContextMenu
+isItemEnabled() : irr::gui::IGUIContextMenu
+isLeftPressed() : irr::SEvent::SMouseInput
+isMeshLoaded() : irr::scene::IMeshCache
+isMiddlePressed() : irr::SEvent::SMouseInput
+isMultiLineEnabled() : irr::gui::IGUIEditBox
+isMyChild() : irr::gui::IGUIElement
+isNotClipped() : irr::gui::IGUIElement
+isOrthogonal() : irr::scene::ICameraSceneNode , irr::core::CMatrix4< T >
+isOverrideColorEnabled() : irr::gui::IGUIStaticText
+isPasswordBox() : irr::gui::IGUIEditBox
+isPointBetweenStartAndEnd() : irr::core::line3d< T > , irr::core::line2d< T >
+isPointInside() : irr::gui::IGUIElement , irr::core::rect< T > , irr::core::triangle3d< T > , irr::core::aabbox3d< T >
+isPointInsideFast() : irr::core::triangle3d< T >
+isPointOnLine() : irr::core::line2d< T >
+isPointTotalInside() : irr::core::aabbox3d< T >
+isPressed() : irr::gui::IGUIButton
+isPushButton() : irr::gui::IGUIButton
+isReadOnlyMaterials() : irr::scene::IAnimatedMeshSceneNode , irr::scene::IMeshSceneNode
+isReady() : irr::gui::IGUIInOutFader
+isRectCollided() : irr::core::rect< T >
+isRenderTarget() : irr::video::ITexture
+isRenderTargetOnlyFormat() : irr::video::IImage
+isRightPressed() : irr::SEvent::SMouseInput
+isRoot() : irr::gui::IGUITreeViewNode
+isScalingImage() : irr::gui::IGUIButton
+isStatic() : irr::scene::ISkinnedMesh
+isStopped() : irr::ITimer
+isSubElement() : irr::gui::IGUIElement
+isTabGroup() : irr::gui::IGUIElement
+isTabStop() : irr::gui::IGUIElement
+isTotalInsideBox() : irr::core::triangle3d< T >
+isTotalOutsideBox() : irr::core::triangle3d< T >
+isTransparent() : irr::video::SMaterial , irr::video::IMaterialRenderer
+isTrulyVisible() : irr::scene::ISceneNode
+isUsingNormalDirection() : irr::scene::IParticleMeshEmitter , irr::scene::IParticleAnimatedMeshSceneNodeEmitter
+isValid() : irr::scene::quake3::SVariable , irr::core::rect< T >
+isVisible() : irr::gui::IGUITreeViewNode , irr::gui::IGUIElement , irr::gui::ICursorControl , irr::scene::ISceneNode
+isWindowActive() : irr::IrrlichtDevice
+isWindowFocused() : irr::IrrlichtDevice
+isWindowMinimized() : irr::IrrlichtDevice
+isWordWrapEnabled() : irr::gui::IGUIEditBox , irr::gui::IGUIStaticText
+Iterator() : irr::core::map< KeyType, ValueType >::Iterator , irr::core::list< T >::Iterator , irr::core::map< KeyType, ValueType >::Iterator
+ITerrainSceneNode() : irr::scene::ITerrainSceneNode
+ITextSceneNode() : irr::scene::ITextSceneNode
+ITexture() : irr::video::ITexture
+IVolumeLightSceneNode() : irr::scene::IVolumeLightSceneNode
+
+
+
+- j -
+
+jump() : irr::scene::ISceneNodeAnimatorCollisionResponse
+
+
+
+- l -
+
+lastChar() : irr::core::string< T, TAlloc >
+line2d() : irr::core::line2d< T >
+line3d() : irr::core::line3d< T >
+linear_reverse_search() : irr::core::array< T, TAlloc >
+linear_search() : irr::core::array< T, TAlloc >
+list() : irr::core::list< T >
+loadGUI() : irr::gui::IGUIEnvironment
+loadHeightMap() : irr::scene::ITerrainSceneNode
+loadHeightMapRAW() : irr::scene::ITerrainSceneNode
+loadImage() : irr::video::IImageLoader
+loadScene() : irr::scene::ISceneManager
+lock() : irr::video::IImage , irr::video::ITexture
+log() : irr::ILogger
+lower_ignore_case() : irr::core::string< T, TAlloc >
+
+
+
+- m -
+
+make_lower() : irr::core::string< T, TAlloc >
+make_upper() : irr::core::string< T, TAlloc >
+makeColorKeyTexture() : irr::video::IVideoDriver
+makeIdentity() : irr::core::CMatrix4< T > , irr::core::quaternion
+makeInverse() : irr::core::quaternion , irr::core::CMatrix4< T >
+makeNormalMapTexture() : irr::video::IVideoDriver
+makePlanarTextureMapping() : irr::scene::IMeshManipulator
+map() : irr::core::map< KeyType, ValueType >
+maximizeWindow() : irr::IrrlichtDevice
+minimizeWindow() : irr::IrrlichtDevice
+move() : irr::gui::IGUIElement
+moveChildDown() : irr::gui::IGUITreeViewNode
+moveChildUp() : irr::gui::IGUITreeViewNode
+moveFileArchive() : irr::io::IFileSystem
+multiplyWith1x4Matrix() : irr::core::CMatrix4< T >
+
+
+
+- n -
+
+normalize() : irr::core::quaternion , irr::core::vector3d< T > , irr::core::vector2d< T >
+
+
+
+- o -
+
+OnAnimate() : irr::scene::IBoneSceneNode , irr::scene::ISceneNode
+OnAnimationEnd() : irr::scene::IAnimationEndCallBack
+onCollision() : irr::scene::ICollisionCallback
+OnCreateNode() : irr::scene::ISceneUserDataSerializer
+OnEvent() : irr::gui::IGUIElement , irr::scene::ISceneNodeAnimator , irr::scene::ICameraSceneNode , irr::IEventReceiver
+OnNodePostRender() : irr::scene::ILightManager
+OnNodePreRender() : irr::scene::ILightManager
+OnPostRender() : irr::gui::IGUIElement , irr::scene::ILightManager
+OnPreRender() : irr::scene::ILightManager
+OnReadUserData() : irr::scene::ISceneUserDataSerializer
+OnRegisterSceneNode() : irr::scene::ISceneNode
+OnRender() : irr::video::IMaterialRenderer
+OnRenderPassPostRender() : irr::scene::ILightManager
+OnRenderPassPreRender() : irr::scene::ILightManager
+OnResize() : irr::video::IVideoDriver
+OnSetConstants() : irr::video::IShaderConstantSetCallBack
+OnSetMaterial() : irr::video::IMaterialRenderer , irr::video::IShaderConstantSetCallBack
+OnUnsetMaterial() : irr::video::IMaterialRenderer
+operator core::stringc() : irr::io::SNamedPath
+operator core::stringw() : irr::io::SNamedPath
+operator ValueType() : irr::core::map< KeyType, ValueType >::AccessClass
+operator!=() : irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::string< T, TAlloc > , irr::core::line2d< T > , irr::core::line3d< T > , irr::core::CMatrix4< T > , irr::core::plane3d< T > , irr::core::quaternion , irr::core::rect< T > , irr::video::S3DVertex , irr::video::S3DVertex2TCoords , irr::video::S3DVertexTangents , irr::video::SColor , irr::video::SMaterial , irr::video::SMaterialLayer , irr::core::triangle3d< T > , irr::core::vector2d< T > , irr::core::vector3d< T > , irr::core::aabbox3d< T > , irr::core::dimension2d< T > , irr::core::array< T, TAlloc >
+operator()() : irr::scene::SVertexColorDesaturateToLightnessManipulator , irr::scene::SVertexColorDesaturateToAverageManipulator , irr::scene::SVertexColorDesaturateToLuminanceManipulator , irr::scene::SVertexColorInterpolateLinearManipulator , irr::scene::SVertexColorInterpolateQuadraticManipulator , irr::scene::SVertexPositionScaleManipulator , irr::scene::SVertexPositionScaleAlongNormalsManipulator , irr::scene::SVertexPositionTransformManipulator , irr::scene::SVertexTCoordsScaleManipulator , irr::core::CMatrix4< T > , irr::scene::SVertexColorSetManipulator , irr::scene::SVertexColorSetAlphaManipulator , irr::scene::SVertexColorInvertManipulator , irr::scene::SVertexColorThresholdManipulator , irr::scene::SVertexColorBrightnessManipulator , irr::scene::SVertexColorContrastManipulator , irr::scene::SVertexColorContrastBrightnessManipulator , irr::scene::SVertexColorGammaManipulator , irr::scene::SVertexColorScaleManipulator
+operator*() : irr::core::dimension2d< T > , irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::map< KeyType, ValueType >::Iterator , irr::core::map< KeyType, ValueType >::ParentFirstIterator , irr::core::map< KeyType, ValueType >::ParentLastIterator , irr::core::CMatrix4< T > , irr::core::quaternion , irr::core::vector2d< T > , irr::core::vector3d< T >
+operator*=() : irr::core::dimension2d< T > , irr::core::CMatrix4< T > , irr::core::quaternion , irr::core::vector2d< T > , irr::core::vector3d< T >
+operator+() : irr::core::dimension2d< T > , irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::string< T, TAlloc > , irr::core::line2d< T > , irr::core::line3d< T > , irr::core::CMatrix4< T > , irr::core::quaternion , irr::core::rect< T > , irr::video::SColor , irr::core::vector2d< T > , irr::core::vector3d< T >
+operator++() : irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::map< KeyType, ValueType >::Iterator , irr::core::map< KeyType, ValueType >::ParentFirstIterator , irr::core::map< KeyType, ValueType >::ParentLastIterator
+operator+=() : irr::core::string< T, TAlloc > , irr::core::line2d< T > , irr::core::line3d< T > , irr::core::CMatrix4< T > , irr::core::rect< T > , irr::core::vector2d< T > , irr::core::vector3d< T > , irr::core::dimension2d< T > , irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::string< T, TAlloc >
+operator-() : irr::core::vector2d< T > , irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::line2d< T > , irr::core::line3d< T > , irr::core::CMatrix4< T > , irr::core::rect< T > , irr::core::vector2d< T > , irr::core::vector3d< T >
+operator--() : irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::map< KeyType, ValueType >::Iterator , irr::core::list< T >::Iterator
+operator-=() : irr::core::dimension2d< T > , irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::line2d< T > , irr::core::line3d< T > , irr::core::CMatrix4< T > , irr::core::rect< T > , irr::core::vector2d< T > , irr::core::vector3d< T > , irr::core::vector2d< T >
+operator->() : irr::core::list< T >::Iterator , irr::core::list< T >::ConstIterator , irr::core::map< KeyType, ValueType >::Iterator , irr::core::map< KeyType, ValueType >::ParentLastIterator , irr::core::map< KeyType, ValueType >::ParentFirstIterator
+operator/() : irr::core::dimension2d< T > , irr::core::vector2d< T > , irr::core::vector3d< T >
+operator/=() : irr::core::vector3d< T > , irr::core::vector2d< T > , irr::core::dimension2d< T >
+operator<() : irr::scene::quake3::SVariable , irr::scene::quake3::IShader , irr::core::vector2d< T > , irr::video::SColor , irr::io::SNamedPath , irr::core::rect< T > , irr::video::S3DVertex , irr::video::S3DVertexTangents , irr::core::string< T, TAlloc > , irr::video::S3DVertex2TCoords , irr::core::vector3d< T >
+operator<=() : irr::core::vector3d< T > , irr::core::vector2d< T >
+operator=() : irr::video::SMaterial , irr::core::string< T, TAlloc > , irr::core::CMatrix4< T > , irr::core::quaternion , irr::core::string< T, TAlloc > , irr::core::map< KeyType, ValueType >::ParentFirstIterator , irr::core::dimension2d< T > , irr::scene::quake3::IShader , irr::scene::SMD3QuaternionTagList , irr::core::map< KeyType, ValueType >::ParentLastIterator , irr::core::list< T > , irr::core::map< KeyType, ValueType >::AccessClass , irr::core::CMatrix4< T > , irr::video::SMaterialLayer , irr::SIrrlichtCreationParameters , irr::core::list< T >::ConstIterator , irr::core::vector2d< T > , irr::core::map< KeyType, ValueType >::Iterator , irr::scene::SMD3QuaternionTag , irr::core::array< T, TAlloc > , irr::core::vector3d< T >
+operator==() : irr::core::list< T >::ConstIterator , irr::video::S3DVertex , irr::video::SMaterialLayer , irr::scene::quake3::SVariable , irr::core::array< T, TAlloc > , irr::core::string< T, TAlloc > , irr::core::line2d< T > , irr::core::triangle3d< T > , irr::core::rect< T > , irr::core::quaternion , irr::core::dimension2d< T > , irr::core::CMatrix4< T > , irr::core::dimension2d< T > , irr::video::S3DVertex2TCoords , irr::core::line3d< T > , irr::video::SColor , irr::core::vector2d< T > , irr::core::aabbox3d< T > , irr::scene::SMD3QuaternionTag , irr::video::SMaterial , irr::core::list< T >::Iterator , irr::core::plane3d< T > , irr::video::S3DVertexTangents , irr::core::list< T >::Iterator , irr::core::vector3d< T > , irr::core::list< T >::ConstIterator , irr::core::string< T, TAlloc > , irr::scene::quake3::IShader
+operator>() : irr::core::vector2d< T > , irr::core::vector3d< T >
+operator>=() : irr::core::vector2d< T > , irr::core::vector3d< T >
+operator[]() : irr::core::array< T, TAlloc > , irr::core::string< T, TAlloc > , irr::scene::CIndexBuffer , irr::core::array< T, TAlloc > , irr::scene::IVertexBuffer , irr::scene::SMD3QuaternionTagList , irr::core::string< T, TAlloc > , irr::scene::SMD3QuaternionTagList , irr::core::CMatrix4< T > , irr::scene::IIndexBuffer , irr::scene::CVertexBuffer , irr::core::map< KeyType, ValueType > , irr::core::CMatrix4< T >
+orderRows() : irr::gui::IGUITable
+overrideLODDistance() : irr::scene::ITerrainSceneNode
+
+
+
+- p -
+
+ParentFirstIterator() : irr::core::map< KeyType, ValueType >::ParentFirstIterator
+ParentLastIterator() : irr::core::map< KeyType, ValueType >::ParentLastIterator
+PathToName() : irr::io::SNamedPath
+plane3d() : irr::core::plane3d< T >
+pointer() : irr::core::CMatrix4< T > , irr::scene::CIndexBuffer , irr::scene::CVertexBuffer , irr::scene::IIndexBuffer , irr::core::array< T, TAlloc > , irr::scene::IVertexBuffer
+postEventFromUser() : irr::gui::IGUIEnvironment , irr::IrrlichtDevice , irr::scene::ISceneManager
+push_back() : irr::scene::CIndexBuffer , irr::scene::SMD3QuaternionTagList , irr::core::list< T > , irr::scene::CVertexBuffer , irr::scene::IVertexBuffer , irr::scene::IIndexBuffer , irr::core::array< T, TAlloc >
+push_front() : irr::core::array< T, TAlloc > , irr::core::list< T >
+
+
+
+- q -
+
+Q3LevelLoadParameter() : irr::scene::quake3::Q3LevelLoadParameter
+quaternion() : irr::core::quaternion
+queryFeature() : irr::video::IVideoDriver
+
+
+
+- r -
+
+read() : irr::io::IAttributes , irr::io::IReadFile , irr::io::IIrrXMLReader< char_type, super_class > , irr::io::IFileReadCallBack
+readGUIElement() : irr::gui::IGUIEnvironment
+reallocate() : irr::scene::IIndexBuffer , irr::core::array< T, TAlloc > , irr::scene::IVertexBuffer , irr::scene::CIndexBuffer , irr::scene::CVertexBuffer
+recalculateAbsolutePosition() : irr::gui::IGUIElement
+recalculateBoundingBox() : irr::scene::SAnimatedMesh , irr::scene::SMesh , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer , irr::scene::SViewFrustum , irr::scene::CDynamicMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMeshBuffer
+recalculateD() : irr::core::plane3d< T >
+recalculateNormals() : irr::scene::IMeshManipulator
+recalculateTangents() : irr::scene::IMeshManipulator
+rect() : irr::core::rect< T >
+regenerateMipMapLevels() : irr::video::ITexture
+registerGUIElementFactory() : irr::gui::IGUIEnvironment
+registerNodeForRendering() : irr::scene::ISceneManager
+registerSceneNodeAnimatorFactory() : irr::scene::ISceneManager
+registerSceneNodeFactory() : irr::scene::ISceneManager
+remove() : irr::gui::IGUIElement , irr::core::map< KeyType, ValueType > , irr::core::string< T, TAlloc > , irr::scene::ISceneNode
+removeAll() : irr::scene::ISceneNode
+removeAllAffectors() : irr::scene::IParticleSystemSceneNode
+removeAllHardwareBuffers() : irr::video::IVideoDriver
+removeAllItems() : irr::gui::IGUIContextMenu
+removeAllTextures() : irr::video::IVideoDriver
+removeAllTriangleSelectors() : irr::scene::IMetaTriangleSelector
+removeAnimator() : irr::scene::ISceneNode
+removeAnimators() : irr::scene::ISceneNode
+removeChars() : irr::core::string< T, TAlloc >
+removeChild() : irr::gui::IGUIElement , irr::scene::ISceneNode
+removeColumn() : irr::gui::IGUITable
+removeFileArchive() : irr::io::IFileSystem
+removeFocus() : irr::gui::IGUIEnvironment
+removeHardwareBuffer() : irr::video::IVideoDriver
+removeItem() : irr::gui::IGUIComboBox , irr::gui::IGUIContextMenu , irr::gui::IGUIListBox
+removeMesh() : irr::scene::IMeshCache
+removeRow() : irr::gui::IGUITable
+removeTexture() : irr::video::IVideoDriver
+removeTriangleSelector() : irr::scene::IMetaTriangleSelector
+renameMesh() : irr::scene::IMeshCache
+renameTexture() : irr::video::IVideoDriver
+render() : irr::scene::ISceneNode , irr::scene::IBoneSceneNode
+repair() : irr::core::aabbox3d< T > , irr::core::rect< T >
+replace() : irr::core::string< T, TAlloc >
+reserve() : irr::core::string< T, TAlloc >
+reset() : irr::core::aabbox3d< T > , irr::core::map< KeyType, ValueType >::Iterator , irr::core::map< KeyType, ValueType >::ParentFirstIterator , irr::core::aabbox3d< T > , irr::core::map< KeyType, ValueType >::ParentLastIterator
+restoreWindow() : irr::IrrlichtDevice
+rotateBy() : irr::core::vector2d< T >
+rotateVect() : irr::core::CMatrix4< T >
+rotateXYBy() : irr::core::vector3d< T >
+rotateXZBy() : irr::core::vector3d< T >
+rotateYZBy() : irr::core::vector3d< T >
+rotationFromTo() : irr::core::quaternion
+rotationToDirection() : irr::core::vector3d< T >
+run() : irr::IrrlichtDevice
+
+
+
+- s -
+
+S3DVertex() : irr::video::S3DVertex
+S3DVertex2TCoords() : irr::video::S3DVertex2TCoords
+S3DVertexTangents() : irr::video::S3DVertexTangents
+SAnimatedMesh() : irr::scene::SAnimatedMesh
+SAttributeReadWriteOptions() : irr::io::SAttributeReadWriteOptions
+saveGUI() : irr::gui::IGUIEnvironment
+saveScene() : irr::scene::ISceneManager
+SBlendFunc() : irr::scene::quake3::SBlendFunc
+scale() : irr::scene::IMeshManipulator
+scaleMesh() : irr::scene::IMeshManipulator
+scaleTCoords() : irr::scene::IMeshManipulator
+scaleTexture() : irr::scene::ITerrainSceneNode
+SColor() : irr::video::SColor
+SColorf() : irr::video::SColorf
+SColorHSL() : irr::video::SColorHSL
+seek() : irr::io::IReadFile , irr::io::IWriteFile
+serializeAttributes() : irr::io::IAttributeExchangingObject , irr::gui::IGUIElement , irr::gui::IGUIEnvironment , irr::scene::ISceneNode
+set() : irr::core::dimension2d< T > , irr::scene::quake3::SVarGroup , irr::core::map< KeyType, ValueType > , irr::core::quaternion , irr::video::SColor , irr::video::SColorf , irr::core::triangle3d< T > , irr::core::vector2d< T > , irr::core::vector3d< T >
+set_free_when_destroyed() : irr::core::array< T, TAlloc >
+set_pointer() : irr::core::array< T, TAlloc >
+set_sorted() : irr::core::array< T, TAlloc >
+set_used() : irr::scene::IIndexBuffer , irr::core::array< T, TAlloc > , irr::scene::IVertexBuffer , irr::scene::CIndexBuffer , irr::scene::CVertexBuffer , irr::scene::SMD3QuaternionTagList
+setActiveCamera() : irr::scene::ISceneManager
+setActiveColumn() : irr::gui::IGUITable
+setActiveTab() : irr::gui::IGUITabControl
+setAffectX() : irr::scene::IParticleAttractionAffector
+setAffectY() : irr::scene::IParticleAttractionAffector
+setAffectZ() : irr::scene::IParticleAttractionAffector
+setAlignment() : irr::gui::IGUIElement
+setAllocStrategy() : irr::core::array< T, TAlloc >
+setAllowZWriteOnTransparent() : irr::video::IVideoDriver
+setAlpha() : irr::video::SColor
+setAmbientLight() : irr::scene::ISceneManager , irr::video::IVideoDriver
+setAnimatedMeshSceneNode() : irr::scene::IParticleAnimatedMeshSceneNodeEmitter
+setAnimateTarget() : irr::scene::ISceneNodeAnimatorCollisionResponse
+setAnimationEndCallback() : irr::scene::IAnimatedMeshSceneNode
+setAnimationMode() : irr::scene::IBoneSceneNode
+setAnimationSpeed() : irr::scene::IAnimatedMeshSceneNode
+setAspectRatio() : irr::scene::ICameraSceneNode
+setAttract() : irr::scene::IParticleAttractionAffector
+setAttribute() : irr::io::IAttributes
+setAutomaticCulling() : irr::scene::ISceneNode
+setAutoScroll() : irr::gui::IGUIEditBox
+setAutoScrollEnabled() : irr::gui::IGUIListBox
+setBackgroundColor() : irr::gui::IGUIStaticText , irr::gui::IGUITab
+setBasicRenderStates() : irr::video::IMaterialRendererServices
+setBlue() : irr::video::SColor
+setBoundingBox() : irr::scene::CDynamicMeshBuffer , irr::scene::CMeshBuffer< T > , irr::scene::IDynamicMeshBuffer , irr::scene::IMesh , irr::scene::IMeshBuffer , irr::scene::SAnimatedMesh , irr::scene::SMesh , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+setBox() : irr::scene::IParticleBoxEmitter
+setbyproduct() : irr::core::CMatrix4< T >
+setbyproduct_nocheck() : irr::core::CMatrix4< T >
+setCameraMovementDelta() : irr::scene::ITerrainSceneNode
+setCameraRotationDelta() : irr::scene::ITerrainSceneNode
+setCellColor() : irr::gui::IGUITable
+setCellData() : irr::gui::IGUITable
+setCellText() : irr::gui::IGUITable
+setCenter() : irr::scene::IParticleCylinderEmitter , irr::scene::IParticleRingEmitter , irr::scene::IParticleSphereEmitter
+setChecked() : irr::gui::IGUICheckBox
+setClipPlane() : irr::video::IVideoDriver
+setCloseHandling() : irr::gui::IGUIContextMenu
+setCollisionCallback() : irr::scene::ISceneNodeAnimatorCollisionResponse
+setColor() : irr::scene::IBillboardSceneNode , irr::scene::IBillboardTextSceneNode , irr::gui::IGUIImage , irr::gui::IGUIInOutFader , irr::gui::IGUISkin
+setColorComponentValue() : irr::video::SColorf
+setColumnOrdering() : irr::gui::IGUITable
+setColumnWidth() : irr::gui::IGUITable
+setCurrentFrame() : irr::scene::IAnimatedMeshSceneNode
+setData() : irr::gui::IGUITreeViewNode
+setData2() : irr::gui::IGUITreeViewNode
+setDebugDataVisible() : irr::scene::ISceneNode
+setDebugName() : irr::IReferenceCounted
+setDecimalPlaces() : irr::gui::IGUISpinBox
+setDefaultText() : irr::gui::IGUISkin
+setDefinitelyIdentityMatrix() : irr::core::CMatrix4< T >
+setDirection() : irr::scene::IParticleEmitter
+setDirty() : irr::scene::CIndexBuffer , irr::scene::CMeshBuffer< T > , irr::scene::CVertexBuffer , irr::scene::IDynamicMeshBuffer , irr::scene::IIndexBuffer , irr::scene::IMesh , irr::scene::IMeshBuffer , irr::scene::IVertexBuffer , irr::scene::SAnimatedMesh , irr::scene::SMesh , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+setDraggable() : irr::gui::IGUIWindow
+setDrawBackground() : irr::gui::IGUIListBox , irr::gui::IGUIStaticText , irr::gui::IGUITab , irr::gui::IGUIWindow
+setDrawBorder() : irr::gui::IGUIButton , irr::gui::IGUIEditBox , irr::gui::IGUIStaticText
+setDrawFlags() : irr::gui::IGUITable
+setDrawTitlebar() : irr::gui::IGUIWindow
+setDynamicSelectorUpdate() : irr::scene::ITerrainSceneNode
+setEllipsoidRadius() : irr::scene::ISceneNodeAnimatorCollisionResponse
+setEllipsoidTranslation() : irr::scene::ISceneNodeAnimatorCollisionResponse
+setEmitter() : irr::scene::IParticleSystemSceneNode
+setEnabled() : irr::gui::IGUIElement , irr::scene::IParticleAffector
+setEventParent() : irr::gui::IGUIContextMenu
+setEventReceiver() : irr::IrrlichtDevice
+setEveryMeshVertex() : irr::scene::IParticleAnimatedMeshSceneNodeEmitter , irr::scene::IParticleMeshEmitter
+setExpanded() : irr::gui::IGUITreeViewNode
+setFadeOutTime() : irr::scene::IParticleFadeOutAffector
+setFarValue() : irr::scene::ICameraSceneNode
+setFileListSystem() : irr::io::IFileSystem
+setFlag() : irr::video::SMaterial
+setFocus() : irr::gui::IGUIEnvironment
+setFog() : irr::video::IVideoDriver
+setFont() : irr::gui::IGUISkin
+setFootColor() : irr::scene::IVolumeLightSceneNode
+setFOV() : irr::scene::ICameraSceneNode
+setFrameLoop() : irr::scene::IAnimatedMeshSceneNode
+setFrom() : irr::scene::SViewFrustum
+setGammaRamp() : irr::IrrlichtDevice
+setGravity() : irr::scene::IParticleGravityAffector , irr::scene::ISceneNodeAnimatorCollisionResponse
+setGreen() : irr::video::SColor
+setHardwareMappingHint() : irr::scene::CIndexBuffer , irr::scene::CMeshBuffer< T > , irr::scene::CVertexBuffer , irr::scene::IDynamicMeshBuffer , irr::scene::IIndexBuffer , irr::scene::IMesh , irr::scene::IMeshBuffer , irr::scene::IVertexBuffer , irr::scene::SAnimatedMesh , irr::scene::SMesh , irr::scene::SSharedMeshBuffer , irr::scene::SSkinMeshBuffer
+setHardwareSkinning() : irr::scene::ISkinnedMesh
+setIcon() : irr::gui::IGUISkin , irr::gui::IGUITreeViewNode
+setIconFont() : irr::gui::IGUITreeView
+setID() : irr::gui::IGUIElement , irr::scene::ISceneNode
+setImage() : irr::gui::IGUIButton , irr::gui::IGUIImage
+setImageIndex() : irr::gui::IGUITreeViewNode
+setImageLeftOfIcon() : irr::gui::IGUITreeView
+setImageList() : irr::gui::IGUITreeView
+setIndexBuffer() : irr::scene::IDynamicMeshBuffer , irr::scene::CDynamicMeshBuffer
+setInputReceiverEnabled() : irr::scene::ICameraSceneNode
+setInputReceivingSceneManager() : irr::IrrlichtDevice
+setInterpolationMode() : irr::scene::ISkinnedMesh
+setInterpolationShift() : irr::scene::IAnimatedMeshMD3
+setInverseRotationDegrees() : irr::core::CMatrix4< T >
+setInverseRotationRadians() : irr::core::CMatrix4< T >
+setInverseTranslation() : irr::core::CMatrix4< T >
+setInvertMouse() : irr::scene::ISceneNodeAnimatorCameraFPS
+setInvisibleCharacters() : irr::gui::IGUIFont
+setIsDebugObject() : irr::scene::ISceneNode
+setIsPushButton() : irr::gui::IGUIButton
+setItem() : irr::gui::IGUIListBox
+setItemAutoChecking() : irr::gui::IGUIContextMenu
+setItemChecked() : irr::gui::IGUIContextMenu
+setItemCommandId() : irr::gui::IGUIContextMenu
+setItemEnabled() : irr::gui::IGUIContextMenu
+setItemHeight() : irr::gui::IGUIListBox
+setItemOverrideColor() : irr::gui::IGUIListBox
+setItemText() : irr::gui::IGUIContextMenu
+setJointMode() : irr::scene::IAnimatedMeshSceneNode
+setKerningHeight() : irr::gui::IGUIFont
+setKerningWidth() : irr::gui::IGUIFont
+setKeyMap() : irr::scene::ISceneNodeAnimatorCameraFPS
+setLargeStep() : irr::gui::IGUIScrollBar
+setLength() : irr::scene::IParticleCylinderEmitter , irr::core::vector3d< T >
+setLightData() : irr::scene::ILightSceneNode
+setLightManager() : irr::scene::ISceneManager
+setLightType() : irr::scene::ILightSceneNode
+setLine() : irr::core::line2d< T > , irr::core::line3d< T >
+setLinesVisible() : irr::gui::IGUITreeView
+setLODOfPatch() : irr::scene::ITerrainSceneNode
+setLogLevel() : irr::ILogger
+setLoopMode() : irr::scene::IAnimatedMeshSceneNode
+setM() : irr::core::CMatrix4< T >
+setMaterial() : irr::video::IVideoDriver , irr::gui::IGUIMeshViewer
+setMaterialFlag() : irr::scene::SMesh , irr::scene::IMesh , irr::scene::ISceneNode , irr::scene::SAnimatedMesh
+setMaterialRendererName() : irr::video::IVideoDriver
+setMaterialTexture() : irr::scene::ISceneNode
+setMaterialType() : irr::scene::ISceneNode
+setMax() : irr::gui::IGUIEditBox , irr::gui::IGUIScrollBar
+setMaxParticlesPerSecond() : irr::scene::IParticleEmitter
+setMaxSize() : irr::gui::IGUIElement
+setMaxStartColor() : irr::scene::IParticleEmitter
+setMaxStartSize() : irr::scene::IParticleEmitter
+setMD2Animation() : irr::scene::IAnimatedMeshSceneNode
+setMesh() : irr::scene::IAnimatedMeshSceneNode , irr::gui::IGUIMeshViewer , irr::scene::IMeshSceneNode , irr::scene::IParticleMeshEmitter
+setMeshFilename() : irr::scene::IMeshCache
+setMin() : irr::gui::IGUIScrollBar
+setMinHardwareBufferVertexCount() : irr::video::IVideoDriver
+setMinParticlesPerSecond() : irr::scene::IParticleEmitter
+setMinSize() : irr::gui::IGUIElement
+setMinStartColor() : irr::scene::IParticleEmitter
+setMinStartSize() : irr::scene::IParticleEmitter
+setMoveSpeed() : irr::scene::ISceneNodeAnimatorCameraFPS , irr::scene::ISceneNodeAnimatorCameraMaya
+setMultiLine() : irr::gui::IGUIEditBox
+setName() : irr::scene::ISceneNode
+setNearValue() : irr::scene::ICameraSceneNode
+setNormal() : irr::scene::IParticleCylinderEmitter
+setNormalDirectionModifier() : irr::scene::IParticleMeshEmitter , irr::scene::IParticleAnimatedMeshSceneNodeEmitter
+setNotClipped() : irr::gui::IGUIElement
+setOutlineOnly() : irr::scene::IParticleCylinderEmitter
+setOverrideColor() : irr::gui::IGUIEditBox , irr::gui::IGUIStaticText
+setOverrideFont() : irr::gui::IGUIButton , irr::gui::IGUIEditBox , irr::gui::IGUIStaticText
+setParent() : irr::scene::ISceneNode
+setParticlesAreGlobal() : irr::scene::IParticleSystemSceneNode
+setParticleSize() : irr::scene::IParticleSystemSceneNode
+setPasswordBox() : irr::gui::IGUIEditBox
+setPath() : irr::io::SNamedPath
+setPivotPoint() : irr::scene::IParticleRotationAffector
+setPixel() : irr::video::IImage
+setPixelShaderConstant() : irr::video::IMaterialRendererServices
+setPlane() : irr::core::plane3d< T >
+setPoint() : irr::scene::IParticleAttractionAffector
+setPos() : irr::gui::IGUIScrollBar
+setPosition() : irr::gui::ICursorControl , irr::scene::ISceneNode , irr::gui::ICursorControl
+setPressed() : irr::gui::IGUIButton
+setPressedImage() : irr::gui::IGUIButton
+setProjectionMatrix() : irr::scene::ICameraSceneNode
+setRadius() : irr::scene::IParticleCylinderEmitter , irr::scene::IParticleRingEmitter , irr::scene::IParticleSphereEmitter , irr::scene::ILightSceneNode
+setRange() : irr::gui::IGUISpinBox
+setReadOnlyMaterials() : irr::scene::IAnimatedMeshSceneNode , irr::scene::IMeshSceneNode
+setRed() : irr::video::SColor
+setReferenceRect() : irr::gui::ICursorControl
+setRelativePosition() : irr::gui::IGUIElement
+setRelativePositionProportional() : irr::gui::IGUIElement
+setRenderFromIdentity() : irr::scene::IAnimatedMeshSceneNode
+setRenderTarget() : irr::video::IVideoDriver
+setResizable() : irr::IrrlichtDevice
+setResizableColumns() : irr::gui::IGUITable
+setRingThickness() : irr::scene::IParticleRingEmitter
+setRotateSpeed() : irr::scene::ISceneNodeAnimatorCameraFPS , irr::scene::ISceneNodeAnimatorCameraMaya
+setRotation() : irr::scene::ICameraSceneNode , irr::scene::ISceneNode
+setRotationCenter() : irr::core::CMatrix4< T >
+setRotationDegrees() : irr::core::CMatrix4< T >
+setRotationRadians() : irr::core::CMatrix4< T >
+setScale() : irr::core::CMatrix4< T > , irr::scene::ISceneNode
+setScaleImage() : irr::gui::IGUIButton , irr::gui::IGUIImage
+setSceneManager() : irr::scene::ISceneNode
+setSelected() : irr::gui::IGUIComboBox , irr::gui::IGUITable , irr::gui::IGUIListBox , irr::gui::IGUITreeViewNode
+setSelectedImageIndex() : irr::gui::IGUITreeViewNode
+setShadowColor() : irr::scene::ISceneManager
+setShadowMesh() : irr::scene::IShadowVolumeSceneNode
+setSize() : irr::scene::IBillboardSceneNode , irr::scene::IBillboardTextSceneNode , irr::gui::IGUISkin
+setSkin() : irr::gui::IGUIEnvironment
+setSkinningSpace() : irr::scene::IBoneSceneNode
+setSmallStep() : irr::gui::IGUIScrollBar
+setSpeed() : irr::scene::IParticleRotationAffector , irr::ITimer
+setSprite() : irr::gui::IGUIButton
+setSpriteBank() : irr::gui::IGUISkin , irr::gui::IGUIButton , irr::gui::IGUIListBox
+setStepSize() : irr::gui::IGUISpinBox
+setSubDivideU() : irr::scene::IVolumeLightSceneNode
+setSubDivideV() : irr::scene::IVolumeLightSceneNode
+setSubElement() : irr::gui::IGUIElement
+setTabExtraWidth() : irr::gui::IGUITabControl
+setTabGroup() : irr::gui::IGUIElement
+setTabHeight() : irr::gui::IGUITabControl
+setTabMaxWidth() : irr::gui::IGUITabControl
+setTabOrder() : irr::gui::IGUIElement
+setTabStop() : irr::gui::IGUIElement
+setTabVerticalAlignment() : irr::gui::IGUITabControl
+setTailColor() : irr::scene::IVolumeLightSceneNode
+setTarget() : irr::scene::ICameraSceneNode
+setTargetColor() : irr::scene::IParticleFadeOutAffector
+setTargetNode() : irr::scene::ISceneNodeAnimatorCollisionResponse
+setText() : irr::gui::IGUIElement , irr::scene::ITextSceneNode , irr::scene::IBillboardTextSceneNode , irr::gui::IGUITreeViewNode
+setTextAlignment() : irr::gui::IGUIEditBox , irr::gui::IGUIComboBox , irr::gui::IGUIStaticText
+setTextColor() : irr::scene::ITextSceneNode , irr::scene::IBillboardTextSceneNode , irr::gui::IGUITab
+setTexture() : irr::video::SMaterial , irr::gui::IGUISpriteBank
+setTextureCreationFlag() : irr::video::IVideoDriver
+setTextureMatrix() : irr::video::SMaterialLayer , irr::video::SMaterial
+setTextureRotationCenter() : irr::core::CMatrix4< T >
+setTextureScale() : irr::core::CMatrix4< T >
+setTextureScaleCenter() : irr::core::CMatrix4< T >
+setTextureTranslate() : irr::core::CMatrix4< T >
+setTextureTranslateTransposed() : irr::core::CMatrix4< T >
+setTime() : irr::ITimer
+setTimeForceLost() : irr::scene::IParticleGravityAffector
+setto() : irr::scene::SMD3QuaternionTag
+setToolTipText() : irr::gui::IGUIElement
+setTransform() : irr::video::IVideoDriver
+setTransitionTime() : irr::scene::IAnimatedMeshSceneNode
+setTranslation() : irr::core::CMatrix4< T >
+setTriangleSelector() : irr::scene::ISceneNode
+setType() : irr::scene::CVertexBuffer , irr::scene::IVertexBuffer , irr::scene::CIndexBuffer , irr::scene::IIndexBuffer
+setUpVector() : irr::scene::ICameraSceneNode
+setUseAlphaChannel() : irr::gui::IGUIButton , irr::gui::IGUIImage
+setUseNormalDirection() : irr::scene::IParticleAnimatedMeshSceneNodeEmitter , irr::scene::IParticleMeshEmitter
+setUserEventReceiver() : irr::gui::IGUIEnvironment
+setValue() : irr::gui::IGUISpinBox , irr::scene::CIndexBuffer , irr::scene::IIndexBuffer
+setVertexBuffer() : irr::scene::IDynamicMeshBuffer , irr::scene::CDynamicMeshBuffer
+setVertexColorAlpha() : irr::scene::IMeshManipulator
+setVertexColors() : irr::scene::IMeshManipulator
+setVertexShaderConstant() : irr::video::IMaterialRendererServices
+setVerticalMovement() : irr::scene::ISceneNodeAnimatorCameraFPS
+setViewMatrixAffector() : irr::scene::ICameraSceneNode
+setViewPort() : irr::video::IVideoDriver
+setVisible() : irr::scene::ISceneNode , irr::gui::IGUIElement , irr::scene::ILightSceneNode , irr::gui::ICursorControl
+setWindowCaption() : irr::IrrlichtDevice
+setWordWrap() : irr::gui::IGUIEditBox , irr::gui::IGUIStaticText
+setWorld() : irr::scene::ISceneNodeAnimatorCollisionResponse
+setZoomSpeed() : irr::scene::ISceneNodeAnimatorCameraMaya
+SExposedVideoData() : irr::video::SExposedVideoData
+SGUISprite() : irr::gui::SGUISprite
+SIrrlichtCreationParameters() : irr::SIrrlichtCreationParameters
+size() : irr::core::array< T, TAlloc > , irr::core::string< T, TAlloc > , irr::scene::CIndexBuffer , irr::core::list< T > , irr::scene::CVertexBuffer , irr::scene::SMD3QuaternionTagList , irr::core::map< KeyType, ValueType > , irr::scene::IVertexBuffer , irr::scene::IIndexBuffer
+SJoint() : irr::scene::ISkinnedMesh::SJoint
+skinMesh() : irr::scene::ISkinnedMesh
+sleep() : irr::IrrlichtDevice
+slerp() : irr::core::quaternion
+SLight() : irr::video::SLight
+SMaterial() : irr::video::SMaterial
+SMaterialLayer() : irr::video::SMaterialLayer
+SMD3Mesh() : irr::scene::SMD3Mesh
+SMD3QuaternionTag() : irr::scene::SMD3QuaternionTag
+SMD3QuaternionTagList() : irr::scene::SMD3QuaternionTagList
+SMesh() : irr::scene::SMesh
+SModifierFunction() : irr::scene::quake3::SModifierFunction
+SNamedPath() : irr::io::SNamedPath
+sort() : irr::io::IFileList , irr::core::array< T, TAlloc >
+SOverrideMaterial() : irr::video::SOverrideMaterial
+split() : irr::core::string< T, TAlloc >
+SSharedMeshBuffer() : irr::scene::SSharedMeshBuffer
+SSkinMeshBuffer() : irr::scene::SSkinMeshBuffer
+start() : irr::ITimer
+stop() : irr::ITimer
+stride() : irr::scene::IVertexBuffer , irr::scene::IIndexBuffer , irr::scene::CVertexBuffer , irr::scene::CIndexBuffer
+string() : irr::core::string< T, TAlloc >
+subString() : irr::core::string< T, TAlloc >
+SVarGroup() : irr::scene::quake3::SVarGroup
+SVarGroupList() : irr::scene::quake3::SVarGroupList
+SVariable() : irr::scene::quake3::SVariable
+SVertexColorBrightnessManipulator() : irr::scene::SVertexColorBrightnessManipulator
+SVertexColorContrastBrightnessManipulator() : irr::scene::SVertexColorContrastBrightnessManipulator
+SVertexColorContrastManipulator() : irr::scene::SVertexColorContrastManipulator
+SVertexColorGammaManipulator() : irr::scene::SVertexColorGammaManipulator
+SVertexColorInterpolateLinearManipulator() : irr::scene::SVertexColorInterpolateLinearManipulator
+SVertexColorInterpolateQuadraticManipulator() : irr::scene::SVertexColorInterpolateQuadraticManipulator
+SVertexColorScaleManipulator() : irr::scene::SVertexColorScaleManipulator
+SVertexColorSetAlphaManipulator() : irr::scene::SVertexColorSetAlphaManipulator
+SVertexColorSetManipulator() : irr::scene::SVertexColorSetManipulator
+SVertexColorThresholdManipulator() : irr::scene::SVertexColorThresholdManipulator
+SVertexPositionScaleAlongNormalsManipulator() : irr::scene::SVertexPositionScaleAlongNormalsManipulator
+SVertexPositionScaleManipulator() : irr::scene::SVertexPositionScaleManipulator
+SVertexPositionTransformManipulator() : irr::scene::SVertexPositionTransformManipulator
+SVertexTCoordsScaleManipulator() : irr::scene::SVertexTCoordsScaleManipulator
+SViewFrustum() : irr::scene::SViewFrustum
+swap() : irr::core::array< T, TAlloc > , irr::core::list< T > , irr::core::map< KeyType, ValueType >
+swapItems() : irr::gui::IGUIListBox
+swapRows() : irr::gui::IGUITable
+
+
+
+- t -
+
+tick() : irr::ITimer
+toA1R5G5B5() : irr::video::SColor
+toAngleAxis() : irr::core::quaternion
+toEuler() : irr::core::quaternion
+toOpenGLColor() : irr::video::SColor
+toRGB() : irr::video::SColorHSL
+toSColor() : irr::video::SColorf
+transform() : irr::scene::IMeshManipulator , irr::scene::SViewFrustum
+transformBox() : irr::core::CMatrix4< T >
+transformBoxEx() : irr::core::CMatrix4< T >
+transformMesh() : irr::scene::IMeshManipulator
+transformPlane() : irr::core::CMatrix4< T >
+transformVect() : irr::core::CMatrix4< T >
+translateVect() : irr::core::CMatrix4< T >
+triangle3d() : irr::core::triangle3d< T >
+trim() : irr::core::string< T, TAlloc >
+turnLightOn() : irr::video::IVideoDriver
+
+
+
+- u -
+
+unlock() : irr::video::IImage , irr::video::ITexture
+updateAbsolutePosition() : irr::scene::ISceneNode , irr::gui::IGUIElement
+updateAbsolutePositionOfAllChildren() : irr::scene::IBoneSceneNode
+updateNormalsWhenAnimating() : irr::scene::ISkinnedMesh
+updateShadowVolumes() : irr::scene::IShadowVolumeSceneNode
+useAnimationFrom() : irr::scene::ISkinnedMesh
+
+
+
+- v -
+
+validate() : irr::core::string< T, TAlloc >
+vector2d() : irr::core::vector2d< T >
+vector3d() : irr::core::vector3d< T >
+
+
+
+- w -
+
+write() : irr::io::IAttributes , irr::io::IWriteFile
+writeClosingTag() : irr::io::IXMLWriter
+writeComment() : irr::io::IXMLWriter
+writeElement() : irr::io::IXMLWriter
+writeGUIElement() : irr::gui::IGUIEnvironment
+writeImage() : irr::video::IImageWriter
+writeImageToFile() : irr::video::IVideoDriver
+writeLineBreak() : irr::io::IXMLWriter
+writeMesh() : irr::scene::IMeshWriter
+writeText() : irr::io::IXMLWriter
+writeXMLHeader() : irr::io::IXMLWriter
+
+
+
+- y -
+
+yield() : irr::IrrlichtDevice
+
+
+
+- ~ -
+
+~array() : irr::core::array< T, TAlloc >
+~CDynamicMeshBuffer() : irr::scene::CDynamicMeshBuffer
+~CIndexBuffer() : irr::scene::CIndexBuffer
+~CVertexBuffer() : irr::scene::CVertexBuffer
+~IAnimatedMeshSceneNode() : irr::scene::IAnimatedMeshSceneNode
+~IEventReceiver() : irr::IEventReceiver
+~IFileReadCallBack() : irr::io::IFileReadCallBack
+~IGPUProgrammingServices() : irr::video::IGPUProgrammingServices
+~IGUIElement() : irr::gui::IGUIElement
+~IGUIImageList() : irr::gui::IGUIImageList
+~IIrrXMLReader() : irr::io::IIrrXMLReader< char_type, super_class >
+~ILogger() : irr::ILogger
+~IMaterialRendererServices() : irr::video::IMaterialRendererServices
+~IMeshCache() : irr::scene::IMeshCache
+~IMeshLoader() : irr::scene::IMeshLoader
+~IMeshWriter() : irr::scene::IMeshWriter
+~IOSOperator() : irr::IOSOperator
+~IReferenceCounted() : irr::IReferenceCounted
+~irrAllocator() : irr::core::irrAllocator< T >
+~ISceneManager() : irr::scene::ISceneManager
+~ISceneNode() : irr::scene::ISceneNode
+~ISceneNodeAnimatorCollisionResponse() : irr::scene::ISceneNodeAnimatorCollisionResponse
+~ISceneNodeAnimatorFactory() : irr::scene::ISceneNodeAnimatorFactory
+~ISceneUserDataSerializer() : irr::scene::ISceneUserDataSerializer
+~IShader() : irr::scene::quake3::IShader
+~ITimer() : irr::ITimer
+~ITriangleSelector() : irr::scene::ITriangleSelector
+~IXMLWriter() : irr::io::IXMLWriter
+~list() : irr::core::list< T >
+~map() : irr::core::map< KeyType, ValueType >
+~SAnimatedMesh() : irr::scene::SAnimatedMesh
+~SMaterialLayer() : irr::video::SMaterialLayer
+~SMD3Mesh() : irr::scene::SMD3Mesh
+~SMD3QuaternionTag() : irr::scene::SMD3QuaternionTag
+~SMD3QuaternionTagList() : irr::scene::SMD3QuaternionTagList
+~SMesh() : irr::scene::SMesh
+~string() : irr::core::string< T, TAlloc >
+~SVarGroup() : irr::scene::quake3::SVarGroup
+~SVarGroupList() : irr::scene::quake3::SVarGroupList
+~SVariable() : irr::scene::quake3::SVariable
+
+
+
+#include "IrrCompileConfig.h"
+#include "aabbox3d.h"
+#include "CDynamicMeshBuffer.h"
+#include "CIndexBuffer.h"
+#include "CMeshBuffer.h"
+#include "coreutil.h"
+#include "CVertexBuffer.h"
+#include "dimension2d.h"
+#include "ECullingTypes.h"
+#include "EDebugSceneTypes.h"
+#include "EDriverFeatures.h"
+#include "EDriverTypes.h"
+#include "EGUIAlignment.h"
+#include "EGUIElementTypes.h"
+#include "EHardwareBufferFlags.h"
+#include "EMaterialFlags.h"
+#include "EMaterialTypes.h"
+#include "EMeshWriterEnums.h"
+#include "EMessageBoxFlags.h"
+#include "ESceneNodeAnimatorTypes.h"
+#include "ESceneNodeTypes.h"
+#include "ETerrainElements.h"
+#include "fast_atof.h"
+#include "heapsort.h"
+#include "IAnimatedMesh.h"
+#include "IAnimatedMeshMD2.h"
+#include "IAnimatedMeshMD3.h"
+#include "IAnimatedMeshSceneNode.h"
+#include "IAttributeExchangingObject.h"
+#include "IAttributes.h"
+#include "IBillboardSceneNode.h"
+#include "IBillboardTextSceneNode.h"
+#include "IBoneSceneNode.h"
+#include "ICameraSceneNode.h"
+#include "ICursorControl.h"
+#include "IDummyTransformationSceneNode.h"
+#include "IDynamicMeshBuffer.h"
+#include "IEventReceiver.h"
+#include "IFileList.h"
+#include "IFileSystem.h"
+#include "IGeometryCreator.h"
+#include "IGPUProgrammingServices.h"
+#include "IGUIButton.h"
+#include "IGUICheckBox.h"
+#include "IGUIColorSelectDialog.h"
+#include "IGUIComboBox.h"
+#include "IGUIContextMenu.h"
+#include "IGUIEditBox.h"
+#include "IGUIElement.h"
+#include "IGUIElementFactory.h"
+#include "IGUIEnvironment.h"
+#include "IGUIFileOpenDialog.h"
+#include "IGUIFont.h"
+#include "IGUIFontBitmap.h"
+#include "IGUIImage.h"
+#include "IGUIInOutFader.h"
+#include "IGUIListBox.h"
+#include "IGUIMeshViewer.h"
+#include "IGUIScrollBar.h"
+#include "IGUISkin.h"
+#include "IGUISpinBox.h"
+#include "IGUISpriteBank.h"
+#include "IGUIStaticText.h"
+#include "IGUITabControl.h"
+#include "IGUITable.h"
+#include "IGUIToolbar.h"
+#include "IGUIWindow.h"
+#include "IGUITreeView.h"
+#include "IImage.h"
+#include "IImageLoader.h"
+#include "IImageWriter.h"
+#include "IIndexBuffer.h"
+#include "ILightSceneNode.h"
+#include "ILogger.h"
+#include "IMaterialRenderer.h"
+#include "IMaterialRendererServices.h"
+#include "IMesh.h"
+#include "IMeshBuffer.h"
+#include "IMeshCache.h"
+#include "IMeshLoader.h"
+#include "IMeshManipulator.h"
+#include "IMeshSceneNode.h"
+#include "IMeshWriter.h"
+#include "IMetaTriangleSelector.h"
+#include "IOSOperator.h"
+#include "IParticleSystemSceneNode.h" // also includes all emitters and attractors
+#include "IQ3LevelMesh.h"
+#include "IQ3Shader.h"
+#include "IReadFile.h"
+#include "IReferenceCounted.h"
+#include "irrArray.h"
+#include "IrrlichtDevice.h"
+#include "irrList.h"
+#include "irrMap.h"
+#include "irrMath.h"
+#include "irrString.h"
+#include "irrTypes.h"
+#include "path.h"
+#include "irrXML.h"
+#include "ISceneCollisionManager.h"
+#include "ISceneManager.h"							// DONE
+#include "ISceneNode.h"
+#include "ISceneNodeAnimator.h"
+#include "ISceneNodeAnimatorCameraFPS.h"
+#include "ISceneNodeAnimatorCameraMaya.h"
+#include "ISceneNodeAnimatorCollisionResponse.h"
+#include "ISceneNodeAnimatorFactory.h"
+#include "ISceneNodeFactory.h"
+#include "ISceneUserDataSerializer.h"
+#include "IShaderConstantSetCallBack.h"
+#include "IShadowVolumeSceneNode.h"
+#include "ISkinnedMesh.h"
+#include "ITerrainSceneNode.h"
+#include "ITextSceneNode.h"
+#include "ITexture.h"
+#include "ITimer.h"
+#include "ITriangleSelector.h"
+#include "IVertexBuffer.h"
+#include "IVideoDriver.h"
+#include "IVideoModeList.h"
+#include "IVolumeLightSceneNode.h"
+#include "IWriteFile.h"
+#include "IXMLReader.h"
+#include "IXMLWriter.h"
+#include "ILightManager.h"
+#include "Keycodes.h"
+#include "line2d.h"
+#include "line3d.h"
+#include "matrix4.h"
+#include "plane3d.h"
+#include "position2d.h"
+#include "quaternion.h"
+#include "rect.h"
+#include "S3DVertex.h"
+#include "SAnimatedMesh.h"
+#include "SceneParameters.h"
+#include "SColor.h"
+#include "SExposedVideoData.h"
+#include "SIrrCreationParameters.h"
+#include "SKeyMap.h"
+#include "SLight.h"
+#include "SMaterial.h"
+#include "SMesh.h"
+#include "SMeshBuffer.h"
+#include "SMeshBufferLightMap.h"
+#include "SMeshBufferTangents.h"
+#include "SParticle.h"
+#include "SSharedMeshBuffer.h"
+#include "SSkinMeshBuffer.h"
+#include "SVertexIndex.h"
+#include "SViewFrustum.h"
+#include "triangle3d.h"
+#include "vector2d.h"
+#include "vector3d.h"
+
+
+
+amesh		= irrsc_getmesh(name$)
+amesh_node	= irrsc_addcubescenenode(parent,size#)
+amesh_node	= irrsc_addspherescenenode(parent,radius#,polycount)
+amesh_node	= irrsc_addanimatedmeshscenenode(parent,mesh)
+mesh_node	= irrsc_addmeshscenenode(parent,mesh)
+amesh_node	= irrsc_addwatersurfacescenenode(parent,mesh,waveheight#,wavespeed#,wavelength#)
+cam_node	= irrsc_addcamerascenenode(parent)
+light_node	= irrsc_addlightscenenode(parent)
+bmesh_node	= irrsc_addbillboardscenenode(parent)
+node		= irrsc_addskyboxscenenode(parent,top,bottom,left,right,front,back)
+node		= irrsc_addskydomescenenode(parent,texture,horires,vertres,tperc#,sprperc#,radius#)
+psys_node	= irrsc_addparticlesystemscenenode(parent,default)
+terr_node	= irrsc_addterrainscenenode(parent,heightmap$)
+node		= irrsc_addemptyscenenode(parent)
+dtran_node	= irrsc_adddummytransformationscenenode(parent)
+text_node	= irrsc_addtextscenenode(parent,font,text$,color)
+btmesh_node	= irrsc_addbillboardtextscenenode(parent,font,text$)
+amesh		= irrsc_addterrainmesh(name$,itexture,iheightmap)
+amesh		= irrsc_addspheremesh(name$,radius#,xcount,ycount)
+amesh		= irrsc_addvolumelightmesh(name$,subdivu,subdivv,footcolor,tailcolor)
+node		= irrsc_getrootscenenode()
+node		= irrsc_getscenenodefromid(id,startnode)
+node		= irrsc_getscenenodefromname(name$,startnode)
+cam_node	= irrsc_getactivecamera()
+			  irrsc_setactivecamera(cam_node)
+			  irrsc_setshadowcolor(color)
+color		= irrsc_getshadowcolor()
+			  irrsc_drawall()
+			  irrsc_clear()
+node		= irrsc_addscenenode(parent,name)
+smgr		= irrsc_createnewscenemanager(clonecontent)
+flag		= irr_isculled(node)
+
+
+flag		= irrde_run()
+			  irrde_yeild()
+			  irrde_setwindowcaption(caption$)
+flag		= irrde_iswindowactive()
+flag		= irrde_iswindowfocused()
+flag		= irrde_iswindowminimized()
+flag		= irrde_isfullscreen()
+format		= irrde_getcolorformat()
+			  irrde_closedevice()
+			  irrde_setresizable(int resize)
+			  irrde_minimizewindow()
+			  irrde_maximizewindow()
+			  irrde_restorewindow()
+			  irrde_clearsystemmessages()
+
+
+			  irrmesh_setmesh(mesh_node,mesh)
+mesh		= irrmesh_getmesh(mesh_node)
+			  irrmesh_setreadonlymaterials(mesh_node,readonly)
+readonly	= irrmesh_isreadonlymaterials(mesh_node)
+count		= irrmesh_getmeshbuffercount(mesh)
+mesh_buff	= irrmesh_getmeshbuffer(mesh,number)
+			  irrmesh_setmaterialflag(mesh,mat_flag,new_flag)
+			  irrmesh_sethardwaremappinghint(mesh,mapping_hint,buffer_type)
+			  irrmesh_setdirty(mesh,buffer_type)
+count		= irramesh_getframecount(amesh)
+mesh		= irramesh_getmesh(amesh,frame,detaillevel,startframe,endframe)
+
+
+			  irrcam_settarget(cam_node,x#,y#,z#)
+			  irrcam_setrotation(cam_node,x#,y#,z#)
+			  irrcam_setupvector(cam_node,x#,y#,z#)
+nearvalue	= irrcam_getnearvalue(cam_node)
+farvalue	= irrcam_getfarvalue(cam_node)
+aspect		= irrcam_getaspectratio(cam_node)
+fov			= irrcam_getfov(cam_node)
+			  irrcam_setnearvalue(cam_node,nearval#)
+			  irrcam_setfarvalue(cam_node,farvalue#)
+			  irrcam_setaspectratio(cam_node,aspect#)
+			  irrcam_setfov(cam_node,fov#)
+
+
+			  irrimg_lock(image)
+			  irrimg_unlock(image)
+width		= irrimg_getwidth(image)
+height		= irrimg_getheight(image)
+bits		= irrimg_getbitsperpixel(image)
+bytes		= irrimg_getbytesperpixel(image)
+sizebytes	= irrimg_getimagedatasizeinbytes(image)
+sizepixels	= irrimg_getimagedatasizeinpixels(image)
+color		= irrimg_getpixel(image,x,y)
+			  irrimg_setpixel(image,x,y,col,blend)
+colformat	= irrimg_getcolorformat(image)
+pitch		= irrimg_getpitch(image)
+			  irrimg_copytoscaling(image,target)
+			  irrimg_copyto(image,target,x,y)
+			  irrimg_copytowithsource(image,target,x,y,sx1,sy1,sx2,sy2)
+			  irrimg_copytowithsourceandclip(image,target,x,y,sx1,sy1,sx2,sy2,cx1,cy1,cx2,cy2)
+			  irrimg_copytowithsourcealpha(image,target,x,y,sx1,sy1,sx2,sy2,col)
+			  irrimg_copytowithsourceandclipalpha(image,target,x,y,sx1,sy1,sx2,sy2,col,cx1,cy1,cx2,cy2)
+			  irrimg_copytoscalingboxfilter(image,target,bias,blend)
+			  irrimg_fill(image,col)
+
+
+visible		= irrnode_isvisible(node)
+visible		= irrnode_istrulyvisible(node)
+			  irrnode_setvisible(node,visible)
+id			= irrnode_getid(node)
+			  irrnode_setid(node,id)
+			  irrnode_addchild(node,childnode)
+flag		= irrnode_removechild(node,childnode)
+			  irrnode_removeall(node)
+			  irrnode_remove(node)
+			  irrnode_addanimator(node,animator)
+			  irrnode_removeanimator(node,animator)
+			  irrnode_removeanimators(node)
+count		= irrnode_getmaterialcount(node)
+			  irrnode_setmaterialflag(node,matflag,flag)
+			  irrnode_setmaterialtexture(node,layer,texture)
+			  irrnode_setmaterialtype(node,mattype)
+scalex#		= irrnode_getscalex(node)
+scaley#		= irrnode_getscaley(node)
+scalez#		= irrnode_getscalez(node)
+			  irrnode_setscale(node,x#,y#,z#)
+rotationx#	= irrnode_getrotationx(node)
+rotationy#	= irrnode_getrotationy(node)
+rotationz#	= irrnode_getrotationz(node)
+			  irrnode_setrotation(node,x#,y#,z#)
+positionx#	= irrnode_getpositionx(node)
+positiony#	= irrnode_getpositiony(node)
+positionz#	= irrnode_getpositionz(node)
+			  irrnode_setposition(node,x#,y#,z#)
+positionx#	= irrnode_getabsolutepositionx(node)
+positiony#	= irrnode_getabsolutepositiony(node)
+positionz#	= irrnode_getabsolutepositionz(node)
+			  irrnode_setautomaticculling(node,state)
+state		= irrnode_getautomaticculling(node)
+			  irrnode_setdebugdatavisible(node,state)
+state		= irrnode_isdebugdatavisible(node)
+			  irrnode_setparent(node,parentnode)
+parentnode	= irrnode_getparent(node)
+
+
+			  irrvid_beginscene(backbuffer,zbuffer,col)
+			  irrvid_endscene()
+			  irrvid_setmaterial(material)
+texture		= irrvid_gettexture(file$)
+texture		= irrvid_gettexturefromid(index)
+count		= irrvid_gettexturecount()
+			  irrvid_renametexture(texture,name$)
+texture		= irrvid_addtexture(width,height,name$)
+texture		= irrvid_addtexturefromimage(name$,image)
+texture		= irrvid_addrendertargettexture(width,height)
+			  irrvid_removetexture(texture)
+			  irrvid_removealltextures()
+			  irrvid_removehardwarebuffer(meshbuffer)
+			  irrvid_removeallhardwarebuffers()
+			  irrvid_makecolorkeytexture(texture,col)
+			  irrvid_makecolorkeytexturefrompixel(texture,x,y)
+			  irrvid_makenormalmaptexture(texture,amplitude#)
+flag		= irrvid_setrendertarget(texture,backbuffer,zbuffer,col)
+			  irrvid_setviewport(x1,y1,x2,y2)
+			  irrvid_draw3dline(x1,y1,x2,y2,x3,y3,col)
+			  irrvid_draw2dimage(texture,x,y)
+			  irrvid_draw2drectangle(x1,y1,x2,y2,col)
+			  irrvid_draw2drectangleoutline(x1,y1,x2,y2,col)
+			  irrvid_draw2dline(x1,y1,x2,y2,col)
+			  irrvid_drawpixel(x,y,col)
+			  irrvid_draw2dpolygon(cx,cy,radius#,col,vcount)
+			  irrvid_drawmeshbuffer(meshbuffer)
+			  irrvid_setfog(col,fogtype,start#,end#,density#,pixelfog,rangefog)
+format		= irrvid_getcolorformat()
+width		= irrvid_getscreensizex()
+height		= irrvid_getscreensizey()
+width		= irrvid_getrendertargetsizex()
+height		= irrvid_getrendertargetsizey()
+fpscount	= irrvid_getfps()
+primcount	= irrvid_getprimitivecountdrawn(mode)
+			  irrvid_deletealldynamiclights()
+index		= irrvid_adddynamiclight(dlight)
+maxdlights	= irrvid_getmaxdynamiclights()
+lightcount	= irrvid_getdynamiclightcount()
+dlight		= irrvid_getdynamiclight(index)
+			  irrvid_turnlighton(index,onflag)
+			  irrvid_settexturecreationflag(textureflag,enabled)
+flag		= irrvid_gettexturecreationflag(textureflag)
+image		= irrvid_createimagefromfile(file)
+image		= irrvid_createimage(format,width,height)
+image		= irrvid_createimagecopy(format,imagetocopy)
+image		= irrvid_creatimagefromimage(image,posx,posy,width,height)
+image		= irrvid_creatimagefromtexture(texture,posx,posy,width,height)
+			  irrvid_clearzbuffer()
+image		= irrvid_createscreenshot()
+size		= irrvid_getmaxtexturesize()
+
+
+			  irrlight_setradius(light,radius#)
+radius#		= irrlight_getradius(light)
+			  irrlight_settype(light,type)
+type		= irrlight_gettype(light)
+			  irrlight_castshadow(light,enable)
+enabled		= irrlight_getcastshadow(light)
+
+
+			  irrboard_setsize(bbnode,w#,h#)
+width#		= irrboard_getwidth(bbnode)
+height#		= irrboard_getheight(bbnode)
+			  irrboard_setcolor(bbnode,topcolor,bottomcolor)
+
+
+` material flag constants
+
+#constant EMF_WIREFRAME          0x0001
+#constant EMF_POINTCLOUD         0x0002
+#constant EMF_GOURAUD_SHADING    0x0004
+#constant EMF_LIGHTING           0x0008
+#constant EMF_ZBUFFER            0x0010
+#constant EMF_ZWRITE_ENABLE      0x0020
+#constant EMF_BACK_FACE_CULLING  0x0040
+#constant EMF_FRONT_FACE_CULLING 0x0080
+#constant EMF_BILINEAR_FILTER    0x0100
+#constant EMF_TRILINEAR_FILTER   0x0200
+#constant EMF_ANISOTROPIC_FILTER 0x0400
+#constant EMF_FOG_ENABLE         0x0800
+#constant EMF_NORMALIZE_NORMALS  0x1000
+#constant EMF_TEXTURE_WRAP       0x2000
+#constant EMF_ANTI_ALIASING      0x4000
+#constant EMF_COLOR_MASK         0x8000
+#constant EMF_COLOR_MATERIAL     0x10000
+

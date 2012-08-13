@@ -26,9 +26,17 @@
 *.opensdf
 *.sdf
 *.suo
+*.ncb
+*.intermediate.manifest
+*.lastbuildstate
+*.unsuccessfulbuild
+*.log
+*.tlog
+*.cod
 
 # User settings shouldn't be tracked
-*.vcxproj.user
+#*.vcxproj.user
+*.user
 
 # Mac OS X creates these files (be nice to cross-compilers)
 .DS_Store
@@ -37,3 +45,15 @@
 # compilers)
 *~
 *.swp
+
+# We don't want to save backup files.
+*.BAK
+
+# Don't track archives
+*.zip
+*.rar
+*.7z
+
+# We need these files though
+!DBProInterface9.0.lib
+!DBProInterfaceD9.0.lib

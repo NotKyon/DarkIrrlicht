@@ -1,0 +1,59 @@
+` DBP openGL Irrlicht window test 1
+
+init_IRR()
+init_DBP()
+
+while irr keystate(0x20)=0 and keystate(57)=0
+    run_IRR()
+    run_DBP()
+endwhile
+
+end
+
+` ***
+
+function init_IRR()
+    irr init 0,640,480
+    irr set window caption "DBP openGL Irrlicht window..."
+    
+    global cube_node, cube_ang
+    global cam_node
+    
+    cube_node = irr add cube node(10)
+    cam_node = irr add camera node()
+    irr node texture cube_node,0,"wall.jpg"
+    irr camera position cam_node,0,0,-15
+    irr camera rotate cam_node,0,0,0
+endfunction
+
+function init_DBP()
+    sync on : sync rate 60 : set display mode 640,480,32
+    set window position 0,0
+    
+    make object cube 1,10
+    position camera 0,0,-15
+    point camera 0,0,0
+    
+    load image "wall.jpg",1
+    texture object 1,1
+endfunction
+
+` ***
+
+function run_IRR()
+    irr beginscene 255,255,255,rnd(255)
+    
+    irr node rotate cube_node,cube_ang,cube_ang,0
+    inc cube_ang : if cube_ang >= 360 then cube_ang=0
+    
+    irr text str$(screen fps()),0,0,0,0,0xff000000
+    
+    irr endscene
+endfunction
+
+function run_DBP()
+    col=rgb(rnd(255),255,255)
+    //box 0,0,640,480,col,col,col,col
+    rotate object 1, cube_ang, cube_ang, 0
+    sync
+endfunction

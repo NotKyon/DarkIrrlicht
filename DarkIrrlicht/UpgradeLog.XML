@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DarkIrrlicht">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Admin\Desktop\Current\DarkIrrlicht\DarkIrrlicht.sln">
+</Property><Property Name="Date" Value="30 July 2012">
+</Property><Property Name="Time" Value="01:35">
+</Property></Properties><Event ErrorLevel="0" Project="DarkIrrlicht" Source="DarkIrrlicht\DarkIrrlicht.vcproj" Description="Converting project file 'C:\Documents and Settings\Admin\Desktop\Current\DarkIrrlicht\DarkIrrlicht\DarkIrrlicht.vcproj'.">
+</Event><Event ErrorLevel="1" Project="DarkIrrlicht" Source="DarkIrrlicht\DarkIrrlicht.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="DarkIrrlicht" Source="DarkIrrlicht\DarkIrrlicht.vcproj" Description="Done converting to new project file 'C:\Documents and Settings\Admin\Desktop\Current\DarkIrrlicht\DarkIrrlicht\DarkIrrlicht.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="DarkIrrlicht" Source="DarkIrrlicht\DarkIrrlicht.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DarkIrrlicht.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DarkIrrlicht.sln" Description="Converted">
+</Event></UpgradeLog>

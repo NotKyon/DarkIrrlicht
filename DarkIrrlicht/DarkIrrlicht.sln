@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DarkIrrlicht", "DarkIrrlicht\DarkIrrlicht.vcxproj", "{B689B6C1-5BCB-48EF-8672-B0B1DBCBDAD1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Console_testing", "Console_testing\Console_testing.vcxproj", "{28429CBE-67CE-4156-8F93-8242384E37C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-Main|Win32 = Debug-Main|Win32
+		Release-DLL|Win32 = Release-DLL|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B689B6C1-5BCB-48EF-8672-B0B1DBCBDAD1}.Debug-Main|Win32.ActiveCfg = Debug-Main|Win32
+		{B689B6C1-5BCB-48EF-8672-B0B1DBCBDAD1}.Debug-Main|Win32.Build.0 = Debug-Main|Win32
+		{B689B6C1-5BCB-48EF-8672-B0B1DBCBDAD1}.Release-DLL|Win32.ActiveCfg = Release|Win32
+		{B689B6C1-5BCB-48EF-8672-B0B1DBCBDAD1}.Release-DLL|Win32.Build.0 = Release|Win32
+		{28429CBE-67CE-4156-8F93-8242384E37C0}.Debug-Main|Win32.ActiveCfg = Debug|Win32
+		{28429CBE-67CE-4156-8F93-8242384E37C0}.Debug-Main|Win32.Build.0 = Debug|Win32
+		{28429CBE-67CE-4156-8F93-8242384E37C0}.Release-DLL|Win32.ActiveCfg = Release|Win32
+		{28429CBE-67CE-4156-8F93-8242384E37C0}.Release-DLL|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

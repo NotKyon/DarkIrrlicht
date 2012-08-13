@@ -1,0 +1,141 @@
+` DBP vs DarkIrrlicht benchmark test 1
+
+` ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+` Dark Basic Pro
+` ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+sync on : sync rate 0 : autocam off : set display mode 640,480,32
+
+size = 6
+
+` load in the texture to use
+
+load image "wall.jpg",1
+
+` create some cubes
+
+obj = 1
+
+for x=0 to size
+    for z=0 to size
+        for y=0 to size
+            make object cube obj, 10
+            texture object obj, 1
+            position object obj, x*15, y*15, z*15
+            inc obj
+        next
+    next
+next
+
+` position the camera
+
+position camera -50, 50,-50
+point camera 50, 50, 50
+
+` run the benchmark showing the FPS
+
+ang = 0
+
+while spacekey()=0
+    for c=1 to obj-1
+        rotate object c, ang, ang, 0
+    next
+    
+    text 0, 0, "FPS = "+str$(screen fps())
+    text 0, 12, "Press SPACE to continue"
+    
+    inc ang : if ang=360 then ang = 0
+    
+    sync
+endwhile
+
+` clean up
+
+for c=1 to obj-1
+    delete object c
+next
+
+delete image 1
+
+` DarkIrrlicht's turn now
+
+` Select renderer to use
+
+text 0,0,"0 - openGL"
+text 0,12,"<DirectX 8 NO SUPPORT>"
+text 0,24,"1 - DirectX 9"
+text 0,36,"2 - Software"
+text 0,48,"3 - BurningsVideo"
+text 0,60,"4 - Null"
+text 0,72,"Choose the renderer to use:"
+sync
+
+repeat
+    a$ = inkey$()
+until a$>="0" and a$<="4"
+
+a=val(a$)
+
+irr init a,640,480
+irr set window caption "Irrlicht 3D benchmark window"
+
+` setup camera
+
+irrcam = irr add camera node()
+irr camera position irrcam, -50, 50, -50
+irr camera target irrcam, 50, 50, 50
+
+` add a light
+
+lightnode = irr add light node()
+irr set light lightnode, 0, 1000
+irr node position lightnode, -50,50,-50
+
+` make some cubes
+
+dim obj(size,size,size)
+
+for x=0 to size
+    for z=0 to size
+        for y=0 to size
+            obj(x,y,z)=irr add cube node(10)
+            irr node texture obj(x,y,z), 0, "wall.jpg"
+            irr node position obj(x,y,z), x*15, y*15, z*15
+            irr node light flag obj(x,y,z),1
+        next
+    next
+next
+
+ang = 0
+
+while irr keystate(0x20)=0
+    irr beginscene 255,0,0,128
+    
+    for x=0 to size
+        for z=0 to size
+            for y=0 to size
+                irr node rotate obj(x,y,z), ang, ang, 0
+            next
+        next
+    next
+    
+    irr text "FPS = "+str$(irr get fps()), 0, 0, 0, 0, 0xffffffff
+    irr text "Press SPACE to continue", 0, 12, 0, 0, 0xffffffff
+    
+    inc ang : if ang=360 then ang = 0
+    
+    irr endscene
+endwhile
+
+` clean up
+
+for x=0 to size
+    for z=0 to size
+        for y=0 to size
+            irr node drop obj(x,y,z)
+        next
+    next
+next
+
+irr node drop lightnode
+irr node drop irrcam

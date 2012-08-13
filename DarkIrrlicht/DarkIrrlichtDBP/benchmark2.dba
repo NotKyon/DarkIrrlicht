@@ -1,0 +1,117 @@
+global flag
+global grid
+
+grid=5
+
+global dim nodes(grid,grid)
+
+` ~~~~~~~~~~~~~~~~~~~~~
+` DBP's animated meshes
+` ~~~~~~~~~~~~~~~~~~~~~
+
+init_dbp()
+
+flag=0
+
+repeat
+    run_dbp()
+until flag
+
+clean_dbp()
+
+` ~~~~~~~~~~~~~~~~~~~~~
+` Irr's animated meshes
+` ~~~~~~~~~~~~~~~~~~~~~
+
+init_irr()
+
+flag=0
+
+repeat
+    run_irr()
+until flag
+
+clean_irr()
+
+end
+
+function init_dbp()
+    global object_count
+    
+    autocam off
+    sync on
+    sync rate 0
+    set display mode 640,480,32
+    
+    load object "dwarf.x",1
+    set object speed 1,2
+    loop object 1
+    hide object 1
+    
+    obj=2
+    for x=0 to grid
+        for z=0 to grid
+            clone object obj, 1
+            position object obj, x*40, 0, z*40
+            loop object obj
+            set object speed obj, 1
+            inc obj
+        next
+    next
+    object_count=obj
+    
+    position camera -100,150,-100 : point camera 100,50,100
+endfunction
+
+function run_dbp()
+    text 0,0,"FPS: "+str$(screen fps())
+    text 0,12,"Press SPACE to continue"
+    
+    if spacekey() then flag=1
+    
+    sync
+endfunction
+
+function clean_dbp()
+    for obj=1 to object_count
+        delete object obj
+    next
+endfunction
+
+
+
+function init_irr()
+    irr init 1,640,480
+    
+    global amesh
+    global lightnode
+    global camnode
+
+    for x=0 to grid
+        for z=0 to grid
+            nodes(x,z)=irr add anim mesh file node("dwarf.x")
+            irr node position nodes(x,z),x*40,0,z*40
+            irr node anim speed nodes(x,z),15.0
+        next
+    next
+    
+    lightnode=irr add light node()
+    irr node position lightnode,0,200,0
+    irr set light lightnode,0,1000
+    
+    camnode=irr add camera node()
+    irr camera position camnode,-100,150,-100
+    irr camera target camnode,100,50,100
+endfunction
+
+function run_irr()
+    irr beginscene 255,0,0,128
+    if irr keystate(0x20) then flag=1
+    irr text "FPS: "+str$(irr get fps()),0,0,0,0,0xffffffff
+    irr text "Press SPACE to continue",0,10,0,0,0xffffffff
+    irr endscene
+endfunction
+
+function clean_irr()
+    irr drop
+endfunction

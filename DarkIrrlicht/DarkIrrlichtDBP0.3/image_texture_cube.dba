@@ -1,0 +1,78 @@
+` switch off DBP auto update
+
+sync on : sync rate 0
+
+` material flag constants
+
+#constant EMF_WIREFRAME          0x0001
+#constant EMF_POINTCLOUD         0x0002
+#constant EMF_GOURAUD_SHADING    0x0004
+#constant EMF_LIGHTING           0x0008
+#constant EMF_ZBUFFER            0x0010
+#constant EMF_ZWRITE_ENABLE      0x0020
+#constant EMF_BACK_FACE_CULLING  0x0040
+#constant EMF_FRONT_FACE_CULLING 0x0080
+#constant EMF_BILINEAR_FILTER    0x0100
+#constant EMF_TRILINEAR_FILTER   0x0200
+#constant EMF_ANISOTROPIC_FILTER 0x0400
+#constant EMF_FOG_ENABLE         0x0800
+#constant EMF_NORMALIZE_NORMALS  0x1000
+#constant EMF_TEXTURE_WRAP       0x2000
+#constant EMF_ANTI_ALIASING      0x4000
+#constant EMF_COLOR_MASK         0x8000
+#constant EMF_COLOR_MATERIAL     0x10000
+
+` start DarkIrrlicht
+
+irr init 1,640,480
+
+` create an image and draw a texture to it
+
+myimage = ivid new image( 2,128,128 )
+iimg fill myimage,0xffff7fff
+for p=0 to 127
+    iimg set pixel myimage,0,p,0xffffffff,1
+    iimg set pixel myimage,p,0,0xffffffff,1
+    iimg set pixel myimage,127,p,0xffffffff,1
+    iimg set pixel myimage,p,127,0xffffffff,1
+    iimg set pixel myimage,p,p,0x80ffffff,3
+    iimg set pixel myimage,127-p,p,0x80ffffff,3
+next
+
+mytexture = ivid image texture( "t1",myimage )
+
+mycube = iscn add cube node( 0, 10 )
+inode material texture mycube,0,mytexture
+`inode material flag mycube,EMF_COLOR_MATERIAL,0     ` play with materials here hehe
+
+mycam = iscn add camera node( 0 )
+inode pos mycam,0,0,-15
+icam target mycam,0,0,0
+
+mylight = iscn add light node( 0 )
+inode pos mylight,0,0,-15
+ilight set radius mylight,50
+
+myfont = igui get default font()
+
+bbnode = iscn add billboard text node( 0, myfont, "WLGfx" )
+iboard set size bbnode, 10, 10
+iboard set color bbnode, 0xffffff00, 0xffffffff
+inode pos bbnode, 0, 0, -10
+
+angle#=0
+
+repeat
+    inode rot mycube,angle#,angle#,0
+
+    angle#=angle#+0.4
+    if angle#>=360.0 then angle#=0.0
+    
+    irr begin scene 0x40, 0x00, 0x00, 0x80
+    ifont draw myfont,0,0,0xffffffff,"FPS="+str$(ivid fps())
+    irr end scene
+    
+until irr keystate( 0x20 )
+
+irr drop
+
