@@ -220,6 +220,15 @@ STRINGTABLE
 	530 "IABOX NEW[%0%irrabox_new"
 	531 "IABOX DELETE%L%irrabox_delete"
 	532	"IABOX SET%LFFFFFF%irrabox_set"
+	533 "IABOX CENTER X[%LL%irrabox_getcenterx"
+	534 "IABOX CENTER Y[%LL%irrabox_getcentery"
+	535 "IABOX CENTER Z[%LL%irrabox_getcenterz"
+	536 "IABOX EXTENT X[%LL%irrabox_getextentx"
+	537 "IABOX EXTENT Y[%LL%irrabox_getextenty"
+	538 "IABOX EXTENT Z[%LL%irrabox_getextentz"
+	539 "IABOX IS EMPTY[%LL%irrabox_isempty"
+	540 "IABOX VOLUME[%LL%irrabox_getvolume"
+	541 "IABOX AREA[%LL%irrabox_getarea"
 
 	580	"IFONT DRAW%LLLLS%irrfont_draw"
 

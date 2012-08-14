@@ -36,3 +36,48 @@ EXPORTC void irrabox_addpoint( core::aabbox3df* box,
 	box->addInternalPoint( x,y,z );
 }
 
+EXPORTC DWORD irrabox_getcenterx( core::aabbox3df* box )
+{
+	return DBPro::CastFloatToDword( box->getCenter().X );
+}
+
+EXPORTC DWORD irrabox_getcentery( core::aabbox3df* box )
+{
+	return DBPro::CastFloatToDword( box->getCenter().Y );
+}
+
+EXPORTC DWORD irrabox_getcenterz( core::aabbox3df* box )
+{
+	return DBPro::CastFloatToDword( box->getCenter().Z );
+}
+
+EXPORTC DWORD irrabox_getextentx( core::aabbox3df* box )
+{
+	return DBPro::CastFloatToDword( box->getExtent().X );
+}
+
+EXPORTC DWORD irrabox_getextenty( core::aabbox3df* box )
+{
+	return DBPro::CastFloatToDword( box->getExtent().Y );
+}
+
+EXPORTC DWORD irrabox_getextentz( core::aabbox3df* box )
+{
+	return DBPro::CastFloatToDword( box->getExtent().Z );
+}
+
+EXPORTC DWORD irrabox_isempty( core::aabbox3df* box )
+{
+	return (DWORD) box->isEmpty();
+}
+
+EXPORTC DWORD irrabox_getvolume( core::aabbox3df* box )
+{
+	return DBPro::CastFloatToDword( box->getVolume() );
+}
+
+EXPORTC DWORD irrabox_getarea( core::aabbox3df* box )
+{
+	return DBPro::CastFloatToDword( box->getArea() );
+}
+

@@ -1,5 +1,7 @@
 #include <iostream>
 
+// This was only used to debug the stack usage for bools
+
 using namespace std;
 
 bool call(bool flag)
