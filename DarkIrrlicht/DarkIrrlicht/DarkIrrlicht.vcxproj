@@ -54,11 +54,13 @@
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug-Main|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug-Main|Win32'">$(Configuration)\</IntDir>
-    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28August 2007%29\Include;C:\Documents and Settings\Admin\Desktop\Current\DBPro\include;C:\Documents and Settings\Admin\Desktop\Current\irrlicht-1.7.3\include;$(IncludePath)</IncludePath>
-    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug-Main|Win32'">C:\Program Files\Microsoft DirectX SDK %28August 2007%29\Include;C:\Documents and Settings\Admin\Desktop\Current\DBPro\include;C:\Documents and Settings\Admin\Desktop\Current\irrlicht-1.7.3\include;$(IncludePath)</IncludePath>
-    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28August 2007%29\Lib\x86;C:\Documents and Settings\Admin\Desktop\Current\DBPro\lib;C:\Documents and Settings\Admin\Desktop\Current\irrlicht-1.7.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
-    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug-Main|Win32'">C:\Program Files\Microsoft DirectX SDK %28August 2007%29\Lib\x86;C:\Documents and Settings\Admin\Desktop\Current\DBPro\lib;C:\Documents and Settings\Admin\Desktop\Current\irrlicht-1.7.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\DBPro\include;$(SolutionDir)..\irrlicht-1.7.3\include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug-Main|Win32'">$(SolutionDir)..\DBPro\include;$(SolutionDir)..\irrlicht-1.7.3\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\DBPro\lib;$(SolutionDir)..\irrlicht-1.7.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug-Main|Win32'">$(SolutionDir)..\DBPro\lib;$(SolutionDir)..\irrlicht-1.7.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug-Main|Win32'">.exe</TargetExt>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\DBPro\include;$(SolutionDir)..\irrlicht-1.7.3\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\DBPro\lib;$(SolutionDir)..\irrlicht-1.7.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

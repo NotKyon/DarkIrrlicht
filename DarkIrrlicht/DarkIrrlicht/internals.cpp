@@ -22,7 +22,7 @@ void irr_constructor()
 
 void irr_destructor()
 {
-	int loop;
+	size_t loop; //aaronm-20120813: signed/unsigned mismatch warning
 
 	for (loop=0; loop<irr_aboxes.size(); loop++)
 		if (irr_aboxes[loop]) delete irr_aboxes[loop];
