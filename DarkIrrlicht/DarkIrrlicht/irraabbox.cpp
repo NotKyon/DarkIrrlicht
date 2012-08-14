@@ -81,3 +81,20 @@ EXPORTC DWORD irrabox_getarea( core::aabbox3df* box )
 	return DBPro::CastFloatToDword( box->getArea() );
 }
 
+EXPORTC void irrabox_repair( core::aabbox3df* box )
+{
+	box->repair();
+}
+
+EXPORTC DWORD irrabox_ispointinside( core::aabbox3df* box,
+	float x, float y, float z )
+{
+	return (DWORD)box->isPointInside( core::vector3d<f32>( x, y, z ) );
+}
+
+EXPORTC DWORD irrabox_isboxinside( core::aabbox3df* box,
+	core::aabbox3df& src )
+{
+	return (DWORD)box->isFullInside( src );
+}
+

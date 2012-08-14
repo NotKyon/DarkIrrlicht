@@ -229,6 +229,9 @@ STRINGTABLE
 	539 "IABOX IS EMPTY[%LL%irrabox_isempty"
 	540 "IABOX VOLUME[%LL%irrabox_getvolume"
 	541 "IABOX AREA[%LL%irrabox_getarea"
+	542 "IABOX REPAIR%L%irrabox_repair"
+	543 "IABOX POINT INSIDE[%LFFF%irrabox_ispointinside"
+	544 "IABOX BOX INSIDE[%LLL%irrabox_isboxinside"
 
 	580	"IFONT DRAW%LLLLS%irrfont_draw"
 
