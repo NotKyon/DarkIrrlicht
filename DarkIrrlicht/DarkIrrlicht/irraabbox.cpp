@@ -98,3 +98,18 @@ EXPORTC DWORD irrabox_isboxinside( core::aabbox3df* box,
 	return (DWORD)box->isFullInside( src );
 }
 
+// ***
+
+EXPORTC DWORD irrabox_intersectswithbox( core::aabbox3df* box,
+	core::aabbox3df& src )
+{
+	return (DWORD)box->intersectsWithBox( src );
+}
+
+EXPORTC DWORD irrabox_intersectswithline( core::aabbox3df* box,
+	float x1, float y1, float z1, float x2, float y2, float z2 )
+{
+	core::line3df line(x1,y1,z1,x2,y2,z2);
+	return (DWORD)box->intersectsWithLine( line );
+}
+

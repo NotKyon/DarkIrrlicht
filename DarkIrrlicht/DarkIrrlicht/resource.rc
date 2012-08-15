@@ -232,6 +232,8 @@ STRINGTABLE
 	542 "IABOX REPAIR%L%irrabox_repair"
 	543 "IABOX POINT INSIDE[%LFFF%irrabox_ispointinside"
 	544 "IABOX BOX INSIDE[%LLL%irrabox_isboxinside"
+	545 "IABOX INTERSECT BOX[%LLL%irrabox_intersectswithbox"
+	546 "IABOX INTERSECT LINE[%LLFFFFFF%irrabox_intersectswithline"
 
 	580	"IFONT DRAW%LLLLS%irrfont_draw"
 
