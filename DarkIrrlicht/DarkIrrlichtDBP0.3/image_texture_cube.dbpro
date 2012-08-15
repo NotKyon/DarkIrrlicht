@@ -5,7 +5,7 @@ project name=image_texture_cube
 
 ; **** source file information ****
 main=image_texture_cube.dba
-LineMain=22
+LineMain=0
 
 ; **** Executable Information  ***
 ; build types: exe, media, installer, alone
@@ -38,7 +38,7 @@ window resolution=640x480
 
 ; **** Media ****
 ; Example entries: media1=graphics\*.jpg
-media root path=C:\Documents and Settings\Admin\Desktop\Current\DarkIrrlicht\DarkIrrlichtDBP0.3\
+media root path=C:\DarkIrrlicht\DarkIrrlicht\DarkIrrlichtDBP0.3\
 
 ; **** Icons ****
 
