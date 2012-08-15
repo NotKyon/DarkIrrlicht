@@ -1,0 +1,104 @@
+Rem Project: Dark Basic Pro Project
+Rem Created: Tuesday, August 14, 2012
+
+Rem ***** Main Source File *****
+
+Rem by WLGfx
+
+global count=8
+
+` Run DBP's dwarf test
+
+DBP_INIT()
+DBP_RUN()
+DBP_CLOSE()
+
+` Run DarkIrrlicht's dwarf test
+
+IRR_INIT()
+IRR_RUN()
+IRR_CLOSE()
+
+end
+
+
+
+function DBP_INIT()
+    load object "dwarf.x",1000
+    hide object 1000
+    for x=0 to count-1
+        for z=0 to count-1
+            obj = x*count+z + 1
+            clone object obj,1000
+            loop object obj
+            position object obj,x*50,0,z*50
+        next
+    next
+    position camera -100,150,-100
+    point camera 100,0,100
+endfunction
+
+function DBP_RUN()
+    repeat
+        text 0,0,"FPS : " + str$( screen fps() )
+        sync
+    until keystate(57)
+endfunction
+
+function DBP_CLOSE()
+    delete object 1000
+    for x=0 to count-1
+        for z=0 to count-1
+            delete object x*count+z
+        next
+    next
+endfunction
+
+
+
+function IRR_INIT()
+    irr init 1, 640, 480
+    
+    global irrfont
+    global dwarfmesh
+    global lightnode
+    global camnode
+    global dim obj(count,count)
+    
+    global meshframe=0
+    
+    irrfont = igui get default font()
+    dwarfmesh = iscn get mesh("dwarf.x")
+    
+    framecount# = imesh get frame count( dwarfmesh )
+    
+    for x=0 to count-1
+        for z=0 to count-1
+            obj(x,z) = iscn add anim mesh node(0,dwarfmesh)
+            inode pos obj(x,z), x*50, 0, z*50
+            iamnode set speed obj(x,z), 10.0
+            iamnode set loop obj(x,z), 0, framecount#
+            iamnode set frame obj(x,z), 0
+        next
+    next
+    
+    lightnode = iscn add light node(0)
+    inode pos lightnode, -150,150,-150
+    ilight set radius lightnode, 1000
+    
+    camnode = iscn add camera node(0)
+    inode pos camnode, -100,150,-100
+    icam target camnode, 100, 0, 100
+endfunction
+
+function IRR_RUN()
+    repeat
+        irr begin scene 0,0,0,127
+        ifont draw irrfont, 0, 0, 0xffffffff, "FPS : " + str$( ivid fps() )
+        irr end scene
+    until irr keystate( 32 )
+endfunction
+
+function IRR_CLOSE()
+    irr drop
+endfunction
