@@ -24,18 +24,10 @@ end
 
 
 function DBP_INIT()
-    load object "dwarf.x",1000
-    hide object 1000
-    for x=0 to count-1
-        for z=0 to count-1
-            obj = x*count+z + 1
-            clone object obj,1000
-            loop object obj
-            position object obj,x*50,0,z*50
-        next
-    next
-    position camera -100,150,-100
-    point camera 100,0,100
+    load object "dwarf.x",1
+    loop object 1
+    position camera -50,50,-50
+    point camera 0,25,0
 endfunction
 
 function DBP_RUN()
@@ -61,41 +53,35 @@ function IRR_INIT()
     
     global irrfont
     global dwarfmesh
+    global dwarfnode
     global lightnode
     global camnode
-    global dim obj(count,count)
     
     global meshframe=0
     
     irrfont = igui get default font()
-    dwarfmesh = iscn get mesh("dwarf.x")
-    
-    framecount# = imesh get frame count( dwarfmesh )
-    
-    for x=0 to count-1
-        for z=0 to count-1
-            obj(x,z) = iscn add anim mesh node(0,dwarfmesh)
-            inode pos obj(x,z), x*50, 0, z*50
-            iamnode set speed obj(x,z), 10.0
-            iamnode set loop obj(x,z), 0, framecount#
-            iamnode set frame obj(x,z), 0
-        next
-    next
+
+    dwarfmesh = iscn get mesh( "dwarf.x" )
+    dwarfnode = iscn add anim mesh node( 0, dwarfmesh )
+    framecount = iamesh get frame count( dwarfmesh )
+    iamnode set loop dwarfnode, 0, framecount
+    iamnode set speed dwarfnode, 15
     
     lightnode = iscn add light node(0)
     inode pos lightnode, -150,150,-150
     ilight set radius lightnode, 1000
     
     camnode = iscn add camera node(0)
-    inode pos camnode, -100,150,-100
-    icam target camnode, 100, 0, 100
+    inode pos camnode, -50,50,-50
+    icam target camnode, 0, 25, 0
 endfunction
 
 function IRR_RUN()
     repeat
-        irr begin scene 0,0,0,127
+        ivid begin 1, 1, 0xff00007f
         ifont draw irrfont, 0, 0, 0xffffffff, "FPS : " + str$( ivid fps() )
-        irr end scene
+        iscn draw all
+        ivid end
     until irr keystate( 32 )
 endfunction
 

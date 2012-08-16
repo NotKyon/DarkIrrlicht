@@ -47,9 +47,9 @@ EXPORTC int irr_keystate(int code)
 	return irrcore.events.keys[code];
 }
 
-EXPORTC void irr_beginscene(int a,int r,int g,int b)
+EXPORTC void irr_beginscene(int col)
 {
-	irrcore.driver->beginScene(true,true,video::SColor(a,r,g,b));
+	irrcore.driver->beginScene(true,true,(video::SColor) col);
 }
 
 EXPORTC void irr_endscene()
