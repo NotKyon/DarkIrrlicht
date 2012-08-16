@@ -13,11 +13,13 @@ using namespace irr;
 
 vector<core::aabbox3df*>	irr_aboxes;
 vector<video::SMaterial*>	irr_materials;
+vector<core::vector3df*>	irr_vector3df;
 
 void irr_constructor()
 {
 	irr_aboxes.clear();
 	irr_materials.clear();
+	irr_vector3df.clear();
 }
 
 void irr_destructor()
@@ -30,6 +32,10 @@ void irr_destructor()
 	for (loop=0; loop<irr_materials.size(); loop++)
 		if (irr_materials[loop]) delete irr_materials[loop];
 
+	for (loop=0; loop<irr_vector3df.size(); loop++)
+		if (irr_vector3df[loop]) delete irr_vector3df[loop];
+
 	irr_aboxes.clear();
 	irr_materials.clear();
+	irr_vector3df.clear();
 }

@@ -125,6 +125,7 @@
     <ClCompile Include="irrmesh.cpp" />
     <ClCompile Include="irrnode.cpp" />
     <ClCompile Include="irrsc.cpp" />
+    <ClCompile Include="irrvector3df.cpp" />
     <ClCompile Include="irrvid.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
