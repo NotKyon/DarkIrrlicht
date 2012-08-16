@@ -13,7 +13,9 @@ Quick instructions on setting up:
 
 2. Grab the DirectX SDK (August 2007)
    You will need to add this to your global includes.
-   See: http://clanlib.org/wiki/VisualStudio2010GlobalIncludes
+
+    Tutorial: http://bit.ly/R4PzYc
+    See Also: http://clanlib.org/wiki/VisualStudio2010GlobalIncludes
 
 3. To re-compile the irrlicht to a static library, load up the solution file in
    the Irrlicht source directory and set the output to a 'release' format of
