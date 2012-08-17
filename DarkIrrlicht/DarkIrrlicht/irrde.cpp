@@ -78,3 +78,13 @@ EXPORTC void irrde_clearsystemmessages()
 {
 	irrcore.device->clearSystemMessages();
 }
+
+
+
+// Irrlicht timer tick animation fix
+
+EXPORTC void irrde_timertick()
+{
+	irrcore.device->getTimer()->tick();
+}
+

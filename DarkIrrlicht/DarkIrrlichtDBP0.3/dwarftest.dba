@@ -1,11 +1,4 @@
-Rem Project: Dark Basic Pro Project
-Rem Created: Tuesday, August 14, 2012
-
-Rem ***** Main Source File *****
-
-Rem by WLGfx
-
-global count=8
+` Benchmark test DBP's DX9 vs DarkIrrlicht rendering test
 
 ` Run DBP's dwarf test
 
@@ -26,6 +19,7 @@ end
 function DBP_INIT()
     load object "dwarf.x",1
     loop object 1
+    set object speed 1,10
     position camera -50,50,-50
     point camera 0,25,0
 endfunction
@@ -49,6 +43,10 @@ endfunction
 
 
 function IRR_INIT()
+    ` 0=opengl driver
+    ` 1=directx9
+    ` 2=software
+    ` 3=burningsvideo software renderer
     irr init 1, 640, 480
     
     global irrfont
@@ -63,8 +61,6 @@ function IRR_INIT()
 
     dwarfmesh = iscn get mesh( "dwarf.x" )
     dwarfnode = iscn add anim mesh node( 0, dwarfmesh )
-    framecount = iamesh get frame count( dwarfmesh )
-    iamnode set loop dwarfnode, 0, framecount
     iamnode set speed dwarfnode, 15
     
     lightnode = iscn add light node(0)
@@ -78,6 +74,8 @@ endfunction
 
 function IRR_RUN()
     repeat
+        ` IDEV TIMER TICK fixes the animation updating
+        idev timer tick
         ivid begin 1, 1, 0xff00007f
         ifont draw irrfont, 0, 0, 0xffffffff, "FPS : " + str$( ivid fps() )
         iscn draw all

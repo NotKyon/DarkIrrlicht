@@ -55,6 +55,7 @@ STRINGTABLE
 	111	"IDEV MAXIMIZE WINDOW%0%irrde_maximizewindow"
 	112	"IDEV RESTORE WINDOW%0%irrde_restorewindow"
 	113	"IDEV CLEAR SYS MESSAGES%0%irrde_clearsystemmessages"
+	114 "IDEV TIMER TICK%0%irrde_timertick"
 
 	130	"IMAT DELETE%L%irrmat_delete"				//
 	131 "IMAT NEW[%L%irrmat_new"					//

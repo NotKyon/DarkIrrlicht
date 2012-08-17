@@ -49,6 +49,7 @@ EXPORTC int irr_keystate(int code)
 
 EXPORTC void irr_beginscene(int col)
 {
+	irrcore.device->getTimer()->tick();
 	irrcore.driver->beginScene(true,true,(video::SColor) col);
 }
 

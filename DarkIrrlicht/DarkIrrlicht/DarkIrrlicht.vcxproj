@@ -123,6 +123,7 @@
     <ClCompile Include="irrlight.cpp" />
     <ClCompile Include="irrmat.cpp" />
     <ClCompile Include="irrmesh.cpp" />
+    <ClCompile Include="irrmeshbuffer.cpp" />
     <ClCompile Include="irrnode.cpp" />
     <ClCompile Include="irrsc.cpp" />
     <ClCompile Include="irrvector3df.cpp" />
