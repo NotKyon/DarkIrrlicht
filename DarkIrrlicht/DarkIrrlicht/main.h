@@ -38,6 +38,10 @@ public:
 		for (u32 i=0; i<KEY_KEY_CODES_COUNT; i++)
 			keys[i]=false;
 	}
+
+	// TO DO:
+	// add mouse handler
+	// add GUI events handler
 };
 
 
