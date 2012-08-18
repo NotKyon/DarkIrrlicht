@@ -47,6 +47,50 @@ EXPORTC int irr_keystate(int code)
 	return irrcore.events.keys[code];
 }
 
+// ***
+
+EXPORTC DWORD irr_mousex()
+{
+	return (DWORD) irrcore.events.mousex;
+}
+
+EXPORTC DWORD irr_mousey()
+{
+	return (DWORD) irrcore.events.mousey;
+}
+
+EXPORTC DWORD irr_mousez()
+{
+	return (DWORD) irrcore.events.mousez;
+}
+
+EXPORTC DWORD irr_mouseclick()
+{
+	return (DWORD) irrcore.events.mouseclick;
+}
+
+EXPORTC void irr_mousemoveflush()	// flushes mouse movements ready for use
+{
+	irrcore.events.lastmousex = irrcore.events.mousex;
+	irrcore.events.lastmousey = irrcore.events.mousey;
+}
+
+EXPORTC DWORD irr_mousemovex()
+{
+	DWORD ret = irrcore.events.mousex - irrcore.events.lastmousex;
+	irrcore.events.lastmousex = irrcore.events.mousex;
+	return ret;
+}
+
+EXPORTC DWORD irr_mousemovey()
+{
+	DWORD ret = irrcore.events.mousey - irrcore.events.lastmousey;
+	irrcore.events.lastmousey = irrcore.events.mousey;
+	return ret;
+}
+
+// ***
+
 EXPORTC void irr_beginscene(int col)
 {
 	irrcore.device->getTimer()->tick();

@@ -5,7 +5,7 @@ project name=dwarftest
 
 ; **** source file information ****
 main=dwarftest.dba
-LineMain=21
+LineMain=27
 
 ; **** Executable Information  ***
 ; build types: exe, media, installer, alone

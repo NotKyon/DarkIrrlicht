@@ -7,6 +7,13 @@ STRINGTABLE
 	3	"IRR KEYSTATE[%LL%irr_keystate"
 	4	"IRR BEGIN SCENE%LLLL%irr_beginscene"
 	5	"IRR END SCENE%0%irr_endscene"
+	6	"IRR MOUSE X[%L%irr_mousex"
+	7	"IRR MOUSE Y[%L%irr_mousey"
+	8	"IRR MOUSE Z[%L%irr_mousez"
+	9	"IRR MOUSE CLICK[%L%irr_mouseclick"
+	10	"IRR MOUSE FLUSH%0%irr_mousemoveflush"
+	11	"IRR MOUSE MOVE X[%L%irr_mousemovex"
+	12	"IRR MOUSE MOVE Y[%L%irr_mousemovey"
 
 	20	"ISCN GET MESH[%LS%irrsc_getmesh"
 	21	"ISCN ADD CUBE NODE[%LLF%irrsc_addcubescenenode"

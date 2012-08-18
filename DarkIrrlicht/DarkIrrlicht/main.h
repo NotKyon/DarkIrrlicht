@@ -25,8 +25,25 @@ public:
 
 	virtual bool OnEvent(const SEvent &event)
 	{
-		if (event.EventType==irr::EET_KEY_INPUT_EVENT)
-			keys[event.KeyInput.Key]=event.KeyInput.PressedDown;
+		switch ( event.EventType )
+		{
+		case irr::EET_KEY_INPUT_EVENT :
+			keys[event.KeyInput.Key] = event.KeyInput.PressedDown;
+			break;
+
+		case irr::EET_MOUSE_INPUT_EVENT :
+			mousex = event.MouseInput.X;
+			mousey = event.MouseInput.Y;
+			mouseclick = event.MouseInput.ButtonStates;
+
+			switch ( event.MouseInput.Event )
+			{
+			case irr::EMIE_MOUSE_WHEEL :
+				mousez = event.MouseInput.Wheel;
+				break;
+			}
+		}
+
 		return false;
 	}
 	virtual bool key(int code) const
@@ -42,6 +59,9 @@ public:
 	// TO DO:
 	// add mouse handler
 	// add GUI events handler
+
+	int		mousex, mousey, mousez, mouseclick;
+	int		lastmousex, lastmousey;
 };
 
 
