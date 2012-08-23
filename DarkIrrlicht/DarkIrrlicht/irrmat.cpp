@@ -175,3 +175,38 @@ EXPORTC void irrmat_setnormalizenormals( video::SMaterial* mat, int fs )
 	mat->NormalizeNormals = flag;
 }
 
+// ***
+
+EXPORTC void irrmat_settexturewrap( video::SMaterial* mat, int layer, int flag )
+{
+	u8 newflag = (u8) ( flag & 0x0f );
+	mat->TextureLayer[layer].TextureWrapU = newflag;
+	mat->TextureLayer[layer].TextureWrapV = newflag;
+}
+
+EXPORTC void irrmat_setbilinear( video::SMaterial* mat, int layer, int fs )
+{
+	bool flag;
+	if (fs) flag=true; else flag=false;
+	mat->TextureLayer[layer].BilinearFilter = flag;
+}
+
+EXPORTC void irrmat_settriliniear( video::SMaterial* mat, int layer, int fs )
+{
+	bool flag;
+	if (fs) flag=true; else flag=false;
+	mat->TextureLayer[layer].TrilinearFilter = flag;
+}
+
+EXPORTC void irrmat_setanisotropic( video::SMaterial* mat, int layer, int fs )
+{
+	bool flag;
+	if (fs) flag=true; else flag=false;
+	mat->TextureLayer[layer].AnisotropicFilter = flag;
+}
+
+EXPORTC void irrmat_setlodbias( video::SMaterial* mat, int layer, int fs )
+{
+	mat->TextureLayer[layer].LODBias = (s8) fs;
+}
+
