@@ -64,13 +64,34 @@ STRINGTABLE
 	113	"IDEV CLEAR SYS MESSAGES%0%irrde_clearsystemmessages"
 	114 "IDEV TIMER TICK%0%irrde_timertick"
 
-	130	"IMAT DELETE%L%irrmat_delete"				//
-	131 "IMAT NEW[%L%irrmat_new"					//
-	132 "IMAT SET FLAG%LLL%irrmat_setmaterialflag"	//
-	133 "IMAT GET FLAG[%LLL%irrmat_getmaterialflag"	//
-	134 "IMAT COPY%LL%irrmat_copy"					//
-	135 "IMAT SET TEXTURE%LLL%irrmat_settexture"	//
-	136 "IMAT GET TEXTURE[%LLL%irrmat_gettexture"	//
+	120	"IMAT DELETE%L%irrmat_delete"
+	121 "IMAT NEW[%L%irrmat_new"
+	122 "IMAT SET FLAG%LLL%irrmat_setmaterialflag"
+	123 "IMAT GET FLAG[%LLL%irrmat_getmaterialflag"
+	124 "IMAT COPY%LL%irrmat_copy"
+	125 "IMAT SET TEXTURE%LLL%irrmat_settexture"
+	126 "IMAT GET TEXTURE[%LLL%irrmat_gettexture"
+	127 "IMAT SET AMBIENT%LL%irrmat_setambientcolor"
+	128 "IMAT SET DIFFUSE%LL%irrmat_setdiffusecolor"
+	129 "IMAT SET EMISSIVE%LL%irrmat_setemissivecolor"
+	130 "IMAT SET SPECULAR%LL%irrmat_setspecularcolor"
+	131 "IMAT SET SHININESS%LF%irrmat_setshininess"
+	132 "IMAT SET PARAM1%LF%irrmat_settypeparam1"
+	133 "IMAT SET PARAM2%LF%irrmat_settypeparam2"
+	134 "IMAT SET THICKNESS%LF%irrmat_setthickness"
+	135 "IMAT SET ZBUFFER%LL%irrmat_setzbuffer"
+	136 "IMAT SET AA%LL%irrmat_setaa"
+	137 "IMAT SET COLOR MASK%LL%irrmat_setcolormask"
+	138 "IMAT SET COLOR MATERIAL%LL%irrmat_setcolormaterial"
+	139 "IMAT SET WIRE FRAME%LL%irrmat_setwireframe"
+	140 "IMAT SET POINT CLOUD%LL%irrmat_setpointcloud"
+	141 "IMAT SET GORAUD SHADING%LL%irrmat_setgoraudshading"
+	142 "IMAT SET LIGHTING%LL%irrmat_setlighting"
+	143 "IMAT SET ZWRITE%LL%irrmat_setzwrite"
+	144 "IMAT SET BACK FACE%LL%irrmat_setbackfacecull"
+	145 "IMAT SET FRONT FACE%LL%irrmat_setfrontfacecull"
+	146 "IMAT SET FOG%LL%irrmat_setfog"
+	147 "IMAT SET NORMALIZE%LL%irrmat_setnormalizenormals"
 
 	150	"IMESH SET%LL%irrmesh_setmesh"
 	151	"IMESH GET[%LL%irrmesh_getmesh"
@@ -211,6 +232,7 @@ STRINGTABLE
 	448 "IVID CLEAR ZBUFFER%0%irrvid_clearzbuffer"
 	449 "IVID SCREEN SHOT[%L%irrvid_createscreenshot"
 	450 "IVID MAX TEXTURE SIZE[%L%irrvid_getmaxtexturesize"
+	451 "IVID GET MATERIAL 2D[%L%irrvid_getmaterial2d"
 
 	500 "ILIGHT SET RADIUS%LF%irrlight_setradius"
 	501 "ILIGHT GET RADIUS[%LL%irrlight_getradius"

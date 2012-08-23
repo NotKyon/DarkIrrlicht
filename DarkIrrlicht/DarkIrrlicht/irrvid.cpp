@@ -284,3 +284,8 @@ EXPORTC DWORD irrvid_getmaxtexturesize()
 {
 	return (DWORD)irrcore.driver->getMaxTextureSize().Width;
 }
+
+EXPORTC DWORD irrvid_getmaterial2d()
+{
+	return (DWORD)&irrcore.driver->getMaterial2D();
+}
