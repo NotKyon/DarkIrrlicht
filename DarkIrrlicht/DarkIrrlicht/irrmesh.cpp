@@ -92,4 +92,3 @@ EXPORTC void irramesh_setanimspeed(scene::IAnimatedMeshSceneNode* node,
 {
 	node->setAnimationSpeed( fps );
 }
-

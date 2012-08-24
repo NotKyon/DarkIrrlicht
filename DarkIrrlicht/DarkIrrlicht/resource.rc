@@ -185,6 +185,7 @@ STRINGTABLE
 	334 "INODE DEBUG VISIBLE[%LL%irrnode_isdebugdatavisible"
 	335 "INODE SET PARENT%LL%irrnode_setparent"
 	336 "INODE PARENT[%LL%irrnode_getparent"
+	337 "INODE GET MATERIAL[%LLL%irrnode_getmaterial"
 
 	400 "IVID BEGIN%LLL%irrvid_beginscene"
 	401 "IVID END%0%irrvid_endscene"
