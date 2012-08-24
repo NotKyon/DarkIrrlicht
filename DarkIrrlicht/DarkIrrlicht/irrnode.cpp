@@ -68,11 +68,6 @@ EXPORTC void irrnode_removeanimators(scene::ISceneNode *node)
 	node->removeAnimators();
 }
 
-//EXPORTC DWORD irrnode_getmaterial(scene::ISceneNode *node,int num)
-//{
-//	return (DWORD)node->getMaterial(num);
-//}
-
 EXPORTC DWORD irrnode_getmaterialcount(scene::ISceneNode *node)
 {
 	return (DWORD)node->getMaterialCount();
@@ -202,3 +197,9 @@ EXPORTC DWORD irrnode_getparent(scene::ISceneNode *node)
 {
 	return (DWORD)node->getParent();
 }
+
+EXPORTC DWORD irrnode_getmaterial(scene::ISceneNode *node, int id)
+{
+	return (DWORD)&node->getMaterial(id);
+}
+

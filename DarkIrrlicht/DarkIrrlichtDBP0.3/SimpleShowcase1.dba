@@ -1,0 +1,69 @@
+` switch off most of DBP (well, just stop the auto syncing)
+sync on
+
+` open irrlichts window
+irr init 1, 800, 600
+idev set window caption "DarkIrrlicht for DBPro - Let's do something..."
+
+` setup the dwarf
+mesh_dwarf = iscn get mesh( "dwarf.x" )
+node_dwarf = iscn add anim mesh node( 0, mesh_dwarf )
+mat_dwarf = inode get material( node_dwarf, 0 )
+imat set lighting mat_dwarf, 0
+iamnode set speed node_dwarf, 15
+
+` setup a cube for him to stand on
+node_cube = iscn add cube node( 0, 50 )
+texture_box = ivid get texture( "wall.jpg" )
+inode material texture node_cube, 0, texture_box
+inode pos node_cube, 0, -25, 0
+
+` setup the skybox
+img_bk = ivid get texture( "irrlicht2_bk.jpg" )
+img_dn = ivid get texture( "irrlicht2_dn.jpg" )
+img_ft = ivid get texture( "irrlicht2_ft.jpg" )
+img_lf = ivid get texture( "irrlicht2_lf.jpg" )
+img_rt = ivid get texture( "irrlicht2_rt.jpg" )
+img_up = ivid get texture( "irrlicht2_up.jpg" )
+node_skybox = iscn add skybox node( 0,img_up,img_dn,img_lf,img_rt,img_ft,img_bk )
+
+` setup a scene camera
+node_cam = iscn add camera node( 0 )
+inode pos node_cam, 0, 40, -80
+icam target node_cam, 0, 20, 0
+cam_angle# = 0
+
+` and give us light
+node_light = iscn add light node( 0 )
+inode pos node_light, -50, 50,-50
+light_angle# = 0
+
+` grab the default builtin font
+font_default = igui get default font()
+
+repeat
+    ` this makes sure the animation runs smoothly
+    idev timer tick
+    ivid begin 1, 1, 0x7f0000
+    
+    ` rotate light around the scene
+    inode pos node_light, cos( light_angle# ) * 50, 50, sin( light_angle# ) * 50
+    light_angle# = wrapvalue( light_angle# + 0.75 )
+    
+    ` rotate camera around the scene
+    inode pos node_cam, cos( cam_angle# ) * 80, 40, sin( cam_angle# ) * 80
+    cam_angle# = wrapvalue( cam_angle# + 0.15 )
+    
+    ` draw all the 3d stuff 
+    iscn draw all
+    
+    ` show the fps (after the 3d has been drawn)
+    fps$ = "FPS : " + str$( ivid fps() )
+    ifont draw font_default, 0, 0, 0xff000000, fps$
+    
+    ` end the scene and refresh the screen
+    ivid end
+until irr keystate( 0x20 )
+
+` quit darkirrlicht
+irr drop
