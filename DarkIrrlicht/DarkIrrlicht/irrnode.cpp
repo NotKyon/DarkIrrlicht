@@ -198,8 +198,112 @@ EXPORTC DWORD irrnode_getparent(scene::ISceneNode *node)
 	return (DWORD)node->getParent();
 }
 
+// not sure why this ain't working
+
 EXPORTC DWORD irrnode_getmaterial(scene::ISceneNode *node, int id)
 {
 	return (DWORD)&node->getMaterial(id);
 }
 
+// Node material flags
+
+EXPORTC void irrnode_setmatwireframe(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_WIREFRAME, flag);
+}
+
+EXPORTC void irrnode_setmatpointcloud(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_POINTCLOUD, flag);
+}
+
+EXPORTC void irrnode_setmatgoraudshading(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_GOURAUD_SHADING, flag);
+}
+
+EXPORTC void irrnode_setmatlighting(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_LIGHTING, flag);
+}
+
+EXPORTC void irrnode_setmatzbuffer(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_ZBUFFER, flag);
+}
+
+EXPORTC void irrnode_setmatzwriteenable(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_ZWRITE_ENABLE, flag);
+}
+
+EXPORTC void irrnode_setmatbackfacecull(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_BACK_FACE_CULLING, flag);
+}
+
+EXPORTC void irrnode_setmatfrontfacecull(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_FRONT_FACE_CULLING, flag);
+}
+
+EXPORTC void irrnode_setmatbilinear(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_BILINEAR_FILTER, flag);
+}
+
+EXPORTC void irrnode_setmattrilinear(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_TRILINEAR_FILTER, flag);
+}
+
+EXPORTC void irrnode_setmatanisotropic(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_ANISOTROPIC_FILTER, flag);
+}
+
+EXPORTC void irrnode_setmatfogenable(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_FOG_ENABLE, flag);
+}
+EXPORTC void irrnode_setmatnormalizenormals(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_NORMALIZE_NORMALS, flag);
+}
+
+EXPORTC void irrnode_setmattexturewrap(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_TEXTURE_WRAP, flag);
+}
+
+EXPORTC void irrnode_setmatantialiasing(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_ANTI_ALIASING, flag);
+}
+
+EXPORTC void irrnode_setmatcolormask(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_COLOR_MASK, flag);
+}
+
+EXPORTC void irrnode_setmatcolormaterial(scene::ISceneNode *node, int val)
+{
+	bool flag = val ? true : false;
+	node->setMaterialFlag(video::EMF_COLOR_MATERIAL, flag);
+}
