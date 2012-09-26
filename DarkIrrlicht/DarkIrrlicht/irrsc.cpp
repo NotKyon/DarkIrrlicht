@@ -193,3 +193,17 @@ EXPORTC DWORD irr_isculled(scene::ISceneNode *node)
 {
 	return (DWORD)irrcore.smgr->isCulled(node);
 }
+
+// Added WLGfx - 2012/08/26
+
+EXPORTC DWORD irrsc_addoctreescenenode(scene::IAnimatedMesh* mesh, 
+	scene::ISceneNode *parent, int minpolyspernode)
+{
+	return (DWORD)irrcore.smgr->addOctreeSceneNode(mesh,parent,minpolyspernode);
+}
+
+EXPORTC DWORD irrsc_addcamerascenenodefps()
+{
+	return (DWORD)irrcore.smgr->addCameraSceneNodeFPS();
+}
+

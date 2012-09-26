@@ -117,6 +117,7 @@
     <ClCompile Include="irrboard.cpp" />
     <ClCompile Include="irrcam.cpp" />
     <ClCompile Include="irrde.cpp" />
+    <ClCompile Include="irrfile.cpp" />
     <ClCompile Include="irrfont.cpp" />
     <ClCompile Include="irrimg.cpp" />
     <ClCompile Include="irrlicht-base.cpp" />

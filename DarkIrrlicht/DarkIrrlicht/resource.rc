@@ -14,6 +14,8 @@ STRINGTABLE
 	10	"IRR MOUSE FLUSH%0%irr_mousemoveflush"
 	11	"IRR MOUSE MOVE X[%L%irr_mousemovex"
 	12	"IRR MOUSE MOVE Y[%L%irr_mousemovey"
+	13	"IRR HIDE MOUSE%0%irr_hidemouse"	// Added WLGfx - 2012/08/26
+	14	"IRR SHOW MOUSE%0%irr_showmouse"	// Added WLGfx - 2012/08/26
 
 	20	"ISCN GET MESH[%LS%irrsc_getmesh"
 	21	"ISCN ADD CUBE NODE[%LLF%irrsc_addcubescenenode"
@@ -47,6 +49,8 @@ STRINGTABLE
 	49	"ISCN ADD NODE[%LLS%irrsc_addscenenode"
 	50	"ISCN CREATE NEW SCENE[%LL%irrsc_createnewscenemanager"
 	51	"ISCN IS CULLED[%LL%irr_isculled"
+	52	"ISCN ADD OCTREE NODE[%LLL%irrsc_addoctreescenenode"		// Added WLGfx - 2012/08/26
+	53	"ISCN ADD CAMERA FPS NODE[%L%irrsc_addcamerascenenodefps"	// Added WLGfx - 2012/08/26
 
 	100	"IDEV RUN[%L%irrde_run"
 	101	"IDEV YEILD%0%irrde_yeild"
@@ -347,6 +351,12 @@ STRINGTABLE
 	672 "IVEC3 GET X[%LL%irrvec_getx"
 	673 "IVEC3 GET Y[%LL%irrvec_gety"
 	674 "IVEC3 GET Z[%LL%irrvec_getz"
+	675	"IVEC3 SET X%LF%irrvec_setx"	// Added WLGfx - 2012/08/26
+	676	"IVEC3 SET Y%LF%irrvec_sety"	// Added WLGfx - 2012/08/26
+	677	"IVEC3 SET Z%LF%irrvec_setz"	// Added WLGfx - 2012/08/26
+
+	680	"IFILE ADD ZIP FILE ARCHIVE[%LSLL%irrfile_addzipfilearchive"	// Added WLGfx - 2012/08/26
+	681	"IFILE REMOVE FILE ARCHIVE[%LL%irrfile_removefilearchive"		// Added WLGfx - 2012/08/26
 
 	900 "IGUI GET DEFAULT FONT[%L%irrgui_getfontdefault"
 	901 "IGUI GET FONT[%LS%irrgui_getfont"

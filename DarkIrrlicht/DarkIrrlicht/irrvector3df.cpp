@@ -229,3 +229,20 @@ EXPORTC DWORD irrvec_getz(core::vector3df* vec)
 	return DBPro::CastFloatToDword( vec->Z );
 }
 
+// Added WLGfx - 2012/08/26
+
+EXPORTC void irrvec_setx(core::vector3df* vec, float x)
+{
+	vec->X = x;
+}
+
+EXPORTC void irrvec_sety(core::vector3df* vec, float y)
+{
+	vec->Y = y;
+}
+
+EXPORTC void irrvec_setz(core::vector3df* vec, float z)
+{
+	vec->Z = z;
+}
+

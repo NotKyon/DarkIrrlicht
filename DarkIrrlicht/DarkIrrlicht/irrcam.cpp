@@ -60,3 +60,4 @@ EXPORTC void irrcam_setfov(scene::ICameraSceneNode *cam,float fov)
 {
 	cam->setFOV(fov);
 }
+

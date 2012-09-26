@@ -120,3 +120,14 @@ EXPORTC DWORD irrgui_getfont(char* file)
 	return (DWORD)irrcore.gui->getFont(file);
 }
 
+// Added WLGfx - 2012/08/26
+
+EXPORTC void irr_hidemouse()
+{
+	irrcore.device->getCursorControl()->setVisible(true);
+}
+
+EXPORTC void irr_showmouse()
+{
+	irrcore.device->getCursorControl()->setVisible(false);
+}
