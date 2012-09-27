@@ -5,7 +5,7 @@ STRINGTABLE
 	1	"IRR INIT%LLL%irr_init"
 	2	"IRR DROP%0%irr_drop"
 	3	"IRR KEYSTATE[%LL%irr_keystate"
-	4	"IRR BEGIN SCENE%LLLL%irr_beginscene"
+	4	"IRR BEGIN SCENE%L%irr_beginscene"
 	5	"IRR END SCENE%0%irr_endscene"
 	6	"IRR MOUSE X[%L%irr_mousex"
 	7	"IRR MOUSE Y[%L%irr_mousey"
@@ -49,7 +49,7 @@ STRINGTABLE
 	49	"ISCN ADD NODE[%LLS%irrsc_addscenenode"
 	50	"ISCN CREATE NEW SCENE[%LL%irrsc_createnewscenemanager"
 	51	"ISCN IS CULLED[%LL%irr_isculled"
-	52	"ISCN ADD OCTREE NODE[%LLL%irrsc_addoctreescenenode"		// Added WLGfx - 2012/08/26
+	52	"ISCN ADD OCTREE NODE[%LLLL%irrsc_addoctreescenenode"		// Added WLGfx - 2012/08/26
 	53	"ISCN ADD CAMERA FPS NODE[%L%irrsc_addcamerascenenodefps"	// Added WLGfx - 2012/08/26
 
 	100	"IDEV RUN[%L%irrde_run"
@@ -102,10 +102,14 @@ STRINGTABLE
 	151 "IMAT SET ANISOTROPIC%LLL%irrmat_setanisotropic"
 	152 "IMAT SET LOD BIAS%LLL%irrmat_setlodbias"
 
-	155	"IMESH SET%LL%irrmesh_setmesh"
-	156	"IMESH GET[%LL%irrmesh_getmesh"
-	157	"IMESH SET READONLY%LL%irrmesh_setreadonlymaterials"
-	158	"IMESH GET READONLY[%LL%irrmesh_isreadonlymaterials"
+	// Removed WLGFX 2010/08/27
+	//155	"IMESH SET%LL%irrmesh_setmesh"
+	//156	"IMESH GET[%LL%irrmesh_getmesh"
+	//157	"IMESH SET READONLY%LL%irrmesh_setreadonlymaterials"
+	//158	"IMESH GET READONLY[%LL%irrmesh_isreadonlymaterials"
+
+
+
 	159	"IMESH GET BUFFER COUNT[%LL%irrmesh_getmeshbuffercount"
 	160	"IMESH GET BUFFER[%LLL%irrmesh_getmeshbuffer"
 	161	"IMESH SET MATERIAL FLAG%LLL%irrmesh_setmaterialflag"

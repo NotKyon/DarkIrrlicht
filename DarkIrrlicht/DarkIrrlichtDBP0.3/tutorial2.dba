@@ -1,0 +1,57 @@
+` cause DBP to go to sleep for the duration
+
+sync on : sync rate 60 : autocam off
+
+` global variables
+
+global imapmesh
+global imapamesh
+global mapnode
+global fpscamnode
+global lastfps
+global fps
+
+` set up irrlicht's window
+
+irr init 1, 800, 600
+
+` add the zip file to the file manager and load the quake level
+
+if ifile add zip file archive("map-20kdm2.pk3",1,1) = 0 then end
+
+imapmesh = iscn get mesh("20kdm2.bsp") : if imapmesh=0 then end
+
+` add the map to the scene
+
+imapamesh = iamesh get anim mesh(imapmesh,0,255,-1,-1) : if imapamesh=0 then end
+
+mapnode = iscn add octree node(imapamesh,0,1024) : if mapnode=0 then end
+
+inode pos mapnode,-1300,-144,-1249
+
+` add the fps camera
+
+fpscamnode = iscn add camera fps node()
+
+irr hide mouse
+
+` main loop
+
+lastfps = -1
+
+while idev run()
+    if idev is window active()
+        irr begin scene 0xffe0e0e0
+        irr end scene
+        
+        fps = ivid fps()
+        if fps<>lastfps
+            s$ = "DarkIrrlicht - Quake 3 Map example [FPS: "
+            s$ = s$ + str$(fps) + "]"
+            idev set window caption s$
+            lastfps = fps
+        endif
+    else
+        idev yeild
+    endif
+endwhile

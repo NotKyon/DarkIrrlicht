@@ -6,27 +6,27 @@
 //
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EXPORTC void irrmesh_setmesh(scene::IMeshSceneNode *node,scene::IMesh *mesh)
-{
-	node->setMesh(mesh);
-}
-
-EXPORTC DWORD irrmesh_getmesh(scene::IMeshSceneNode* node)
-{
-	return (DWORD)node->getMesh();
-}
-
-EXPORTC void irrmesh_setreadonlymaterials(scene::IMeshSceneNode *node,int readonly)
-{
-	bool flag;
-	if (readonly) flag=true; else flag=false;
-	node->setReadOnlyMaterials(flag);
-}
-
-EXPORTC DWORD irrmesh_isreadonlymaterials(scene::IMeshSceneNode *node)
-{
-	return (DWORD)node->isReadOnlyMaterials();
-}
+//EXPORTC void irrmesh_setmesh(scene::IMeshSceneNode *node,scene::IMesh *mesh)
+//{
+//	node->setMesh(mesh);
+//}
+//
+//EXPORTC DWORD irrmesh_getmesh(scene::IMeshSceneNode* node)
+//{
+//	return (DWORD)node->getMesh();
+//}
+//
+//EXPORTC void irrmesh_setreadonlymaterials(scene::IMeshSceneNode *node,int readonly)
+//{
+//	bool flag;
+//	if (readonly) flag=true; else flag=false;
+//	node->setReadOnlyMaterials(flag);
+//}
+//
+//EXPORTC DWORD irrmesh_isreadonlymaterials(scene::IMeshSceneNode *node)
+//{
+//	return (DWORD)node->isReadOnlyMaterials();
+//}
 
 // IMesh
 
@@ -92,3 +92,10 @@ EXPORTC void irramesh_setanimspeed(scene::IAnimatedMeshSceneNode* node,
 {
 	node->setAnimationSpeed( fps );
 }
+
+// Added 2012/08/27
+
+//EXPORTC DWORD irramesh_getmesh(scene::IAnimatedMesh* mesh, int frame)
+//{
+//	return (DWORD)mesh->getMesh(frame);
+//}
