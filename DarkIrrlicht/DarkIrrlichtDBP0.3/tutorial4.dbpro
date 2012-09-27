@@ -1,11 +1,11 @@
 ; **** Dark BASIC Professional Project File ****
 ; **** Written by Synergy Editor ****
 version=DBP1.00
-project name=tutorial2
+project name=tutorial4
 
 ; **** source file information ****
-main=tutorial2.dba
-LineMain=0
+main=tutorial4.dba
+LineMain=57
 
 ; **** Executable Information  ***
 ; build types: exe, media, installer, alone
@@ -48,8 +48,8 @@ media root path=C:\DarkIrrlicht\DarkIrrlicht\DarkIrrlichtDBP0.3\
 VerComments=
 VerCompany=
 VerFileDesc=
-VerFileNumber=v1.0
-VerInternal=v1.0
+VerFileNumber=
+VerInternal=
 VerCopyright=
 VerTrademark=
 VerFilename=

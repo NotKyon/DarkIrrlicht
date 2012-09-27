@@ -52,6 +52,9 @@ STRINGTABLE
 	52	"ISCN ADD OCTREE NODE[%LLLL%irrsc_addoctreescenenode"		// Added WLGfx - 2012/08/26
 	53	"ISCN ADD CAMERA FPS NODE[%L%irrsc_addcamerascenenodefps"	// Added WLGfx - 2012/08/26
 
+	54	"ISCN CREATE FLY CIRCLE ANIM[%LFFFFF%irrsc_addflycircleanim"
+	55	"ISCN CREATE FLY STRAIGHT ANIM[%LFFFFFFLLL%irrsc_addflystraightanim"
+
 	100	"IDEV RUN[%L%irrde_run"
 	101	"IDEV YEILD%0%irrde_yeild"
 	102	"IDEV SET WINDOW CAPTION%S%irrde_setwindowcaption"
@@ -211,6 +214,10 @@ STRINGTABLE
 	352 "INODE MATERIAL ANTIALIASING%LL%irrnode_setmatantialiasing"
 	353 "INODE MATERIAL COLORMASK%LL%irrnode_setmatcolormask"
 	354 "INODE MATERIAL COLORMATERIAL%LL%irrnode_setmatcolormaterial"
+	355	"INODE DROP%L%irrnode_drop"
+	356 "INODE SET FRAME LOOP%LLL%irrnode_setframeloop"
+	357	"INODE SET ANIM SPEED%LF%irrnode_setanimspeed"
+	358 "INODE SET MD2 RUN%L%irrnode_setmd2run"
 
 	400 "IVID BEGIN%LLL%irrvid_beginscene"
 	401 "IVID END%0%irrvid_endscene"
@@ -361,6 +368,8 @@ STRINGTABLE
 
 	680	"IFILE ADD ZIP FILE ARCHIVE[%LSLL%irrfile_addzipfilearchive"	// Added WLGfx - 2012/08/26
 	681	"IFILE REMOVE FILE ARCHIVE[%LL%irrfile_removefilearchive"		// Added WLGfx - 2012/08/26
+
+	685	"IANIM DROP%L%irranim_drop"
 
 	900 "IGUI GET DEFAULT FONT[%L%irrgui_getfontdefault"
 	901 "IGUI GET FONT[%LS%irrgui_getfont"

@@ -1,0 +1,57 @@
+` keep DBP quiet for this
+
+sync on
+
+` start DarkIrrlicht
+
+irr init 1,800,600
+
+global node_sphere
+global texture_wall
+global node_cube
+global texture_cube
+global anim_temp
+global mesh_ninja
+global node_ninja
+global cam_fps
+
+` create a textured sphere
+
+node_sphere = iscn add sphere node(0,10,16)
+inode pos node_sphere,0,0,30
+texture_wall = ivid get texture("wall.bmp")
+inode material texture node_sphere,0,texture_wall
+inode material lighting node_sphere,0
+
+` add an animated cube
+
+node_cube = iscn add cube node(0,10)
+texture_cube = ivid get texture("t351sml.jpg")
+inode material texture node_cube,texture_cube
+inode material lighting node_cube,0
+anim_temp = ISCN CREATE FLY CIRCLE ANIM(0,0,30,20,1)
+inode add animator node_cube,anim_temp
+ianim drop anim_temp
+
+` load up and animate a b3d model
+
+mesh_ninja = iscn get mesh("ninja.b3d")
+node_ninja = iscn add anim mesh node(0,mesh_ninja)
+anim_temp = ISCN CREATE FLY STRAIGHT ANIM(100,0,60, -100,0,60, 3500, 1, 0)
+inode add animator node_ninja,anim_temp
+ianim drop anim_temp
+
+inode material lighting node_ninja,0
+inode set frame loop node_ninja,0,13
+inode set anim speed node_ninja,15
+inode set md2 run node_ninja
+
+inode scale node_ninja,2,2,2
+inode rot node_ninja,0,-90,0
+inode material texture node_ninja,0,ivid get texture("sydney.bmp")
+
+` camera and mouse
+
+cam_fps = iscn add camera fps node()
+irr hide mouse
+

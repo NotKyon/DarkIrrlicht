@@ -307,3 +307,25 @@ EXPORTC void irrnode_setmatcolormaterial(scene::ISceneNode *node, int val)
 	bool flag = val ? true : false;
 	node->setMaterialFlag(video::EMF_COLOR_MATERIAL, flag);
 }
+
+// Added WLGfx - 2012/08/27
+
+EXPORTC void irrnode_drop(scene::ISceneNode *node)
+{
+	node->drop();
+}
+
+EXPORTC void irrnode_setframeloop(scene::IAnimatedMeshSceneNode* amesh,int begin,int end)
+{
+	amesh->setFrameLoop(begin,end);
+}
+
+EXPORTC void irrnode_setanimspeed(scene::IAnimatedMeshSceneNode* amesh,float speed)
+{
+	amesh->setAnimationSpeed(speed);
+}
+
+EXPORTC void irrnode_setmd2run(scene::IAnimatedMeshSceneNode* amesh)
+{
+	amesh->setMD2Animation(scene::EMAT_RUN);
+}

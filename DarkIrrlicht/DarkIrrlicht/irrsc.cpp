@@ -207,3 +207,19 @@ EXPORTC DWORD irrsc_addcamerascenenodefps()
 	return (DWORD)irrcore.smgr->addCameraSceneNodeFPS();
 }
 
+// Added WLGfx - 2012/08/27
+
+EXPORTC DWORD irrsc_addflycircleanim(float x,float y,float z,float radius,float speed)
+{
+	return (DWORD)irrcore.smgr->createFlyCircleAnimator(core::vector3df(x,y,z),
+		radius,speed);
+}
+
+EXPORTC DWORD irrsc_addflystraightanim(float sx, float sy, float sz,
+	float ex,float ey,float ez,
+	int time,int loop,int pingpong)
+{
+	return (DWORD)irrcore.smgr->createFlyStraightAnimator(core::vector3df(sx,sy,sz),
+		core::vector3df(ex,ey,ez),
+		time, loop?true:false, pingpong?true:false);
+}

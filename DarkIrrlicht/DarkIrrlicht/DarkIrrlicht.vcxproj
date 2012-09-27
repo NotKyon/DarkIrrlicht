@@ -114,6 +114,7 @@
   <ItemGroup>
     <ClCompile Include="internals.cpp" />
     <ClCompile Include="irraabbox.cpp" />
+    <ClCompile Include="irranim.cpp" />
     <ClCompile Include="irrboard.cpp" />
     <ClCompile Include="irrcam.cpp" />
     <ClCompile Include="irrde.cpp" />
