@@ -1,0 +1,113 @@
+CUSTOM SCENE NODES
+==================
+
+Introduction
+------------
+The first hurdle with custom scene nodes is making sure the end-user can
+override the various callbacks for them. e.g., OnRegisterSceneNode(), render(),
+etc. One way to do this would be to accept function pointers which will be used
+in such calls. DBPro does not have a native method to make these calls, but
+since the user is willing to use plug-ins anyway (which is evident from them
+using this particular plug-in) we can allow them to use IanM's plug-in. Plus, on
+the chance that DBP suddenly gets the ability to use function pointers (or at
+least pass them to plug-ins) this would be beneficial.
+
+The next hurdle is vertex management. This probably isn't so bad when you
+consider that there are only three vertex formats that Irrlicht is capable of
+using... That makes the approach conveyed below a bit less streamlined, but also
+easier to implement (and probably to use). Basically, we just need to wrap the
+IMeshBuffer interfaces and the IVideoDriver::drawMeshBuffer() method.
+
+    // Create a mesh buffer
+    IMeshBuffer *createmeshbuffer(); //S3DVertex
+    IMeshBuffer *createmeshbuffer2tcoords(); //S3DVertex2TCoords
+    IMeshBuffer *createmeshbuffertangents(); //S3DVertexTangents
+
+    // Add vertices to the mesh buffer via pointer (returns number of vertices
+    // in the buffer)
+    unsigned int addverticesfromptr(IMeshBuffer *, void *, unsigned int);
+
+    // Add indices to the mesh buffer via pointer
+    unsigned int addindicesfromptr(IMeshBuffer *, void *, unsigned int);
+
+    // OpenGL-styled vertex creation -- operates on internal buffer
+    void beginverts(IMeshBuffer *); //select the mesh buffer to operate on
+    void endverts();
+
+    // these are vertex attributes and are prepared for each vertex
+    void vertnormalf(float nx, float ny, float nz);
+    void vertnormalv(const float *normxyz);
+    void vertcolor3f(float r, float g, float b);
+    void vertcolor4f(float r, float g, float b, float a);
+    void vertcolor3v(const float *rgb);
+    void vertcolor4v(const float *rgba);
+    void verttexcoordf(float s, float t);
+    void verttexcoordv(const float *st);
+    void verttexcoordf2(float s, float t); //2nd set
+    void verttexcoordv2(const float *st); //2nd set
+    void verttangentf(float tx, float ty, float tz);
+    void verttangentv(const float *tanxyz);
+    void vertbinormalf(float bx, float by, float bz);
+    void vertbinormalv(const float *binormxyz);
+
+    // like OpenGL, this actually submits the vertex
+    void vertf(float x, float y, float z);
+    void vertv(const float *xyz);
+
+    // and triangles are pretty easy too...
+    void begintris(IMeshBuffer *);
+    void endtris();
+    void pushtri(int a, int b, int c);
+
+For reading vertices, it would be fairly simple. Perhaps emulate Dark Basic's
+vertex locking, though in a read-only manner.
+
+Better methods can be built from this base by end-users, or later on within the
+plug-in itself.
+
+
+Implementation
+--------------
+
+I've been combing the Irrlicht API and haven't found a direct way to create an
+IMeshBuffer instance. I'll keep looking, but this is probably one of the more
+important parts.
+
+As for the OpenGL style part, I've made a plug-in like that before for another
+product. Observe the commands on its page:
+
+    http://forums.nuclearglory.com/index.php?tid=2781
+
+Not that it's difficult anyway.
+
+To improve performance a decent internal array class can be employed which over-
+allocates memory. (It would allocate in chunks so adding vertices one by one
+wouldn't be any slower than filling the memory manually.) Additionally, a hint
+could be given to the internal system. e.g., "reserve n-vertices." This would
+remove most of the overhead with the array system.
+
+
+Alternative Thoughts
+--------------------
+
+I'm of the opinion that providing a vertex cache implementation may be
+beneficial. The vertex cache would provide a vertex buffer (or set of vertex
+buffers) of fixed size. e.g., 32MB, 64MB, 256MB, etc. (User specified, or just
+split into separate buffers.) The vertex cache would return a token in exchange
+for a block of system memory. The cache would then manage memory eviction based
+on a LRU (least recently used) policy. (Basically if new data needs to go into
+that specific vertex cache, it'll replace the oldest chunk in that cache.)
+
+That could be improved though. For example, a combination of LRU and best fit
+may be good. That way if something relatively small is getting added to the
+cache, it won't necessarilly override the largest item in there. (Of course,
+this could be mitigated by allowing the user separate vertex caches to choose
+from...)
+
+The end result from that is a more streamlined management API that deals with
+large worlds effectively. And, anything not needing to be managed by a vertex
+cache can be managed manually by the user. (Which is usually no management at
+all, but still.)
+
+However, the above is probably too complicated and not relevent enough to this
+wrapper, so I think the idea presented above should be sufficient.
