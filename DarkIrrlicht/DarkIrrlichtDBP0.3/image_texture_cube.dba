@@ -68,7 +68,7 @@ repeat
     angle#=angle#+0.4
     if angle#>=360.0 then angle#=0.0
     
-    irr begin scene 0x40, 0x00, 0x00, 0x80
+    irr begin scene 0x00000080
     ifont draw myfont,0,0,0xffffffff,"FPS="+str$(ivid fps())
     irr end scene
     

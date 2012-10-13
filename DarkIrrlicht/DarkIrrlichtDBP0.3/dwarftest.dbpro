@@ -1,68 +1,52 @@
-; **** Dark BASIC Professional Project File ****
-; **** Written by Synergy Editor ****
 version=DBP1.00
+;--> DarkBASIC Professional Project <--
+;--> Created with Indigo 1.3.2 <--
+;--> Basic project details <--
 project name=dwarftest
+project comments=
 
-; **** source file information ****
+;--> Files <--
+final source=_Temp.dbsource
 main=dwarftest.dba
-LineMain=27
-
-; **** Executable Information  ***
-; build types: exe, media, installer, alone
 executable=Application.exe
 build type=exe
-; ** Media file compression **
-compression=NO
 
-; ** Media file encryption **
-encryption=NO
-; ** Display the card options screen window? **
-card options window=NO
-
-; **** debugger information ****
-; If the editor sets this to yes, it is running in debug mode
+;--> Debug Mode YES/NO <--
 CLI=NO
-CommandLineArguments=
 
-; **** display mode information ****
+;--> Media Settings <--
+compression=NO
+encryption=NO
+media root path=C:\DarkIrrlicht\DarkIrrlicht.git\trunk\DarkIrrlicht\DarkIrrlichtDBP0.3\
+
+;--> Included Media <--
+
+;--> Cursors <--
+
+;--> Icons <--
+
+;--> Other Settings <--
 app title=Dark Basic Pro Project
-
-; graphics mode options: fullscreen, window, desktop, fulldesktop, hidden
 graphics mode=window
 fullscreen resolution=640x480x32
-
-; arbitrary sizes are valid for windowed mode
 window resolution=640x480
 
-; **** External Files Information ****
+;--> Version Information <--
+verfilename=
+verfiledesc=
+vercompany=
+verfilenumber=v1.0
+verproduct=
+verproductnumber=v1.0
+vercopyright=
+vercomments=
+verinternal=v1.0
+vertrademark=
 
-; **** Media ****
-; Example entries: media1=graphics\*.jpg
-media root path=C:\DarkIrrlicht\DarkIrrlicht\DarkIrrlichtDBP0.3\
-
-; **** Icons ****
-
-; **** Cursors ****
-
-; **** Version Info ****
-VerComments=
-VerCompany=
-VerFileDesc=
-VerFileNumber=v1.0
-VerInternal=v1.0
-VerCopyright=
-VerTrademark=
-VerFilename=
-VerProduct=
-VerProductNumber=v1.0
-
-; **** To Do ****
-
-; **** Comments ****
-comments1=
-
-; **** Advanced (setup.ini) configuration ****
+;--> Config/setup.ini values <--
 RemoveSafetyCode=NO
 SafeArrays=YES
 LocalTempFolder=NO
 ExternaliseDLLS=NO
+
+;--> Project Organization <--
