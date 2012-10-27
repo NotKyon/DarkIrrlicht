@@ -1,57 +1,58 @@
 ` keep DBP quiet for this
 
-sync on
+SYNC ON ` stops DBP from automatically refreshing its display
 
 ` start DarkIrrlicht
 
-irr init 1,800,600
+IRR INIT 1,800,600
 
-global node_sphere
-global texture_wall
-global node_cube
-global texture_cube
-global anim_temp
-global mesh_ninja
-global node_ninja
-global cam_fps
+GLOBAL node_sphere
+GLOBAL texture_wall
+GLOBAL node_cube
+GLOBAL texture_cube
+GLOBAL anim_temp
+GLOBAL mesh_ninja
+GLOBAL node_ninja
+GLOBAL cam_fps
 
 ` create a textured sphere
 
-node_sphere = iscn add sphere node(0,10,16)
-inode pos node_sphere,0,0,30
-texture_wall = ivid get texture("wall.bmp")
-inode material texture node_sphere,0,texture_wall
-inode material lighting node_sphere,0
+node_sphere = ISCN ADD SPHERE NODE(0,10,16)
+INODE POS node_sphere,0,0,30
+texture_wall = IVID GET TEXTURE("wall.bmp")
+INODE MATERIAL TEXTURE node_sphere,0,texture_wall
+INODE MATERIAL LIGHTING node_sphere,0
 
 ` add an animated cube
 
-node_cube = iscn add cube node(0,10)
-texture_cube = ivid get texture("t351sml.jpg")
-inode material texture node_cube,texture_cube
-inode material lighting node_cube,0
+node_cube = ISCN ADD CUBE NODE(0,10)
+texture_cube = IVID GET TEXTURE("t351sml.jpg")
+INODE MATERIAL TEXTURE node_cube,0,texture_cube
+INODE MATERIAL LIGHTING node_cube,0
 anim_temp = ISCN CREATE FLY CIRCLE ANIM(0,0,30,20,1)
-inode add animator node_cube,anim_temp
-ianim drop anim_temp
+INODE ADD ANIMATOR node_cube,anim_temp
+IANIM DROP anim_temp
 
 ` load up and animate a b3d model
 
-mesh_ninja = iscn get mesh("ninja.b3d")
-node_ninja = iscn add anim mesh node(0,mesh_ninja)
+mesh_ninja = ISCN GET MESH("ninja.b3d")
+node_ninja = ISCN ADD ANIM MESH NODE(0,mesh_ninja)
 anim_temp = ISCN CREATE FLY STRAIGHT ANIM(100,0,60, -100,0,60, 3500, 1, 0)
-inode add animator node_ninja,anim_temp
-ianim drop anim_temp
+INODE ADD ANIMATOR node_ninja,anim_temp
+IANIM DROP anim_temp
 
-inode material lighting node_ninja,0
-inode set frame loop node_ninja,0,13
-inode set anim speed node_ninja,15
-inode set md2 run node_ninja
+INODE MATERIAL LIGHTING node_ninja,0
+INODE SET FRAME LOOP node_ninja,0,13
+INODE SET ANIM SPEED node_ninja,15
+INODE SET MD2 RUN node_ninja
 
-inode scale node_ninja,2,2,2
-inode rot node_ninja,0,-90,0
-inode material texture node_ninja,0,ivid get texture("sydney.bmp")
+INODE SCALE node_ninja,2,2,2
+INODE ROT node_ninja,0,-90,0
+INODE MATERIAL TEXTURE node_ninja,0,ivid get texture("sydney.bmp")
 
 ` camera and mouse
 
-cam_fps = iscn add camera fps node()
-irr hide mouse
+cam_fps = ISCN ADD CAMERA FPS NODE()
+IRR HIDE MOUSE
+
 
