@@ -83,6 +83,8 @@ extern std::wstring irr_getwstring(char* str);
 extern std::vector<core::aabbox3df*>	irr_aboxes;
 extern std::vector<video::SMaterial*>	irr_materials;
 extern std::vector<core::vector3df*>	irr_vector3df;
+extern std::vector<scene::SMesh*>		irr_smesh;
+extern std::vector<scene::SMeshBuffer*>	irr_smeshbuffer;
 
 extern void irr_constructor();
 extern void irr_destructor();

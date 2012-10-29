@@ -70,6 +70,7 @@ STRINGTABLE
 	112	"IDEV RESTORE WINDOW%0%irrde_restorewindow"
 	113	"IDEV CLEAR SYS MESSAGES%0%irrde_clearsystemmessages"
 	114 "IDEV TIMER TICK%0%irrde_timertick"
+	115 "IDEV GET TIME[%L%irrde_gettime"
 
 	120	"IMAT DELETE%L%irrmat_delete"
 	121 "IMAT NEW[%L%irrmat_new"
@@ -104,6 +105,7 @@ STRINGTABLE
 	150 "IMAT SET TRILINEAR%LLL%irrmat_settriliniear"
 	151 "IMAT SET ANISOTROPIC%LLL%irrmat_setanisotropic"
 	152 "IMAT SET LOD BIAS%LLL%irrmat_setlodbias"
+	153 "IMAT SET MATERIAL TYPE%LL%irrmat_setmaterialtype"
 
 	// Removed WLGFX 2010/08/27
 	//155	"IMESH SET%LL%irrmesh_setmesh"
@@ -138,7 +140,7 @@ STRINGTABLE
 	209 "ICAM SET ASPECT%LF%irrcam_setaspectratio"
 	210 "ICAM SET FOV%LF%irrcam_setfov"
 
-	250 "IIMG LOCK%L%irrimg_lock"
+	250 "IIMG LOCK[%LL%irrimg_lock"
 	251 "IIMG UNLOCK%L%irrimg_unlock"
 	252 "IIMG WIDTH[%LL%irrimg_getwidth"
 	253 "IIMG HEIGHT[%LL%irrimg_getheight"
@@ -158,6 +160,7 @@ STRINGTABLE
 	267 "IIMG PASTE RECT ALPHA CLIP%LLLLLLLLLLLLL%irrimg_copytowithsourceandclipalpha"
 	268 "IIMG PASTE BLEND%LLLL%irrimg_copytoscalingboxfilter"
 	269 "IIMG FILL%LL%irrimg_fill"
+	270 "IIMG CREATE32[%LLL%irrimg_create32"
 
 	300 "INODE VISIBLE[%LL%irrnode_isvisible"
 	301 "INODE TRULY VISIBLE[%LL%irrnode_istrulyvisible"
@@ -371,8 +374,24 @@ STRINGTABLE
 
 	685	"IANIM DROP%L%irranim_drop"
 
-	900 "IGUI GET DEFAULT FONT[%L%irrgui_getfontdefault"
-	901 "IGUI GET FONT[%LS%irrgui_getfont"
+	700 "ISMESH NEW[%L%irrsmesh_new"
+	701 "ISMESH DROP%L%irrsmesh_drop"
+	702 "ISMESH ADD MESH BUFFER%LL%irrsmesh_addmeshbuffer"
+	
+	705 "ISMBUF NEW[%L%irrsmbuf_new"
+	706 "ISMBUF DROP%L%irrsmbuf_drop"
+	707 "ISMBUF SET USED VERTICES%LL%irrsmbuf_setusedvertices"
+	708 "ISMBUF SET USED INDICES%LL%irrsmbuf_setusedindices"
+	709 "ISMBUF VERTEX POSITION%LLFFF%irrsmbuf_vertexposition"
+	710 "ISMBUF VERTEX NORMAL%LLFFF%irrsmbuf_vertexnormal"
+	711 "ISMBUF VERTEX TCOORD%LLFF%irrsmbuf_vertextcoord"
+	712 "ISMBUF VERTEX COLOR%LLL%irrsmbuf_vertexcolor"
+	713 "ISMBUF INDEX%LLL%irrsmbuf_index"
+	714 "ISMBUF GET MATERIAL[%LL%irrsmbuf_getmaterial"
+	715 "ISMBUF CALC BOUNDING BOX%L%irrsmbuf_recalcboundingbox"
+
+	720 "IGUI GET DEFAULT FONT[%L%irrgui_getfontdefault"
+	721 "IGUI GET FONT[%LS%irrgui_getfont"
 
 
 }

@@ -128,6 +128,7 @@
     <ClCompile Include="irrmeshbuffer.cpp" />
     <ClCompile Include="irrnode.cpp" />
     <ClCompile Include="irrsc.cpp" />
+    <ClCompile Include="irrsmesh.cpp" />
     <ClCompile Include="irrvector3df.cpp" />
     <ClCompile Include="irrvid.cpp" />
     <ClCompile Include="main.cpp" />

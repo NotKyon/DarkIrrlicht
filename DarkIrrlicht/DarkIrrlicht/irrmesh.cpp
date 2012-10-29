@@ -1,33 +1,5 @@
 #include "main.h"
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//
-// IRRMESH library (IMeshSceneNode manager)
-//
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-//EXPORTC void irrmesh_setmesh(scene::IMeshSceneNode *node,scene::IMesh *mesh)
-//{
-//	node->setMesh(mesh);
-//}
-//
-//EXPORTC DWORD irrmesh_getmesh(scene::IMeshSceneNode* node)
-//{
-//	return (DWORD)node->getMesh();
-//}
-//
-//EXPORTC void irrmesh_setreadonlymaterials(scene::IMeshSceneNode *node,int readonly)
-//{
-//	bool flag;
-//	if (readonly) flag=true; else flag=false;
-//	node->setReadOnlyMaterials(flag);
-//}
-//
-//EXPORTC DWORD irrmesh_isreadonlymaterials(scene::IMeshSceneNode *node)
-//{
-//	return (DWORD)node->isReadOnlyMaterials();
-//}
-
 // IMesh
 
 EXPORTC DWORD irrmesh_getmeshbuffercount(scene::IMesh *mesh)

@@ -6,9 +6,9 @@
 //
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EXPORTC void irrimg_lock(video::IImage *img)
+EXPORTC DWORD irrimg_lock(video::IImage *img)
 {
-	img->lock();
+	return (DWORD)img->lock();
 }
 
 EXPORTC void irrimg_unlock(video::IImage *img)
@@ -128,4 +128,10 @@ EXPORTC void irrimg_copytoscalingboxfilter(video::IImage *img,video::IImage *tar
 EXPORTC void irrimg_fill(video::IImage *img,video::SColor col)
 {
 	img->fill(col);
+}
+
+EXPORTC DWORD irrimg_create32(int width, int height)
+{
+	return (DWORD)irrcore.driver->createImage(video::ECF_A8R8G8B8,
+		core::dimension2d<u32>(width, height));
 }

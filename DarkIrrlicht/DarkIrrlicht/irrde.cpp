@@ -88,3 +88,7 @@ EXPORTC void irrde_timertick()
 	irrcore.device->getTimer()->tick();
 }
 
+EXPORTC DWORD irrde_gettime()
+{
+	return (DWORD)irrcore.device->getTimer()->getTime();
+}

@@ -210,3 +210,7 @@ EXPORTC void irrmat_setlodbias( video::SMaterial* mat, int layer, int fs )
 	mat->TextureLayer[layer].LODBias = (s8) fs;
 }
 
+EXPORTC void irrmat_setmaterialtype( video::SMaterial* mat, int type )
+{
+	mat->MaterialType = (video::E_MATERIAL_TYPE) type;
+}
